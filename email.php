@@ -1,4 +1,3 @@
-<meta http-equiv='refresh' content='10; url=http://thecode.local/'>
 <meta charset="UTF-8" />
 <!-- Начался блок PHP -->
 <?php
@@ -11,9 +10,6 @@ $message = $_POST['message'];
 $mes = "Имя: $name \nE-mail: $email \nТема: $header \nТекст: $message";
 // Пытаемся отправить письмо по заданному адресу
 // Если нужно, чтобы письма всё время уходили на ваш адрес — замените первую переменную $email на свой адрес электронной почты
-$send = mail('ipatiy.potey@mail.ru', $header, $mes, "Content-type:text/plain; charset = UTF-8\r\nFrom:$email");
+$send = mail("ipatiy.potey@mail.ru", $header, $mes, "Content-type:text/plain; charset = UTF-8\r\nFrom:$email");
 // Если отправка прошла успешно — так и пишем
-if ($send == 'true') {echo "Сообщение отправлено";}
-// Если письмо не ушло — выводим сообщение об ошибке
-else {echo "Ой, что-то пошло не так";}
 ?>
