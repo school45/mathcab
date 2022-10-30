@@ -1,0 +1,45 @@
+table{
+	text-align: justify;
+}
+td#topic{
+	margin: 0px;
+	padding: 0px;
+}
+p#topic{
+	margin-bottom: 0px;
+	position: relative;
+	padding-left: 10px;
+	padding-top: 15px;
+}
+p#numless{
+	margin-bottom: 0px;
+}
+td.num{
+	width: 130px;
+}
+td.headless{
+	text-align: center;
+}
+i.bi bi_book{
+	width: 10px;
+	height: 10px;
+}
+#card{
+  width: 18rem;
+  height: 510px;
+}
+.card-img-top{
+  height: 300px;
+}
+#card-body{
+  height: 170px;
+}
+#btn-openb{
+  background-color: #09FF00;
+}   
+#card-cont{
+  text-align: center;
+}
+.card-text{
+	height: 30px;
+}  
