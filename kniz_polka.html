@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Виртуальный кабинет математики</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/logo_sch.png" type="image/x-icon" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" type="text/css" href="css/lessons.css">
+    <link rel="stylesheet" type="text/css" href="css/calendar.css">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+    />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <link rel="stylesheet" type="text/css" href="css/submenu.css">
+    <link rel="stylesheet" href="css/mdb.min.css" />
+    <script src="js/calendar.js"></script>
+  </head>
+  <body background="img/фон3.webp" style="  ">
+    <!-- Start your project here-->
+
+  <header>
+  <div class="row">
+    <div class="container">
+      <div class="col-md-8 offset-md-2 bg-light mt-4 mb-4 p-0">
+        <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+      </div>
+    </div>
+  </div>
+  <!-- Navbar -->
+  <div class="row" >
+    <div class="col-md-8 offset-md-2 mt-2" style="height: 250px;">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
+  <!-- Container wrapper -->
+        <div class="container-fluid" style="background-image: url('img/header.jpg'); background-size: 430px;">
+          <!-- Toggle button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-mdb-toggle="collapse"
+            data-mdb-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+
+          <!-- Collapsible wrapper -->
+          <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
+            <!-- Navbar brand -->
+            <a class="navbar-brand col-3 mt-2 mt-lg-0" href="#">
+              <img
+                src="img/logo_cat.png?123"
+                height="300"
+                alt="MDB Logo"
+                loading="lazy"
+              />
+            </a>
+              <div class="col-4 col-md-auto offset-md-auto mt-2">
+                <div class="d-flex">
+                    <a href="" class="nav-item">
+                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">Виртуальный кабинет математики</p>
+                      <p style="text-align: center; font-size: 45px; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">"<img src="logo_pi.png" height="50" loading="lazy"><span style="font-size: 45px;">-422"</span></p>
+                    </a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="row">
+      <div class="col-md-8 offset-md-2 mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Toggle button -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <!-- Left links -->
+                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0">
+                        <li class="nav-item p-1">
+                          <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="index.html">Главная</a></button>
+                        </li>
+                        <li class="nav-item p-1">
+                          <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="about.html">О нас</a></button>
+                        </li>
+                        <li class="nav-item p-1">
+                          <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="fotogallery.html">Фотогалерея</a></button>
+                        </li>
+                        <li class="nav-item p-1">
+                          <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="polez_ssilki.html">Полезные ссылки</a></button>
+                        </li>
+                        <li class="nav-item p-1">
+                          <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="news.html">Лента новостей</a></button>
+                        </li>
+                        <li class="nav-item p-1">
+                          <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="dostizheniya.html">Достижения</a></button>
+                        </li>
+                      </ul>
+                      <style type="text/css">
+                        .nav-link{
+                          font-size: 13px;
+                        }
+                      </style>
+              <!-- Left links -->
+            </div>
+            <!-- Collapsible wrapper -->
+          </div>
+        </nav>
+      </div>
+  </div>
+  <br/>
+  <div class="row">
+    <div class="col-md-8 offset-md-2 mt-2">
+      <div class="container">
+        <div class="row justify-content-between">
+          <span class="border border-4 bg-light" style="width: 260px; height: 500px;">
+            <div class="col-xl">
+              <div class="d-flex flex-column mb-2 mt-2">
+                <div class="btn-group dropend" align="center" style="width: 230px;">
+                  <button class="btn" style="background-color: #09FF00;">
+                    <a class="link-light" href="normativ_docs.html"><span style="color: black;"> Нормативные правовые документы</span></a>
+                  </button>
+                </div>  
+              </div>
+              <div class="d-flex flex-column mb-2">
+                <div class="btn-group dropend" style="width: 230px;">
+                  <button class="btn" style="background-color: #09FF00;">
+                    <a class="link-light" href="#"><span style="color: black;"> Книжная полка</span></a>
+                  </button>
+                </div>  
+              </div>
+              <div class="d-flex flex-column mb-2">
+                <div class="btn-group dropend" style="width: 230px;">
+                  <button class="btn" style="background-color: #09FF00;">
+                    <a class="link-light" href="olymp_dvijen.html"><span style="color: black;"> Олимпиадное движение</span></a>
+                  </button>
+                </div>  
+              </div>
+              <div class="d-flex flex-column mb-2">
+                <div class="btn-group dropend" style="width: 230px;">
+                  <button class="btn" style="background-color: #09FF00;">
+                    <a class="link-light" href="issledov_deat.html"><span style="color: black;"> Исследовательская деятельность</span></a>
+                  </button>
+                </div>  
+              </div>
+              <div class="d-flex flex-column mb-2">
+                <div class="btn-group dropend" style="width: 230px;">
+                  <button class="btn" style="background-color: #09FF00;">
+                    <a class="link-light" href="wounderkid.html"><span style="color: black;"> Вундеркинду</span></a>
+                  </button>
+                </div>  
+              </div>
+              <div class="d-flex flex-column mb-2">
+                <div class="btn-group dropend" style="width: 230px;">
+                  <button class="btn" style="background-color: #09FF00;">
+                    <a class="link-light" href="korr_znaniy.html"><span style="color: black;"> Коррекция знаний</span></a>
+                  </button>
+                </div>  
+              </div>
+              <div class="d-flex flex-column mb-2">
+                <div class="btn-group dropend" style="width: 230px;">
+                  <button class="btn" style="background-color: #09FF00;">
+                    <a class="link-light" href="ct_ce.html"><span style="color: black;"> Подготовка к ЦЭ/ЦТ</span></a>
+                  </button>
+                </div>  
+              </div>
+              <div class="d-flex flex-column mb-2">
+                <div class="btn-group dropend" style="width: 230px;">
+                  <button class="btn" style="background-color: #09FF00;">
+                    <a class="link-light" href="vneyroch.html"><span style="color: black;"> Внеурочная деятельность</span></a>
+                  </button>
+                </div>  
+              </div>
+              <div class="d-flex flex-column mb-2">
+                <div class="btn-group dropend" style="width: 230px;">
+                  <button type="button" class="btn btn-inline-dark dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false" style="background-color: #09FF00;">
+                    <a class="link-light"><span style="color: black;"> Методическая копилка</span></a>
+                  </button>
+                  <ul class="dropdown-menu">
+                      <li><a class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">Планы конспектов</a>
+                          <ul class="dropdown-menu dropdown-submenu"> 
+                            <li><a class="dropdown-item" href="5_class_consp.html">5 класс</a></li>
+                            <li><a class="dropdown-item" href="6_class_consp.html">6 класс</a></li>
+                            <li><a class="dropdown-item" href="7_class_consp.html">7 класс</a></li>
+                            <li><a class="dropdown-item" href="8_class_consp.html">8 класс</a></li>
+                            <li><a class="dropdown-item" href="9_class_consp.html">9 класс</a></li>
+                            <li><a class="dropdown-item" href="10bz_class_consp.html">10 класс(база)</a></li>
+                            <li><a class="dropdown-item" href="10pr_class_consp.html">10 класс(профиль)</a></li>
+                            <li><a class="dropdown-item" href="11bz_class_consp.html">11 класс(база)</a></li>
+                            <li><a class="dropdown-item" href="11pr_class_consp.html">11 класс(профиль)</a></li>
+                          </ul> 
+                      </li> 
+                      <li><a class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">Контрольно-измерительные материалы</a>
+                          <ul class="dropdown-menu dropdown-submenu">
+                            <li><a class="dropdown-item" href="5_class_kontrol.html">5 класс</a></li>
+                            <li><a class="dropdown-item" href="6_class_kontrol.html">6 класс</a></li>
+                            <li><a class="dropdown-item" href="7_class_kontrol.html">7 класс</a></li>
+                            <li><a class="dropdown-item" href="8_class_kontrol.html">8 класс</a></li>
+                            <li><a class="dropdown-item" href="9_class_kontrol.html">9 класс</a></li>
+                            <li><a class="dropdown-item" href="10bz_class_kontrol.html">10 класс(база)</a></li>
+                            <li><a class="dropdown-item" href="10pr_class_kontrol.html">10 класс(профиль)</a></li>
+                            <li><a class="dropdown-item" href="11bz_class_kontrol.html">11 класс(база)</a></li>
+                            <li><a class="dropdown-item" href="11pr_class_kontrol.html">11 класс(профиль)</a></li>
+                          </ul>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Презентации</a></li>
+                      <li><a class="dropdown-item" href="#">Факультативные занятия</a></li>
+                  </ul>
+                </div>  
+              </div>
+          </div>
+        </span>
+        <span class="border border-4 bg-light m-2" style="width: 700px;">
+          <div class="row justify-content-center">
+            <div class="container-fluid">
+                <p class="h4" style="text-align: center;">Электронные учебные пособия</p>
+                  <div class="container">
+                    <p class="h4" style="text-align: center;">
+                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                      type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample5" aria-expanded="false"
+                      aria-controls="collapseExample"
+                      style="background-color: #09FF00; width: 300px;
+                      color: black;">
+                        5 класс
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample5">
+                      <div class="card card-body" id="card-cont">
+                        <div class="row align-items-center justify-content-around mt-4">
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem5class.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Математика. Часть 1</h5>
+                              <p class="card-text">В.Д. Герасимов, О.Н. Пирютко, А.П. Лобанов</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1OxTUGxCJheBHLLL2ZfNzGKnbDuKfoqtv/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem5class1.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Математика. Часть 2</h5>
+                              <p class="card-text">В.Д. Герасимов, О.Н. Пирютко, А.П. Лобанов</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1lneuamBdNrp_ezPWieHFPi6RGtanCD_r/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem5class2.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Сборник задач по математике</h5>
+                              <p class="card-text">О.Н. Пирютко, О.А. Терешко, В.Д. Герасимов</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1PQdHIvRc-G8d95hdRlMCn2c9V0BiY-aR/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem5class3.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Тропинками математики</h5>
+                              <p class="card-text">С.А. Гуцанович, Н.В. Костюкович</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1PYqlAOVtphfFSeXE3gAX2-bF_FsygyB_/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem5class4.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Факультативные занятия</h5>
+                              <p class="card-text">С.А. Гуцанович, Н.В. Костюкович</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1YLsFmoyX8T7k-XhZFxq34vUoDfsfba7k/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr/>
+                    <p class="h4" style="text-align: center;">
+                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                      type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample6" aria-expanded="false"
+                      aria-controls="collapseExample"
+                      style="background-color: #09FF00; width: 300px;
+                      color: black;">
+                        6 класс
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample6">
+                      <div class="card card-body" id="card-cont">
+                        <div class="row align-items-center justify-content-around mt-4">
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem6class.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Математика 6 класс</h5>
+                              <p class="card-text">В.Д. Герасимов, О.Н. Пирютко</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1tfTbgAlB-hp_ACGV4G09qmeJnXpxCIHm/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem6class1.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Путешествие с математикой</h5>
+                              <p class="card-text">С.А. Гуцанович, Н.В. Костюкович</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/136jdtU0Lj2uyodprC9PbwMu5PVCRbbiY/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem6class2.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Сборник задач по математике</h5>
+                              <p class="card-text">О.Н. Пирютко, О.А. Терешко</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/12QopcdSbcs3psyiixf58KgPvrNo9IhSi/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem6class3.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Факультативные занятия</h5>
+                              <p class="card-text">С.А. Гуцанович, Н.В. Костюкович</p> 
+                            </div>
+                            <a href="https://drive.google.com/file/d/1BLmCp32cJj6Dal_aFpGfjxVS5tkSja-q/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr/>
+                    <p class="h4" style="text-align: center;">
+                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                      type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample7" aria-expanded="false"
+                      aria-controls="collapseExample"
+                      style="background-color: #09FF00; width: 300px;
+                      color: black;">
+                        7 класс
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample7">
+                      <div class="card card-body" id="card-cont">
+                        <div class="row align-items-center justify-content-around mt-4">
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Сборник задач по алгебре</h5>
+                              <p class="card-text">И.Г. Арефьева, О.Н. Пирютко</p>
+                              
+                            </div>
+                            <a href="https://drive.google.com/file/d/1zscfgyczxo-HlvsXgYq9-vdJ6tMlLjPe/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class1.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Алгебра 7</h5>
+                              <p class="card-text">И.Г. Арефьева, О.Н. Пирютко</p>
+                              
+                            </div>
+                            <a href="https://drive.google.com/file/d/18iYD_sHs2B29n5-W0VA1j-lmbBgZWVVa/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class2.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Алгебра учит рассуждать</h5>
+                              <p class="card-text">К.О. Ананченко, Л.Г. Королева</p>
+                              
+                            </div>
+                            <a href="https://drive.google.com/file/d/1Zyg716_DGV6g1SdpTv-q9g7KNLezrBTw/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class3.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия 7</h5>
+                              <p class="card-text">В.В. Казаков</p>
+                              
+                            </div>
+                            <a href="https://drive.google.com/file/d/1nAX9hQot1uoWcja74qZ40QJ-KKRNH-kC/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class4.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия на готовых чертежах</h5>
+                              <p class="card-text">Е.М. Рабинович</p>
+                              
+                            </div>
+                            <a href="https://drive.google.com/file/d/19nty7bIgylMMGseM7L_3n64tEAlziBQG/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class5.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Многообразие идей и методов 7 класс</h5>
+                              <p class="card-text">Н.М. Рогановский, Е.Н. Рогановская, О.И. Тавгель</p>
+                              
+                            </div>
+                            <a href="https://drive.google.com/file/d/1aSjSiiaqKOmKqmA6NcnqidiV_PvbxrJx/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class6.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Многообразие идей и методов 7-9 класс</h5>
+                              <p class="card-text">Н.М. Рогановский, Е.Н. Рогановская, О.И. Тавгель</p>
+                              
+                            </div>
+                            <a href="https://drive.google.com/file/d/12D-dv3yEY72224Gr21rJEsURmMir6E5D/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class7.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Наглядная геометрия 7</h5>
+                              <p class="card-text">В.В. Казаков</p>
+                              
+                            </div>
+                            <a href="https://drive.google.com/file/d/1Dfk76XGIRifCS43aWeMHwq1j2-gfiEAr/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr/>
+                    <p class="h4" style="text-align: center;">
+                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                      type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample8" aria-expanded="false"
+                      aria-controls="collapseExample"
+                      style="background-color: #09FF00; width: 300px;
+                      color: black;">
+                        8 класс
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample8">
+                      <div class="card card-body" id="card-cont">
+                        <div class="row align-items-center justify-content-around mt-4">
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem8class.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Алгебра 8</h5>
+                              <p class="card-text">И.Г. Арефьева, О.Н. Пирютко</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1StAON_y1d2uxRNsp-m6Ct05N6Zn7eaO1/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem8class1.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Алгебра учит рассуждать 8</h5>
+                              <p class="card-text">К.О. Ананченко, И.А. Корнеева</p> 
+                            </div>
+                            <a href="https://drive.google.com/file/d/1IHWZrlqrsvuVni8a_qVwvtTJ6U33HeZv/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem8class2.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Алгебра. Самостоятельные и контрольные работы</h5>
+                              <p class="card-text">И.Г. Арефьева, О.Н. Пирютко</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1bGESvl4HRG1QQUF87VmjCa1ADaeCQEF0/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem8class3.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия 8</h5>
+                              <p class="card-text">В.В. Казаков</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1AhPLZmH0TLWeGfmFHtSMaK-EpthyOv0N/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem8class4.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия на готовых чертежах</h5>
+                              <p class="card-text">Е.М. Рабинович</p> 
+                            </div>
+                            <a href="https://drive.google.com/file/d/1CdTcQ8atOzGU9aTwdTcYSialGugoV0EC/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem8class5.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Многообразие идей и методов 8 класс</h5>
+                              <p class="card-text">Н.М. Рогиновский, Е.Н. Рогановская, О.И. Тавгель</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/16OMbv-etWTyXH80i6bJHElHhiIzGjDdK/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class6.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Многообразие идей и методов 7-9 класс</h5>
+                              <p class="card-text">Н.М. Рогановский, Е.Н. Рогановская, О.И. Тавгель</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1ovJ-n-Pa1y0vHAnRnpzMDDiZDaqGyAyq/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem8class6.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Наглядная геометрия 8</h5>
+                              <p class="card-text">В.В. Казаков</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1TjbEeRVuY6hxE96EzT4fh6suMd9fL04-/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem8class7.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия. Cамостоятельные и контрольные работы</h5>
+                              <p class="card-text">В.В. Казаков, О.О. Казакова</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1yn3XIAl2Fm2_srf9G26D8m95rH18VXmc/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr/>
+                    <p class="h4" style="text-align: center;">
+                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                      type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample9" aria-expanded="false"
+                      aria-controls="collapseExample"
+                      style="background-color: #09FF00; width: 300px;
+                      color: black;">
+                        9 класс
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample9">
+                      <div class="card card-body" id="card-cont">
+                        <div class="row align-items-center justify-content-around mt-4">
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem9class.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Алгебра 9</h5>
+                              <p class="card-text">И.Г. Арефьева, О.Н. Пирютко</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/18hIfadCp5UVSzO0t1piUnTrMgN0HVV2t/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem9class1.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Алгебра учит рассуждать 9</h5>
+                              <p class="card-text">К.О. Ананченко, А.И. Караневская</p> 
+                            </div>
+                            <a href="https://drive.google.com/file/d/1QosCORirCKfdtmzTBQAwFigFJngH4oi1/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem9class2.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Алгебра 9. Самостоятельные и контрольные работы</h5>
+                              <p class="card-text">И.Г. Арефьева, О.Н. Пирютко</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1n62wFQwCU7n2ZSSGd3H9UpKoy8XyDHro/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem9class3.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия 9</h5>
+                              <p class="card-text">В.В. Казаков</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/19Ppz32cUt6sKmCTz3WL3g7knLrepkC3O/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem8class4.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия на готовых чертежах</h5>
+                              <p class="card-text">Е.М. Рабинович</p> 
+                            </div>
+                            <a href="https://drive.google.com/file/d/1U7xB7JDzfrKb0Wd8DmkKGosvecJTulx7/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem9class5.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Многообразие идей и методов 9 класс</h5>
+                              <p class="card-text">Н.М. Рогановский, Е.Н. Рогановская, О.И. Тавгель</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1e9TZP3NL42VOIicDALaqU5d9gY0dDxE3/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem7class6.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Многообразие идей и методов 7-9 класс</h5>
+                              <p class="card-text">Н.М. Рогановский, Е.Н. Рогановская, О.И. Тавгель</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1Gmsne1Eflq4nBzGIKP1BM8cpTsZA3FpF/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem9class6.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Наглядная геометрия 9</h5>
+                              <p class="card-text">В.В. Казаков</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1HRn7ldxpGDyBEtK-q2xlKOJIElkyHoIM/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem9class4.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия. Cамостоятельные и контрольные работы</h5>
+                              <p class="card-text">В.В. Казаков, О.О. Казакова</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1YD392LQV_OkqxmJdZrxptZqIc8X5bbR-/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem9class7.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Экзаменационный сборник</h5>
+                              <p class="card-text">В.В. Беняш-Кривец</p>
+                            </div>
+                            <a href="https://drive.google.com/file/d/1_asFMtTMZ2ny7DUx4ynyd_3SvKi8cyIU/preview" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr/>
+                    <p class="h4" style="text-align: center;">
+                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                      type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample10" aria-expanded="false"
+                      aria-controls="collapseExample"
+                      style="background-color: #09FF00; width: 300px;
+                      color: black;">
+                        10 класс
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample10">
+                      <div class="card card-body" id="card-cont">
+                        <div class="row align-items-center justify-content-around mt-4">
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Математика 10-11 классы</h5>
+                              <p class="card-text">Т.А. Адамович, И.В. Ефимцева</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class1.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">40 уроков тригонометрии</h5>
+                              <p class="card-text">И.Г. Арефьева, О.Н. Пирютко</p> 
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class2.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия 10 класс</h5>
+                              <p class="card-text">Л.А. Латонин, Б.Д. Чеботаревский, И.В. Горбунова</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class3.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия. Задачи и упражнения на готовых чертежах</h5>
+                              <p class="card-text">Е.М. Рабинович</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class4.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Наглядная геометрия 10 класс</h5>
+                              <p class="card-text">В.В. Казаков</p> 
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class5.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Повторяем математику 10 класс</h5>
+                              <p class="card-text">И.Г. Арефьева, И.Ю. Семина, Т.В. Ячейко</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class6.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Самостоятельные и контрольные работы</h5>
+                              <p class="card-text">А.П. Ершова, В.В. Голобородько</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class7.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Сборник задач по алгебре 10 класс</h5>
+                              <p class="card-text">И.Г. Арефьева, О.Н. Пирютко</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class8.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Сборник задач по геометрии 10-11 классы</h5>
+                              <p class="card-text">Л.А. Латонин, Б.Д. Чеботаревский</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr/>
+                    <p class="h4" style="text-align: center;">
+                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                      type="button" data-bs-toggle="collapse"
+                      data-bs-target="#collapseExample11" aria-expanded="false"
+                      aria-controls="collapseExample"
+                      style="background-color: #09FF00; width: 300px;
+                      color: black;">
+                        11 класс
+                      </button>
+                    </p>
+                    <div class="collapse" id="collapseExample11">
+                      <div class="card card-body" id="card-cont">
+                        <div class="row align-items-center justify-content-around mt-4">
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Математика 10-11 классы</h5>
+                              <p class="card-text">Т.А. Адамович, И.В. Ефимцева</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem11class.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия 11 класс</h5>
+                              <p class="card-text">Л.А. Латонин, Б.Д. Чеботаревский, И.В. Горбунова</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class3.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Геометрия. Задачи и упражнения на готовых чертежах</h5>
+                              <p class="card-text">Е.М. Рабинович</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem11class1.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Наглядная геометрия 11 класс</h5>
+                              <p class="card-text">В.В. Казаков</p> 
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem11class2.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Сборник задач по алгебре 11 класс</h5>
+                              <p class="card-text">И.Г. Арефьева, О.Н. Пирютко</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary" id="btn-openb">Открыть</a>
+                          </div>
+                          <div class="card p-2 mt-2 mb-2" id="card">
+                            <img src="img/matem10class8.png" class="card-img-top" alt="...">
+                            <div class="card-body" id="card_body">
+                              <h5 class="card-title">Сборник задач по геометрии 10-11 классы</h5>
+                              <p class="card-text">Л.А. Латонин, Б.Д. Чеботаревский</p>
+                            </div>
+                            <a href="#" target="_blank" class="btn btn-primary mt-0" id="btn-openb">Открыть</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <hr/>
+                  </div>
+            </div>
+          </div>
+        </span>
+        <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
+            <div class="col-10 mx-auto">
+              <div class="calendar-wrapper">
+                <button id="btnPrev" type="button"></button>
+                <button id="btnNext" type="button"></button>
+                  <div id="divCal">
+                    
+                  </div>
+              </div>
+            </div>
+        </span>
+      </div>
+    </div>
+  </div>
+<div>
+  
+</div>
+</div>
+  <br/>
+  <!-- Background image -->
+</header>
+
+     <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 mt-4">
+                  Государственное учреждение образования "Средняя школа №45 г.Могилева"
+                </h6>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 mt-4">
+                  Контакты
+                </h6>
+                <p><i class="fas fa-home me-3"> Могилёв, ул. Аркадия Кулешова 20</i></p>
+                <p>
+                  <i class="fas fa-envelope me-3"> sosh45mogilev@yandex.by</i>
+                </p>
+                <p><i class="fas fa-phone me-3"> +375336276506</i></p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2022 Copyright:
+          <a class="text-reset fw-bold" href="#">matkab45.by</a>
+        </div>
+      </footer>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
