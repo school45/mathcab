@@ -2,10 +2,10 @@
 <!-- Начался блок PHP -->
 <?php
 // Получаем значения переменных из пришедших данных
-$name = $_POST['name'];
-$email = $_POST['email'];
-$header = $_POST['header'];
-$message = $_POST['message'];
+$name = $_GET['name'];
+$email = $_GET['email'];
+$header = $_GET['header'];
+$message = $_GET['message'];
 // Формируем сообщение для отправки, в нём мы соберём всё, что ввели в форме
 $mes = "Имя: $name \nE-mail: $email \nТема: $header \nТекст: $message";
 // Пытаемся отправить письмо по заданному адресу
