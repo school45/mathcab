@@ -20,6 +20,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- MDB -->
     <link rel="stylesheet" type="text/css" href="css/submenu.css">
     <link rel="stylesheet" href="css/mdb.min.css" />
@@ -29,12 +31,19 @@
     <!-- Start your project here-->
 
   <header>
+    <div class="row">
+    <div class="container pb-0">
+      <div class="col-md-8 offset-md-2 bg-light mt-4 mb-2">
+        <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+      </div>
+    </div>
+  </div>
   <!-- Navbar -->
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-2" style="height: 250px;">
+    <div class="col-md-8 offset-md-2 mt-4 mb-2" style="height: 250px;">
       <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
   <!-- Container wrapper -->
-        <div class="container-fluid">
+        <div class="container-fluid" style="background-image: url('img/header.jpg'); background-size: 430px;">
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -62,9 +71,8 @@
               <div class="col-4 col-md-auto offset-md-auto mt-2">
                 <div class="d-flex">
                     <a href="" class="nav-item">
-                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">
-                      Виртуальный кабинет математики</p>
-                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">"<img src="logo_pi.png" height="55" loading="lazy">-422"</p>
+                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">Виртуальный кабинет математики</p>
+                      <p style="text-align: center; font-size: 45px; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">"<img src="logo_pi.png" height="50" loading="lazy"><span style="font-size: 45px;">-422"</span></p>
                     </a>
                 </div>
               </div>
@@ -74,7 +82,7 @@
     </div>
   </div>
   <div class="row">
-      <div class="col-md-8 offset-md-2 mt-2">
+      <div class="col-md-8 offset-md-2 mt-4">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <!-- Container wrapper -->
           <div class="container-fluid">
@@ -226,6 +234,850 @@
               </div>
           </div>
         </span>
+        <span class="border border-4 bg-light m-2" style="width: 650px;">
+          <div class="row justify-content-center">
+            <div class="container-fluid">
+              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">План конспектов 9 класс</p> 
+                <p class="h4" style="text-align: center;">
+                  <button class="btn btn-primary btn-lg dropdown-toggle"
+                  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample1" aria-expanded="false"
+                  aria-controls="collapseExample"
+                  style="background-color: #09FF00; width: 300px;
+                  color: black;">
+                    Алгебра
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample1">
+            <div class="card card-body">
+              <div class="col-xl">
+                <table class="table">
+                  <tr>
+                    <td class="num">
+                      <p>№ урока</p>
+                    </td>
+                    <td class="headless">
+                      <p>Тема урока</p>
+                    </td>
+                  </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 1</p>
+                </td>
+                <td id="topic"><p id="topic">Повторение</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 2</p>
+                </td>
+                <td id="topic"><p id="topic">Повторение</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 3</p>
+                </td>
+                <td id="topic"><p id="topic">Повторение</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 4</p>
+                </td>
+                <td id="topic"><p id="topic">Рациональная дробь</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 5</p>
+                </td>
+                <td id="topic"><p id="topic">Рациональная дробь</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 6</p>
+                </td>
+                <td id="topic"><p id="topic">Основное свойство дроби. Сокращение дробей. Приведение дробей к новому знаменателю. Приведение дробей к общему знаменателю</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 7</p>
+                </td>
+                <td id="topic"><p id="topic">Основное свойство дроби. Сокращение дробей. Приведение дробей к новому знаменателю. Приведение дробей к общему знаменателю</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 8</p>
+                </td>
+                <td id="topic"><p id="topic">Основное свойство дроби. Сокращение дробей. Приведение дробей к новому знаменателю. Приведение дробей к общему знаменателю</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 9</p>
+                </td>
+                <td id="topic"><p id="topic">Сложение и вычитание рациональных дробей</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 10</p>
+                </td>
+                <td id="topic"><p id="topic">Сложение и вычитание рациональных дробей</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 11</p>
+                </td>
+                <td id="topic"><p id="topic">Сложение и вычитание рациональных дробей</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 12</p>
+                </td>
+                <td id="topic"><p id="topic">Сложение и вычитание рациональных дробей</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 13</p>
+                </td>
+                <td id="topic"><p id="topic">Сложение и вычитание рациональных дробей</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 14</p>
+                </td>
+                <td id="topic"><p id="topic">Умножение и деление рациональных дробей</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 15</p>
+                </td>
+                <td id="topic"><p id="topic">Умножение и деление рациональных дробей</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 16</p>
+                </td>
+                <td id="topic"><p id="topic">Умножение и деление рациональных дробей</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 17</p>
+                </td>
+                <td id="topic"><p id="topic">Преобразования рациональных выражений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 18</p>
+                </td>
+                <td id="topic"><p id="topic">Преобразования рациональных выражений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 19</p>
+                </td>
+                <td id="topic"><p id="topic">Преобразования рациональных выражений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 20</p>
+                </td>
+                <td id="topic"><p id="topic">Преобразования рациональных выражений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 21</p>
+                </td>
+                <td id="topic"><p id="topic">Преобразования рациональных выражений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 22</p>
+                </td>
+                <td id="topic"><p id="topic">Преобразования рациональных выражений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 23</p>
+                </td>
+                <td id="topic"><p id="topic">Обобщение изученного материала по теме «Рациональные выражения»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 24</p>
+                </td>
+                <td id="topic"><p id="topic">Контрольная работа №1 по теме «Рациональные выражения»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 25</p>
+                </td>
+                <td id="topic"><p id="topic">Функция числового аргумента. Область определения. Множество значений. Способы задания функции</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 26</p>
+                </td>
+                <td id="topic"><p id="topic">Функция числового аргумента. Область определения. Множество значений. Способы задания функции</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 27</p>
+                </td>
+                <td id="topic"><p id="topic">Свойства функции (нули функции, промежутки знакопостоянства, монотонность функции)</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 28</p>
+                </td>
+                <td id="topic"><p id="topic">Свойства функции (нули функции, промежутки знакопостоянства, монотонность функции)</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 29</p>
+                </td>
+                <td id="topic"><p id="topic">Свойства функции (нули функции, промежутки знакопостоянства, монотонность функции)</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 30</p>
+                </td>
+                <td id="topic"><p id="topic">Свойства функции (нули функции, промежутки знакопостоянства, монотонность функции)</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 31</p>
+                </td>
+                <td id="topic"><p id="topic">Четные и нечетные функции</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 32</p>
+                </td>
+                <td id="topic"><p id="topic">Четные и нечетные функции</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 33</p>
+                </td>
+                <td id="topic"><p id="topic">Четные и нечетные функции</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 34</p>
+                </td>
+                <td id="topic"><p id="topic">Построение графиков функций y = f(x ± a), y = f(x) ± b при a, b<i>∈</i> R с помощью преобразования графика функции y = f(x)</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 35</p>
+                </td>
+                <td id="topic"><p id="topic">Построение графиков функций y = f(x ± a), y = f(x) ± b при a, b<i>∈</i> R с помощью преобразования графика функции y = f(x)</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 36</p>
+                </td>
+                <td id="topic"><p id="topic">Построение графиков функций y = f(x ± a), y = f(x) ± b при a, b<i>∈</i> R с помощью преобразования графика функции y = f(x)</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 37</p>
+                </td>
+                <td id="topic"><p id="topic">Обобщение изученного материала по теме «Функции»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 38</p>
+                </td>
+                <td id="topic"><p id="topic">Контрольная работа №2 по теме «Функции»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 39</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения. Решение дробно-рациональных уравнений и уравнений, сводящихся к ним. Моделирование реальных процессов с помощью дробно-рациональных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 40</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения. Решение дробно-рациональных уравнений и уравнений, сводящихся к ним. Моделирование реальных процессов с помощью дробно-рациональных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 41</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения. Решение дробно-рациональных уравнений и уравнений, сводящихся к ним. Моделирование реальных процессов с помощью дробно-рациональных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 42</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения. Решение дробно-рациональных уравнений и уравнений, сводящихся к ним. Моделирование реальных процессов с помощью дробно-рациональных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 43</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения. Решение дробно-рациональных уравнений и уравнений, сводящихся к ним. Моделирование реальных процессов с помощью дробно-рациональных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 44</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения. Решение дробно-рациональных уравнений и уравнений, сводящихся к ним. Моделирование реальных процессов с помощью дробно-рациональных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 45</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения. Решение дробно-рациональных уравнений и уравнений, сводящихся к ним. Моделирование реальных процессов с помощью дробно-рациональных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 46</p>
+                </td>
+                <td id="topic"><p id="topic">Системы нелинейных уравнений. Решение систем нелинейных уравнений. Геометрическая интерпретация системы двух уравнений с двумя переменными. Моделирование реальных процессов с помощью систем нелинейных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 47</p>
+                </td>
+                <td id="topic"><p id="topic">Системы нелинейных уравнений. Решение систем нелинейных уравнений. Геометрическая интерпретация системы двух уравнений с двумя переменными. Моделирование реальных процессов с помощью систем нелинейных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 48</p>
+                </td>
+                <td id="topic"><p id="topic">Системы нелинейных уравнений. Решение систем нелинейных уравнений. Геометрическая интерпретация системы двух уравнений с двумя переменными. Моделирование реальных процессов с помощью систем нелинейных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 49</p>
+                </td>
+                <td id="topic"><p id="topic">Системы нелинейных уравнений. Решение систем нелинейных уравнений. Геометрическая интерпретация системы двух уравнений с двумя переменными. Моделирование реальных процессов с помощью систем нелинейных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 50</p>
+                </td>
+                <td id="topic"><p id="topic">Системы нелинейных уравнений. Решение систем нелинейных уравнений. Геометрическая интерпретация системы двух уравнений с двумя переменными. Моделирование реальных процессов с помощью систем нелинейных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 51</p>
+                </td>
+                <td id="topic"><p id="topic">Системы нелинейных уравнений. Решение систем нелинейных уравнений. Геометрическая интерпретация системы двух уравнений с двумя переменными. Моделирование реальных процессов с помощью систем нелинейных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 52</p>
+                </td>
+                <td id="topic"><p id="topic">Системы нелинейных уравнений. Решение систем нелинейных уравнений. Геометрическая интерпретация системы двух уравнений с двумя переменными. Моделирование реальных процессов с помощью систем нелинейных уравнений</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 53</p>
+                </td>
+                <td id="topic"><p id="topic">Формула длины отрезка с заданными координатами концов. Уравнение окружности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 54</p>
+                </td>
+                <td id="topic"><p id="topic">Формула длины отрезка с заданными координатами концов. Уравнение окружности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 55</p>
+                </td>
+                <td id="topic"><p id="topic">Формула длины отрезка с заданными координатами концов. Уравнение окружности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 56</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные неравенства. Метод интервалов для решения рациональных неравенств. Системы и совокупности неравенств. Решение систем и совокупностей неравенств</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 57</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные неравенства. Метод интервалов для решения рациональных неравенств. Системы и совокупности неравенств. Решение систем и совокупностей неравенств</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 58</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные неравенства. Метод интервалов для решения рациональных неравенств. Системы и совокупности неравенств. Решение систем и совокупностей неравенств</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 59</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные неравенства. Метод интервалов для решения рациональных неравенств. Системы и совокупности неравенств. Решение систем и совокупностей неравенств</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 60</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные неравенства. Метод интервалов для решения рациональных неравенств. Системы и совокупности неравенств. Решение систем и совокупностей неравенств</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 61</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные неравенства. Метод интервалов для решения рациональных неравенств. Системы и совокупности неравенств. Решение систем и совокупностей неравенств</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 62</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные неравенства. Метод интервалов для решения рациональных неравенств. Системы и совокупности неравенств. Решение систем и совокупностей неравенств</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 63</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные неравенства. Метод интервалов для решения рациональных неравенств. Системы и совокупности неравенств. Решение систем и совокупностей неравенств</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 64</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные неравенства. Метод интервалов для решения рациональных неравенств. Системы и совокупности неравенств. Решение систем и совокупностей неравенств</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 65</p>
+                </td>
+                <td id="topic"><p id="topic">Обобщение изученного материала по теме «Дробно-рациональные уравнения и неравенства»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 66</p>
+                </td>
+                <td id="topic"><p id="topic">Контрольная работа №3 по теме «Дробно-рациональные уравнения и неравенства»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 67</p>
+                </td>
+                <td id="topic"><p id="topic">Функция натурального аргумента. Числовая последовательность. Способы задания числовой последовательности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 68</p>
+                </td>
+                <td id="topic"><p id="topic">Функция натурального аргумента. Числовая последовательность. Способы задания числовой последовательности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 69</p>
+                </td>
+                <td id="topic"><p id="topic">Арифметическая прогрессия. Формулы n-го члена арифметической прогрессии. Характеристическое свойство арифметической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 70</p>
+                </td>
+                <td id="topic"><p id="topic">Арифметическая прогрессия. Формулы n-го члена арифметической прогрессии. Характеристическое свойство арифметической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 71</p>
+                </td>
+                <td id="topic"><p id="topic">Формулы суммы n первых членов арифметической прогрессии. Моделирование реальных процессов с помощью свойств арифметической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 72</p>
+                </td>
+                <td id="topic"><p id="topic">Формулы суммы n первых членов арифметической прогрессии. Моделирование реальных процессов с помощью свойств арифметической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 73</p>
+                </td>
+                <td id="topic"><p id="topic">Формулы суммы n первых членов арифметической прогрессии. Моделирование реальных процессов с помощью свойств арифметической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 74</p>
+                </td>
+                <td id="topic"><p id="topic">Геометрическая прогрессия и ее свойства. Формула n-го члена геометрической прогрессии. Характеристическое свойство геометрической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 75</p>
+                </td>
+                <td id="topic"><p id="topic">Геометрическая прогрессия и ее свойства. Формула n-го члена геометрической прогрессии. Характеристическое свойство геометрической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 76</p>
+                </td>
+                <td id="topic"><p id="topic">Формула суммы n первых членов геометрической прогрессии. Моделирование реальных процессов с помощью свойств геометрической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 77</p>
+                </td>
+                <td id="topic"><p id="topic">Формула суммы n первых членов геометрической прогрессии. Моделирование реальных процессов с помощью свойств геометрической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 78</p>
+                </td>
+                <td id="topic"><p id="topic">Формула суммы n первых членов геометрической прогрессии. Моделирование реальных процессов с помощью свойств геометрической прогрессии</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 79</p>
+                </td>
+                <td id="topic"><p id="topic">Бесконечно убывающая геометрическая прогрессия. Сумма бесконечно убывающей геометрической прогрессии. Представление бесконечной периодической десятичной дроби в виде обыкновенной дроби</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 80</p>
+                </td>
+                <td id="topic"><p id="topic">Бесконечно убывающая геометрическая прогрессия. Сумма бесконечно убывающей геометрической прогрессии. Представление бесконечной периодической десятичной дроби в виде обыкновенной дроби</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 81</p>
+                </td>
+                <td id="topic"><p id="topic">Обобщение изученного материала по теме «Прогрессии»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 82</p>
+                </td>
+                <td id="topic"><p id="topic">Контрольная работа №4 по теме «Прогрессии»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 83</p>
+                </td>
+                <td id="topic"><p id="topic">Рациональные выражения</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 84</p>
+                </td>
+                <td id="topic"><p id="topic">Рациональные выражения</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 85</p>
+                </td>
+                <td id="topic"><p id="topic">Рациональные выражения</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 86</p>
+                </td>
+                <td id="topic"><p id="topic">Функции</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 87</p>
+                </td>
+                <td id="topic"><p id="topic">Функции</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 88</p>
+                </td>
+                <td id="topic"><p id="topic">Функции</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 89</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения и неравенства</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 90</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения и неравенства</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 91</p>
+                </td>
+                <td id="topic"><p id="topic">Дробно-рациональные уравнения и неравенства</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 92</p>
+                </td>
+                <td id="topic"><p id="topic">Текстовые задачи</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 93</p>
+                </td>
+                <td id="topic"><p id="topic">Текстовые задачи</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 94</p>
+                </td>
+                <td id="topic"><p id="topic">Текстовые задачи</p>
+                </td>
+                </tr>
+                </table>
+
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="container">
+              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">
+                  <button class="btn btn-primary btn-lg dropdown-toggle" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample" style="background-color: #09FF00; width: 300px; color: black;">
+                    Геометрия
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample2">
+            <div class="card card-body">
+              <div class="col-xl">
+                <table class="table">
+                  <tr>
+                    <td class="num">
+                      <p>№ урока</p>
+                    </td>
+                    <td class="headless">
+                      <p>Тема урока</p>
+                    </td>
+                  </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 1</p>
+                </td>
+                <td id="topic"><p id="topic">Повторение</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 2</p>
+                </td>
+                <td id="topic"><p id="topic">Синус, косинус, тангенс, котангенс острого угла. Значения синуса, косинуса, тангенса и котангенса углов 30°, 45°, 60°</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 3</p>
+                </td>
+                <td id="topic"><p id="topic">Синус, косинус, тангенс, котангенс острого угла. Значения синуса, косинуса, тангенса и котангенса углов 30°, 45°, 60°</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 5</p>
+                </td>
+                <td id="topic"><p id="topic">Решение прямоугольного треугольника</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 6</p>
+                </td>
+                <td id="topic"><p id="topic">Решение прямоугольного треугольника</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 7</p>
+                </td>
+                <td id="topic"><p id="topic">Тригонометрические формулы. Основное тригонометрическое тождество: sin2α + cos2α = 1 Формулы, связывающие синус, косинус, тангенс и котангенс одного и того же угла: tgα= sinα /cosα, ctgα= cosα /sinα. Значения синуса, косинуса, тангенса и котангенса углов 30°, 45°, 60°</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 8</p>
+                </td>
+                <td id="topic"><p id="topic">Синус, косинус, тангенс и котангенс тупого угла</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 9</p>
+                </td>
+                <td id="topic"><p id="topic">Синус, косинус, тангенс и котангенс тупого угла</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 10</p>
+                </td>
+                <td id="topic"><p id="topic">Формулы площади треугольника и площади параллелограмма. Формула площади треугольника по двум сторонам и углу между ними: S= <i>1</i>/<i>2</i> absin<i>α</i>. Формула площади параллелограмма по сторонам и углу между ними S= absin<i>α</i>. Практико-ориентирован-е задачи и задачи с межпредметным содержанием, их решение</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 11</p>
+                </td>
+                <td id="topic"><p id="topic">Формулы площади треугольника и площади параллелограмма. Формула площади треугольника по двум сторонам и углу между ними: S = <i>1</i><i>2</i> absin<i>α</i>. Формула площади параллелограмма по сторонам и углу между ними S= absin<i>α</i>. Практико-ориентирован-е задачи и задачи с межпредметным содержанием, их решение</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 12</p>
+                </td>
+                <td id="topic"><p id="topic">Среднее пропорциональное (среднее геометрическое) в прямоугольном треугольнике</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 13</p>
+                </td>
+                <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Соотношения в прямоугольном треугольнике»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 14</p>
+                </td>
+                <td id="topic"><p id="topic">Контрольная работа №1 по теме «Соотношения в прямоугольном треугольнике»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 15</p>
+                </td>
+                <td id="topic"><p id="topic">Описанная и вписанная окружности треугольника</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 16</p>
+                </td>
+                <td id="topic"><p id="topic">Описанная и вписанная окружности треугольника</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 17</p>
+                </td>
+                <td id="topic"><p id="topic">Описанная и вписанная окружности треугольника</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 18</p>
+                </td>
+                <td id="topic"><p id="topic">Описанная и вписанная окружности треугольника</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 19</p>
+                </td>
+                <td id="topic"><p id="topic">Прямоугольный треугольник и его описанная и вписанная окружности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 20</p>
+                </td>
+                <td id="topic"><p id="topic">Прямоугольный треугольник и его описанная и вписанная окружности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 21</p>
+                </td>
+                <td id="topic"><p id="topic">Вписанные и описанные четырехугольники. Формула площади треугольника (описанного многоугольника) через периметр и радиус вписанной окружности: S= <i>ρ</i>r</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 22</p>
+                </td>
+                <td id="topic"><p id="topic">Вписанные и описанные четырехугольники. Формула площади треугольника (описанного многоугольника) через периметр и радиус вписанной окружности: S= <i>ρ</i>r</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 23</p>
+                </td>
+                <td id="topic"><p id="topic">Вписанные и описанные четырехугольники. Формула площади треугольника (описанного многоугольника) через периметр и радиус вписанной окружности: S= <i>ρ</i>r</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 24</p>
+                </td>
+                <td id="topic"><p id="topic">Вписанные и описанные четырехугольники. Формула площади треугольника (описанного многоугольника) через периметр и радиус вписанной окружности: S= <i>ρ</i>r</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 25</p>
+                </td>
+                <td id="topic"><p id="topic">Вписанные и описанные четырехугольники. Формула площади треугольника (описанного многоугольника) через периметр и радиус вписанной окружности: S= <i>ρ</i>r</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 26</p>
+                </td>
+                <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Вписанные и описанные окружности»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 27</p>
+                </td>
+                <td id="topic"><p id="topic">Контрольная работа № 2 по теме «Вписанные и описанные окружности»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 28</p>
+                </td>
+                <td id="topic"><p id="topic">Теорема синусов: a/ sin<i>α</i> = b/sin<i>β</i> = c/sin <i>γ</i> = 2R. Формула площади треугольника: S = abc/4R</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 29</p>
+                </td>
+                <td id="topic"><p id="topic">Теорема синусов: a/sin<i>α</i> = b/sin<i>β</i> = c/sin<i>γ</i> = 2R. Формула площади треугольника: S= abc/4R</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 30</p>
+                </td>
+                <td id="topic"><p id="topic"> Теорема синусов: a/sin<i>α</i> = b/sin<i>β</i> = c/sin<i>γ</i> = 2R. Формула площади треугольника: S= abc/4R</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 31</p>
+                </td>
+                <td id="topic"><p id="topic">Теорема синусов: a/sin<i>α</i> = b/sin<i>β</i> = c/sin<i>γ</i> = 2R. Формула площади треугольника: S= abc/4R</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 32</p>
+                </td>
+                <td id="topic"><p id="topic">Теорема косинусов: a2= b2 + c2 – 2bccosα. Следствия из теоремы косинусов: нахождение косинуса угла треугольника, заданного тремя сторонами; свойство диагоналей параллелограмма: d21 + d12 = 2а2 +2b2</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 33</p>
+                </td>
+                <td id="topic"><p id="topic">Теорема косинусов: a2= b2 + c2 – 2bccosα. Следствия из теоремы косинусов: нахождение косинуса угла треугольника, заданного тремя сторонами; свойство диагоналей параллелограмма: d21 + d12 = 2а2 +2b2</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 34</p>
+                </td>
+                <td id="topic"><p id="topic">Теорема косинусов: a2= b2 + c2 – 2bccosα. Следствия из теоремы косинусов: нахождение косинуса угла треугольника, заданного тремя сторонами; свойство диагоналей параллелограмма: d21 + d12 = 2а2 +2b2</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 35</p>
+                </td>
+                <td id="topic"><p id="topic">Теорема косинусов: a2= b2 + c2 – 2bccosα. Следствия из теоремы косинусов: нахождение косинуса угла треугольника, заданного тремя сторонами; свойство диагоналей параллелограмма: d21 + d12 = 2а2 +2b2</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 36</p>
+                </td>
+                <td id="topic"><p id="topic">Теорема косинусов: a2= b2 + c2 – 2bccosα. Следствия из теоремы косинусов: нахождение косинуса угла треугольника, заданного тремя сторонами; свойство диагоналей параллелограмма: d21 + d12 = 2а2 +2b2</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 37</p>
+                </td>
+                <td id="topic"><p id="topic">Формула Герона. Решение треугольников</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 38</p>
+                </td>
+                <td id="topic"><p id="topic">Формула Герона. Решение треугольников</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 39</p>
+                </td>
+                <td id="topic"><p id="topic">Обобщение изученного материала по теме «Теоремы синусов и косинусов»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 40</p>
+                </td>
+                <td id="topic"><p id="topic">Контрольная работа № 3 по теме «Теоремы синусов и косинусов»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 41</p>
+                </td>
+                <td id="topic"><p id="topic">Правильные многоугольники</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 42</p>
+                </td>
+                <td id="topic"><p id="topic">Формулы радиусов описанной и вписанной окружностей правильного многоугольника</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 43</p>
+                </td>
+                <td id="topic"><p id="topic">Формулы радиусов описанной и вписанной окружностей правильного многоугольника</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 44</p>
+                </td>
+                <td id="topic"><p id="topic">Правильный треугольник, четырехугольник, шестиугольник</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 45</p>
+                </td>
+                <td id="topic"><p id="topic">Правильный треугольник, четырехугольник, шестиугольник</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 46</p>
+                </td>
+                <td id="topic"><p id="topic">Нахождение длины окружности и площади круга. Число p. Сектор и сегмент. Длина дуги, площадь сектора и сегмента</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 47</p>
+                </td>
+                <td id="topic"><p id="topic">Нахождение длины окружности и площади круга. Число p. Сектор и сегмент. Длина дуги, площадь сектора и сегмента</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 48</p>
+                </td>
+                <td id="topic"><p id="topic">Нахождение длины окружности и площади круга. Число p. Сектор и сегмент. Длина дуги, площадь сектора и сегмента</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 49</p>
+                </td>
+                <td id="topic"><p id="topic">Нахождение длины окружности и площади круга. Число p. Сектор и сегмент. Длина дуги, площадь сектора и сегмента</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 50</p>
+                </td>
+                <td id="topic"><p id="topic">Нахождение длины окружности и площади круга. Число p. Сектор и сегмент. Длина дуги, площадь сектора и сегмента</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 51</p>
+                </td>
+                <td id="topic"><p id="topic">Обобщение изученного материала по теме «Правильные многоугольники»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 52</p>
+                </td>
+                <td id="topic"><p id="topic">Контрольная работа № 4 по теме «Правильные многоугольники»</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 53</p>
+                </td>
+                <td id="topic"><p id="topic">Соотношения в прямоугольном треугольнике</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 54</p>
+                </td>
+                <td id="topic"><p id="topic">Соотношения в прямоугольном треугольнике</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 55</p>
+                </td>
+                <td id="topic"><p id="topic">Вписанные и описанные окружности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 56</p>
+                </td>
+                <td id="topic"><p id="topic">Вписанные и описанные окружности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 57</p>
+                </td>
+                <td id="topic"><p id="topic">Вписанные и описанные окружности</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 58</p>
+                </td>
+                <td id="topic"><p id="topic">Теоремы синусов и косинусов</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 59</p>
+                </td>
+                <td id="topic"><p id="topic">Теоремы синусов и косинусов</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 60</p>
+                </td>
+                <td id="topic"><p id="topic">Теоремы синусов и косинусов</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 61</p>
+                </td>
+                <td id="topic"><p id="topic">Правильные многоугольники</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 62</p>
+                </td>
+                <td id="topic"><p id="topic">Правильные многоугольники</p>
+                </td>
+                </tr>
+                <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 63</p>
+                </td>
+                <td id="topic"><p id="topic">Правильные многоугольники</p>
+                </td>
+                </tr>
+                </table>
+
+              </div>
+            </div>
+          </div>
+  </span>
         <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
             <div class="col-10 mx-auto">
               <div class="calendar-wrapper">
@@ -253,8 +1105,8 @@
           <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">
-                  <i class="fas fa-gem me-3 mt-4"> ГУО "Средняя школа №45"</i>
+                <h6 class="text-uppercase fw-bold mb-4 mt-4">
+                  Государственное учреждение образования "Средняя школа №45 г.Могилева"
                 </h6>
               </div>
         
