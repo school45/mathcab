@@ -30,18 +30,21 @@
 
   <header>
     <div class="row">
-      <div class="container">
-        <div class="col-md-8 offset-md-2 bg-light mt-4 mb-4 p-0">
-          <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+        <div class="container">
+          <div class="col-md-8 offset-md-2 mt-4">
+            <nav class="container bg-light">
+              <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+            </nav>
+          </div>
+          </div>
         </div>
-      </div>
-    </div>
   <!-- Navbar -->
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-4 mb-4" style="height: 250px;">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
+    <div class="container">
+    <div class="col-md-8 offset-md-2 mb-4" style="height: 250px;">
+      <nav class="navbar navbar-expand-lg mb-4 container shadow-none">
   <!-- Container wrapper -->
-        <div class="container-fluid" style="background-image: url('img/header.jpg'); background-size: 430px;">
+        <div class="container" style="background-image: url('img/header.jpg'); background-size: 430px;">
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -57,15 +60,17 @@
 
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
-            <!-- Navbar brand -->
+            <!-- <marquee>фыв</marquee> -->
             <a class="navbar-brand col-3 mt-2 mt-lg-0" href="#">
               <img
                 src="img/logo_cat.png?123"
                 height="300"
                 alt="MDB Logo"
                 loading="lazy"
+                id="cat"
               />
             </a>
+            <div class="justify-content-center">
               <div class="col-4 col-md-auto offset-md-auto mt-2">
                 <div class="d-flex">
                     <a href="" class="nav-item">
@@ -74,16 +79,22 @@
                     </a>
                 </div>
               </div>
+            </div> 
           </div>
         </div>
       </nav>
     </div>
   </div>
+</div>
+<br/>
+  <!-- Background image -->
+  
   <div class="row">
-      <div class="col-md-8 offset-md-2 mt-3">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="col-md-8 offset-md-2 mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light container shadow-none">
     <!-- Container wrapper -->
-          <div class="container-fluid">
+          
             <!-- Toggle button -->
             <button
               class="navbar-toggler"
@@ -97,8 +108,9 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar bg-light container">
               <!-- Left links -->
-                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0 container">
                         <li class="nav-item p-1">
                           <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="index.html">Главная</a></button>
                         </li>
@@ -129,6 +141,7 @@
           </div>
         </nav>
       </div>
+    </div>
   </div>
   <br/>
   <div class="row">
@@ -226,7 +239,6 @@
                           </ul>
                       </li>
                       <li><a class="dropdown-item" href="presentations.html">Визуализация на уроках</a></li>
-                      <li><a class="dropdown-item" href="fakultativ.html">Факультативные занятия</a></li>
                   </ul>
                 </div>  
               </div>
@@ -235,7 +247,7 @@
         <span class="border border-4 bg-light m-2" style="width: 700px;">
           <div class="row justify-content-center">
             <div class="container-fluid">
-              <p class="h3 mt-2 mb-2" style="text-align: center;">Нормативные документы</p>
+              <p class="h3 mt-2 mb-2" style="text-align: center;">Нормативные правовые документы</p>
               <p class="h5 mt-2 mb-2" style="text-align: center;">2022/2023 учебный год</p>
               <p style="text-align: justify;">В 2022/2023 учебном году организация образовательного процесса будет осуществляться по четвертям в следующие сроки:</p>
               <p class="mt-2 mb-2" style="text-align: justify;"><i><strong>первая четверть</strong></i> - с 1 сентября 2022 г. по 29 октября 2022 г.;</p>
@@ -273,7 +285,7 @@
             </div>
           </div>
         </span>
-        <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
+        <span class="border border-4 bg-light" style="width: 230px; height: 500px;">
             <div class="col-10 mx-auto">
               <div class="calendar-wrapper">
                 <button id="btnPrev" type="button"></button>
