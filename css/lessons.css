@@ -42,4 +42,8 @@ i.bi bi_book{
 }
 .card-text{
 	height: 30px;
-}  
+} 
+#card_d{
+  width: 18rem;
+  height: 410px;
+} 
