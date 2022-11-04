@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Планы конспектов 11 класса(профиль)</title>
+    <title>Планы конспектов 11(профиль) класса</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/logo_sch.png" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -20,6 +20,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- MDB -->
     <link rel="stylesheet" type="text/css" href="css/submenu.css">
     <link rel="stylesheet" href="css/mdb.min.css" />
@@ -30,18 +32,21 @@
 
   <header>
     <div class="row">
-    <div class="container pb-0">
-      <div class="col-md-8 offset-md-2 bg-light mt-4 p-0">
-        <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
-      </div>
-    </div>
-  </div
+        <div class="container">
+          <div class="col-md-8 offset-md-2 mt-4">
+            <nav class="container bg-light">
+              <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+            </nav>
+          </div>
+          </div>
+        </div>
   <!-- Navbar -->
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-2" style="height: 250px;">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
+    <div class="container">
+    <div class="col-md-8 offset-md-2 mb-4" style="height: 250px;">
+      <nav class="navbar navbar-expand-lg mb-4 container shadow-none">
   <!-- Container wrapper -->
-        <div class="container-fluid">
+        <div class="container" style="background-image: url('img/header.jpg'); background-size: 430px;">
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -57,34 +62,39 @@
 
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
-            <!-- Navbar brand -->
+            <!-- <marquee>фыв</marquee> -->
             <a class="navbar-brand col-3 mt-2 mt-lg-0" href="#">
               <img
                 src="img/logo_cat.png?123"
                 height="300"
                 alt="MDB Logo"
                 loading="lazy"
+                id="cat"
               />
             </a>
+            <div class="justify-content-center">
               <div class="col-4 col-md-auto offset-md-auto mt-2">
                 <div class="d-flex">
                     <a href="" class="nav-item">
-                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">
-                      Виртуальный кабинет математики</p>
-                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">"<img src="logo_pi.png" height="55" loading="lazy">-422"</p>
+                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">Виртуальный кабинет математики</p>
+                      <p style="text-align: center; font-size: 45px; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">"<img src="logo_pi.png" height="50" loading="lazy"><span style="font-size: 45px;">-422"</span></p>
                     </a>
                 </div>
               </div>
+            </div> 
           </div>
         </div>
       </nav>
     </div>
   </div>
+</div>
+<br/>
   <div class="row">
+    <div class="container">
       <div class="col-md-8 offset-md-2 mt-2">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light container shadow-none">
     <!-- Container wrapper -->
-          <div class="container-fluid">
+          
             <!-- Toggle button -->
             <button
               class="navbar-toggler"
@@ -98,8 +108,9 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar bg-light container">
               <!-- Left links -->
-                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0 container">
                         <li class="nav-item p-1">
                           <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="index.html">Главная</a></button>
                         </li>
@@ -130,6 +141,7 @@
           </div>
         </nav>
       </div>
+    </div>
   </div>
   <br/>
   <div class="row">
@@ -226,14 +238,1160 @@
                             <li><a class="dropdown-item" href="11pr_class_kontrol.html">11 класс(профиль)</a></li>
                           </ul>
                       </li>
-                      <li><a class="dropdown-item" href="presentations.html">Визуализация на уроках</a></li>
-                      <li><a class="dropdown-item" href="fakultativ.html">Факультативные занятия</a></li>
+                      <li><a class="dropdown-item" href="presentations.html">Презентации</a></li>
                   </ul>
                 </div>  
               </div>
           </div>
         </span>
-        <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
+        <span class="border border-4 bg-light m-2" style="width: 650px;">
+          <div class="row justify-content-center">
+            <div class="container-fluid">
+              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">Планы конспектов 11 класса(профиль)</p> 
+                <p class="h4" style="text-align: center;">
+                <button class="btn btn-primary btn-lg dropdown-toggle"
+                  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample" aria-expanded="false"
+                  aria-controls="collapseExample"
+                  style="background-color: #09FF00; width: 300px;
+                  color: black;">
+                    Алгебра
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+              <div class="col-xl">
+                <table class="table">
+                  <tr>
+                    <td class="num">
+                      <p>№ урока</p>
+                    </td>
+                    <td class="headless">
+                      <p>Тема урока</p>
+                    </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 1</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение курса алгебры за 10 класс</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 2</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение курса алгебры за 10 класс</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 3</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степень с рациональным показателем и ее свойства. Степень с действительным показателем</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 4</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степень с рациональным показателем и ее свойства. Степень с действительным показателем</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 5</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степень с рациональным показателем и ее свойства. Степень с действительным показателем</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 6</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степень с рациональным показателем и ее свойства. Степень с действительным показателем</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 7</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степень с рациональным показателем и ее свойства. Степень с действительным показателем</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 8</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степень с рациональным показателем и ее свойства. Степень с действительным показателем</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 9</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степенная функция и ее свойства</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 10</p>
+                  </td>
+                  <td id="topic"><p id="topic"> Степенная функция и ее свойства</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 11</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степенная функция и ее свойства</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 12</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степенная функция и ее свойства</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 13</p>
+                  </td>
+                  <td id="topic"><p id="topic">Степенная функция и ее свойства</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 14</p>
+                  </td>
+                  <td id="topic"><p id="topic">Определение логарифма числа. Основное логарифмическое тождество</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 15</p>
+                  </td>
+                  <td id="topic"><p id="topic">Определение логарифма числа. Основное логарифмическое тождество</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 16</p>
+                  </td>
+                  <td id="topic"><p id="topic">Определение логарифма числа. Основное логарифмическое тождество</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 17</p>
+                  </td>
+                  <td id="topic"><p id="topic">Определение логарифма числа. Основное логарифмическое тождество</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 18</p>
+                  </td>
+                  <td id="topic"><p id="topic">Определение логарифма числа. Основное логарифмическое тождество</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 19</p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 20</p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 21</p>
+                  </td>
+                  <td id="topic"><p id="topic">Контрольная работа № 1 «Степенная функция»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 22</p>
+                  </td>
+                  <td id="topic"><p id="topic">Коррекция знаний по теме «Степенная функция»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 23</p>
+                  </td>
+                  <td id="topic"><p id="topic">Процессы показательного роста и показательного убывания. Показательная функция. Свойства показательной функции. Решение задач на применение 
+свойств показательной функции. Производная показательной функции
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 24</p>
+                  </td>
+                  <td id="topic"><p id="topic">Процессы показательного роста и показательного убывания. Показательная функция. Свойства показательной функции. Решение задач на применение 
+свойств показательной функции. Производная показательной функции
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 25</p>
+                  </td>
+                  <td id="topic"><p id="topic">Процессы показательного роста и показательного убывания. Показательная функция. Свойства показательной функции. Решение задач на применение 
+свойств показательной функции. Производная показательной функции
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 26</p>
+                  </td>
+                  <td id="topic"><p id="topic">Процессы показательного роста и показательного убывания. Показательная функция. Свойства показательной функции. Решение задач на применение 
+свойств показательной функции. Производная показательной функции
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 27</p>
+                  </td>
+                  <td id="topic"><p id="topic">Процессы показательного роста и показательного убывания. Показательная функция. Свойства показательной функции. Решение задач на применение 
+свойств показательной функции. Производная показательной функции
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 28</p>
+                  </td>
+                  <td id="topic"><p id="topic">Процессы показательного роста и показательного убывания. Показательная функция. Свойства показательной функции. Решение задач на применение 
+свойств показательной функции. Производная показательной функции
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 29</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные уравнения. Решение показательных уравнений на основании свойств показательной функции. Решение показательных уравнений методами разложения на множители, замены переменной, решение однородных показательных уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 30</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные уравнения. Решение показательных уравнений на основании свойств показательной функции. Решение показательных уравнений методами разложения на множители, замены переменной, решение однородных показательных уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 31</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные уравнения. Решение показательных уравнений на основании свойств показательной функции. Решение показательных уравнений методами разложения на множители, замены переменной, решение однородных показательных уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 32</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные уравнения. Решение показательных уравнений на основании свойств показательной функции. Решение показательных уравнений методами разложения на множители, замены переменной, решение однородных показательных уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 33</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные уравнения. Решение показательных уравнений на основании свойств показательной функции. Решение показательных уравнений методами разложения на множители, замены переменной, решение однородных показательных уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 34</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные уравнения. Решение показательных уравнений на основании свойств показательной функции. Решение показательных уравнений методами разложения на множители, замены переменной, решение однородных показательных уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 35</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные уравнения. Решение показательных уравнений на основании свойств показательной функции. Решение показательных уравнений методами разложения на множители, замены переменной, решение однородных показательных уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 36</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные неравенства. Решение показательных неравенств. Решение показательных неравенств на основании свойств показательной функции. Решение показательных неравенств методами разложения на множители, замены переменной, решение однородных показательных неравенств</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 37</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные неравенства. Решение показательных неравенств. Решение показательных неравенств на основании свойств показательной функции. Решение показательных неравенств методами разложения на множители, замены переменной, решение однородных показательных неравенств</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 38</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные неравенства. Решение показательных неравенств. Решение показательных неравенств на основании свойств показательной функции. Решение показательных неравенств методами разложения на множители, замены переменной, решение однородных показательных неравенств</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 39</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные неравенства. Решение показательных неравенств. Решение показательных неравенств на основании свойств показательной функции. Решение показательных неравенств методами разложения на множители, замены переменной, решение однородных показательных неравенств</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 40</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные неравенства. Решение показательных неравенств. Решение показательных неравенств на основании свойств показательной функции. Решение показательных неравенств методами разложения на множители, замены переменной, решение однородных показательных неравенств</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 41</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные неравенства. Решение показательных неравенств. Решение показательных неравенств на основании свойств показательной функции. Решение показательных неравенств методами разложения на множители, замены переменной, решение однородных показательных неравенств</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 42</p>
+                  </td>
+                  <td id="topic"><p id="topic">Показательные неравенства. Решение показательных неравенств. Решение показательных неравенств на основании свойств показательной функции. Решение показательных неравенств методами разложения на множители, замены переменной, решение однородных показательных неравенств</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 43</p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 44</p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 45</p>
+                  </td>
+                  <td id="topic"><p id="topic">Контрольная работа № 2 «Показательная функция»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 46</p>
+                  </td>
+                  <td id="topic"><p id="topic">Коррекция по теме «Показательная функция»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 47</p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 48</p>
+                  </td>
+                  <td id="topic"><p id="topic">Свойства логарифмов: логарифм произведения, частного, степени. Формула перехода от логарифма с одним основанием к логарифму с другим основанием. Десятичный логарифм</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 49</p>
+                  </td>
+                  <td id="topic"><p id="topic">Свойства логарифмов: логарифм произведения, частного, степени. Формула перехода от логарифма с одним основанием к логарифму с другим основанием. Десятичный логарифм</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 50</p>
+                  </td>
+                  <td id="topic"><p id="topic">Свойства логарифмов: логарифм произведения, частного, степени. Формула перехода от логарифма с одним основанием к логарифму с другим основанием. Десятичный логарифм</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 51</p>
+                  </td>
+                  <td id="topic"><p id="topic">Свойства логарифмов: логарифм произведения, частного, степени. Формула перехода от логарифма с одним основанием к логарифму с другим основанием. Десятичный логарифм</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 52</p>
+                  </td>
+                  <td id="topic"><p id="topic">Свойства логарифмов: логарифм произведения, частного, степени. Формула перехода от логарифма с одним основанием к логарифму с другим основанием. Десятичный логарифм</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 53</p>
+                  </td>
+                  <td id="topic"><p id="topic">Свойства логарифмов: логарифм произведения, частного, степени. Формула перехода от логарифма с одним основанием к логарифму с другим основанием. Десятичный логарифм</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 54</p>
+                  </td>
+                  <td id="topic"><p id="topic">Свойства логарифмов: логарифм произведения, частного, степени. Формула перехода от логарифма с одним основанием к логарифму с другим основанием. Десятичный логарифм</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 55</p>
+                  </td>
+                  <td id="topic"><p id="topic">Свойства логарифмов: логарифм произведения, частного, степени. Формула перехода от логарифма с одним основанием к логарифму с другим основанием. Десятичный логарифм</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 56</p>
+                  </td>
+                  <td id="topic"><p id="topic">Свойства логарифмов: логарифм произведения, частного, степени. Формула перехода от логарифма с одним основанием к логарифму с другим основанием. Десятичный логарифм</p>
+                  </td>
+                  </tr>                  
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 57</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмическая функция. Свойства логарифмической функции. Решение задач на применение свойств логарифмической функции. Производная логарифмической функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 58</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмическая функция. Свойства логарифмической функции. Решение задач на применение свойств логарифмической функции. Производная логарифмической функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 59</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмическая функция. Свойства логарифмической функции. Решение задач на применение свойств логарифмической функции. Производная логарифмической функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 60</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмическая функция. Свойства логарифмической функции. Решение задач на применение свойств логарифмической функции. Производная логарифмической функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 61</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмическая функция. Свойства логарифмической функции. Решение задач на применение свойств логарифмической функции. Производная логарифмической функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 62</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмическая функция. Свойства логарифмической функции. Решение задач на применение свойств логарифмической функции. Производная логарифмической функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 63</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмическая функция. Свойства логарифмической функции. Решение задач на применение свойств логарифмической функции. Производная логарифмической функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 64</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмическая функция. Свойства логарифмической функции. Решение задач на применение свойств логарифмической функции. Производная логарифмической функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 65</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмическая функция. Свойства логарифмической функции. Решение задач на применение свойств логарифмической функции. Производная логарифмической функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 66</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические уравнения. Решение логарифмических уравнений на основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических уравнений заменой переменных</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 67</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические уравнения. Решение логарифмических уравнений на основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических уравнений заменой переменных</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 68</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические уравнения. Решение логарифмических уравнений на основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических уравнений заменой переменных</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 69</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические уравнения. Решение логарифмических уравнений на основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических уравнений заменой переменных</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 70</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические уравнения. Решение логарифмических уравнений на основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических уравнений заменой переменных</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 71</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические уравнения. Решение логарифмических уравнений на основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических уравнений заменой переменных</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 72</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические уравнения. Решение логарифмических уравнений на основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических уравнений заменой переменных</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 73</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические уравнения. Решение логарифмических уравнений на основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических уравнений заменой переменных</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 74</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические уравнения. Решение логарифмических уравнений на основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических уравнений заменой переменных</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 75</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические неравенства. Решение логарифмических неравенств на 
+основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических неравенств заменой переменных
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 76</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические неравенства. Решение логарифмических неравенств на 
+основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических неравенств заменой переменных
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 77</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические неравенства. Решение логарифмических неравенств на 
+основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических неравенств заменой переменных
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 78</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические неравенства. Решение логарифмических неравенств на 
+основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических неравенств заменой переменных
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 79</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические неравенства. Решение логарифмических неравенств на 
+основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических неравенств заменой переменных
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 80</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические неравенства. Решение логарифмических неравенств на 
+основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических неравенств заменой переменных
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 81</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические неравенства. Решение логарифмических неравенств на 
+основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических неравенств заменой переменных
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 82</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические неравенства. Решение логарифмических неравенств на 
+основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических неравенств заменой переменных
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 83</p>
+                  </td>
+                  <td id="topic"><p id="topic">Логарифмические неравенства. Решение логарифмических неравенств на 
+основании свойств логарифмической функции и свойств логарифмов. Решение логарифмических неравенств заменой переменных
+</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 84</p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме </p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 85</p>
+                  </td>
+                  <td id="topic"><p id="topic">Контрольная работа № 3 «Логарифмическая функция»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 86</p>
+                  </td>
+                  <td id="topic"><p id="topic">Коррекция по теме «Логарифмическая функция»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 87</p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 88</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 89</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 90</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 91</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 92</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 93</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 94</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 95</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 96</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 97</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 98</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 99</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 100</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 101</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 102</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 103</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 104</p>
+                  </td>
+                  <td id="topic"><p id="topic">Методы решения систем уравнений</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 105</p>
+                  </td>
+                  <td id="topic"><p id="topic">Системы линейных неравенств с n переменными</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 106</p>
+                  </td>
+                  <td id="topic"><p id="topic">Системы линейных неравенств с n переменными</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 107</p>
+                  </td>
+                  <td id="topic"><p id="topic">Системы линейных неравенств с n переменными</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 108</p>
+                  </td>
+                  <td id="topic"><p id="topic">Системы линейных неравенств с n переменными</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 109</p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 110</p>
+                  </td>
+                  <td id="topic"><p id="topic">Контрольная работа № 4 «Системы уравнений и неравенств»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 111</p>
+                  </td>
+                  <td id="topic"><p id="topic">Коррекция знаний по теме «Системы уравнений и неравенств»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 112</p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 113</p>
+                  </td>
+                  <td id="topic"><p id="topic">Случайные, достоверные, невозможные и элементарные события</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 114</p>
+                  </td>
+                  <td id="topic"><p id="topic">Классическое определение вероятности</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 115</p>
+                  </td>
+                  <td id="topic"><p id="topic">Теоремы сложения и умножения вероятностей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 116</p>
+                  </td>
+                  <td id="topic"><p id="topic">Теоремы сложения и умножения вероятностей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 117</p>
+                  </td>
+                  <td id="topic"><p id="topic">Условные вероятности</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 118</p>
+                  </td>
+                  <td id="topic"><p id="topic">Условные вероятности</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 119</p>
+                  </td>
+                  <td id="topic"><p id="topic">Понятие о геометрической вероятности</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 120</p>
+                  </td>
+                  <td id="topic"><p id="topic">Понятие случайной величины</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 121</p>
+                  </td>
+                  <td id="topic"><p id="topic">Элементы математической статистики</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 122</p>
+                  </td>
+                  <td id="topic"><p id="topic">Элементы математической статистики</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 123</p>
+                  </td>
+                  <td id="topic"><p id="topic">Элементы математической статистики</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 124</p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 125</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Функции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 126</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Многочлены</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 127</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Тригонометрия</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 128</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Тригонометрия</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 129</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Тригонометрия</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 130</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Корень n-й степени из числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 131</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Производная</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 132</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Производная</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 133</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Элементы комбинаторики</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 134</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Показательная функция</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 135</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Показательная функция</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 136</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Логарифмическая функция</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 137</p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Логарифмическая функция</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 138</p>
+                  </td>
+                  <td id="topic"><p id="topic">Итоговая контрольная работа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 139</p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  tr><td><p id="numless"><i class="bi bi-book"></i> Урок 140</p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  </table>
+                </div>  
+              </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="container-fluid">
+              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">
+                  <button class="btn btn-primary btn-lg dropdown-toggle"
+                  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample1" aria-expanded="false"
+                  aria-controls="collapseExample"
+                  style="background-color: #09FF00; width: 300px;
+                  color: black;">
+                    Геометрия
+                  </button>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="collapse" id="collapseExample1">
+            <div class="card card-body">
+              <div class="col-xl">
+                <table class="table">
+                  <tr>
+                    <td class="num">
+                      <p>№ урока</p>
+                    </td>
+                    <td class="headless">
+                      <p>Тема урока</p>
+                    </td>
+                  </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 1</p>
+              </td>
+              <td id="topic"><p id="topic">Призма</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 2</p>
+              </td>
+              <td id="topic"><p id="topic">Призма</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 3</p>
+              </td>
+              <td id="topic"><p id="topic">Призма</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 4</p>
+              </td>
+              <td id="topic"><p id="topic">Площадь боковой и полной поверхностей призмы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 5</p>
+              </td>
+              <td id="topic"><p id="topic">Площадь боковой и полной поверхностей призмы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 6</p>
+              </td>
+              <td id="topic"><p id="topic">Объем параллелепипеда. Объем призмы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 7</p>
+              </td>
+              <td id="topic"><p id="topic">Объем параллелепипеда. Объем призмы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 8</p>
+              </td>
+              <td id="topic"><p id="topic">Объем параллелепипеда. Объем призмы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 9</p>
+              </td>
+              <td id="topic"><p id="topic">Объем параллелепипеда. Объем призмы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 10</p>
+              </td>
+              <td id="topic"><p id="topic">Объем параллелепипеда. Объем призмы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 11</p>
+              </td>
+              <td id="topic"><p id="topic">Цилиндр. Площадь боковой и полной поверхностей цилиндра</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 12</p>
+              </td>
+              <td id="topic"><p id="topic">Цилиндр. Площадь боковой и полной поверхностей цилиндра</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 13</p>
+              </td>
+              <td id="topic"><p id="topic">Цилиндр. Площадь боковой и полной поверхностей цилиндра</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 14</p>
+              </td>
+              <td id="topic"><p id="topic">Призма, вписанная в цилиндр. Призма, описанная около цилиндра</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 15</p>
+              </td>
+              <td id="topic"><p id="topic">Призма, вписанная в цилиндр. Призма, описанная около цилиндра</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 16</p>
+              </td>
+              <td id="topic"><p id="topic">Объем цилиндра</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 17</p>
+              </td>
+              <td id="topic"><p id="topic">Объем цилиндра</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 18</p>
+              </td>
+              <td id="topic"><p id="topic">Объем цилиндра</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 19</p>
+              </td>
+              <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 20</p>
+              </td>
+              <td id="topic"><p id="topic">Контрольная работа № 1 «Призма. Цилиндр»</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 21</p>
+              </td>
+              <td id="topic"><p id="topic">Коррекция знаний по теме «Призма. Цилиндр»</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 22</p>
+              </td>
+              <td id="topic"><p id="topic">Пирамида</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 23</p>
+              </td>
+              <td id="topic"><p id="topic">Пирамида</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 24</p>
+              </td>
+              <td id="topic"><p id="topic">Пирамида</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 25</p>
+              </td>
+              <td id="topic"><p id="topic">Пирамида</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 26</p>
+              </td>
+              <td id="topic"><p id="topic">Усеченная пирамида</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 27</p>
+              </td>
+              <td id="topic"><p id="topic">Усеченная пирамида</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 28</p>
+              </td>
+              <td id="topic"><p id="topic">Объем пирамиды</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 29</p>
+              </td>
+              <td id="topic"><p id="topic">Объем пирамиды</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 30</p>
+              </td>
+              <td id="topic"><p id="topic">Объем пирамиды</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 31</p>
+              </td>
+              <td id="topic"><p id="topic">Объем пирамиды</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 32</p>
+              </td>
+              <td id="topic"><p id="topic">Конус. Площадь боковой и полной поверхностей конуса</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 33</p>
+              </td>
+              <td id="topic"><p id="topic">Конус. Площадь боковой и полной поверхностей конуса</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 34</p>
+              </td>
+              <td id="topic"><p id="topic">Конус. Площадь боковой и полной поверхностей конуса</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 35</p>
+              </td>
+              <td id="topic"><p id="topic">Осевое сечение конуса. Усеченный конус</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 36</p>
+              </td>
+              <td id="topic"><p id="topic">Осевое сечение конуса. Усеченный конус</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 37</p>
+              </td>
+              <td id="topic"><p id="topic">Объем конуса</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 38</p>
+              </td>
+              <td id="topic"><p id="topic">Объем конуса</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 39</p>
+              </td>
+              <td id="topic"><p id="topic">Объем конуса</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 40</p>
+              </td>
+              <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 41</p>
+              </td>
+              <td id="topic"><p id="topic">Контрольная работа № 2 «Пирамида. Конус»</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 42</p>
+              </td>
+              <td id="topic"><p id="topic">Коррекция знаний по теме «Пирамида. Конус»</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 43</p>
+              </td>
+              <td id="topic"><p id="topic">Сфера. Площадь сферы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 44</p>
+              </td>
+              <td id="topic"><p id="topic">Сфера. Площадь сферы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 45</p>
+              </td>
+              <td id="topic"><p id="topic">Сфера. Площадь сферы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 46</p>
+              </td>
+              <td id="topic"><p id="topic">Площадь сферы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 47</p>
+              </td>
+              <td id="topic"><p id="topic">Площадь сферы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 48</p>
+              </td>
+              <td id="topic"><p id="topic">Площадь сферы</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 49</p>
+              </td>
+              <td id="topic"><p id="topic">Шар. Объем шара</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 50</p>
+              </td>
+              <td id="topic"><p id="topic">Шар. Объем шара</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 51</p>
+              </td>
+              <td id="topic"><p id="topic">Шар. Объем шара</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 52</p>
+              </td>
+              <td id="topic"><p id="topic">Комбинация многогранников и тел вращения</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 53</p>
+              </td>
+              <td id="topic"><p id="topic">Комбинация многогранников и тел вращения</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 54</p>
+              </td>
+              <td id="topic"><p id="topic">Комбинация многогранников и тел вращения</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 55</p>
+              </td>
+              <td id="topic"><p id="topic">Комбинация многогранников и тел вращения</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 56</p>
+              </td>
+              <td id="topic"><p id="topic">Комбинация многогранников и тел вращения</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 57</p>
+              </td>
+              <td id="topic"><p id="topic">Комбинация многогранников и тел вращения</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 58</p>
+              </td>
+              <td id="topic"><p id="topic">Правильный многогранник</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 59</p>
+              </td>
+              <td id="topic"><p id="topic">Правильный многогранник</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 60</p>
+              </td>
+              <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 61</p>
+              </td>
+              <td id="topic"><p id="topic">Контрольная работа № 3 «Сфера. Шар»</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 62</p>
+              </td>
+              <td id="topic"><p id="topic">Коррекция знаний по теме «Сфера. Шар»</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 63</p>
+              </td>
+              <td id="topic"><p id="topic">Повторение. Геометрические фигуры и их свойства</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 64</p>
+              </td>
+              <td id="topic"><p id="topic">Повторение. Геометрические фигуры и их свойства</p>
+              </td>
+              </tr>              
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 65</p>
+              </td>
+              <td id="topic"><p id="topic">Повторение. Геометрические величины</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 66</p>
+              </td>
+              <td id="topic"><p id="topic">Повторение. Геометрические величины</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 67</p>
+              </td>
+              <td id="topic"><p id="topic">Повторение. Геометрические величины</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 68</p>
+              </td>
+              <td id="topic"><p id="topic">Повторение. Объем тел</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 69</p>
+              </td>
+              <td id="topic"><p id="topic">Повторение. Объем тел</p>
+              </td>
+              </tr>
+              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 70</p>
+              </td>
+              <td id="topic"><p id="topic">Повторение. Объем тел</p>
+              </td>
+              </tr>
+              </table>
+            </div>
+          </div>
+          </div>
+        </span>
+        <span class="border border-4 bg-light" style="width: 230px; height: 500px;">
             <div class="col-10 mx-auto">
               <div class="calendar-wrapper">
                 <button id="btnPrev" type="button"></button>
@@ -259,8 +1417,8 @@
         <section class="">
           <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">
+              <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 mt-4">
                   Государственное учреждение образования "Средняя школа №45 г.Могилева"
                 </h6>
               </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -30,18 +30,21 @@
 
   <header>
     <div class="row">
-    <div class="container">
-      <div class="col-md-8 offset-md-2 bg-light mt-4 mb-4">
-        <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
-      </div>
-    </div>
-  </div>
+        <div class="container">
+          <div class="col-md-8 offset-md-2 mt-4">
+            <nav class="container bg-light">
+              <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+            </nav>
+          </div>
+          </div>
+        </div>
   <!-- Navbar -->
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-3 mb-3" style="height: 250px;">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
+    <div class="container">
+    <div class="col-md-8 offset-md-2 mb-4" style="height: 250px;">
+      <nav class="navbar navbar-expand-lg mb-4 container shadow-none">
   <!-- Container wrapper -->
-        <div class="container-fluid" style="background-image: url('img/header.jpg'); background-size: 430px;">
+        <div class="container" style="background-image: url('img/header.jpg'); background-size: 430px;">
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -57,15 +60,17 @@
 
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
-            <!-- Navbar brand -->
+            <!-- <marquee>фыв</marquee> -->
             <a class="navbar-brand col-3 mt-2 mt-lg-0" href="#">
               <img
                 src="img/logo_cat.png?123"
                 height="300"
                 alt="MDB Logo"
                 loading="lazy"
+                id="cat"
               />
             </a>
+            <div class="justify-content-center">
               <div class="col-4 col-md-auto offset-md-auto mt-2">
                 <div class="d-flex">
                     <a href="" class="nav-item">
@@ -74,16 +79,20 @@
                     </a>
                 </div>
               </div>
+            </div> 
           </div>
         </div>
       </nav>
     </div>
   </div>
+</div>
+<br/>
   <div class="row">
-      <div class="col-md-8 offset-md-2 mt-4">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="col-md-8 offset-md-2 mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light container shadow-none">
     <!-- Container wrapper -->
-          <div class="container-fluid">
+          
             <!-- Toggle button -->
             <button
               class="navbar-toggler"
@@ -97,8 +106,9 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar bg-light container">
               <!-- Left links -->
-                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0 container">
                         <li class="nav-item p-1">
                           <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="index.html">Главная</a></button>
                         </li>
@@ -129,6 +139,7 @@
           </div>
         </nav>
       </div>
+    </div>
   </div>
   <br/>
   <div class="row">
@@ -140,7 +151,7 @@
               <div class="d-flex flex-column mb-2 mt-2">
                 <div class="btn-group dropend" align="center" style="width: 230px;">
                   <button class="btn" style="background-color: #09FF00;">
-                    <a class="link-light" href="normativ_docs.html"><span style="color: black;"> Нормативные правовые документы</span></a>
+                    <a class="link-light" href="lessons_topics.html"><span style="color: black;"> Нормативные правовые документы</span></a>
                   </button>
                 </div>  
               </div>
@@ -225,14 +236,1086 @@
                             <li><a class="dropdown-item" href="11pr_class_kontrol.html">11 класс(профиль)</a></li>
                           </ul>
                       </li>
-                      <li><a class="dropdown-item" href="presentations.html">Презентации</a></li>
-                      <li><a class="dropdown-item" href="fakultativ.html">Факультативные занятия</a></li>
+                      <li><a class="dropdown-item" href="presentations.html">Визуализация на уроках</a></li>
                   </ul>
                 </div>  
               </div>
           </div>
         </span>
-        <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
+        <span class="border border-4 bg-light m-2" style="width: 650px;">
+          <div class="row justify-content-center">
+            <div class="container-fluid">
+              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">Планы конспектов 6 класса</p>
+              </div>
+            </div>
+          </div> 
+                  <div class="card card-body">
+                    <div class="col-xl">
+                      <table class="table">
+                        <tr>
+                          <td class="num">
+                            <p>№ урока</p>
+                          </td>
+                          <td class="headless">
+                            <p>Тема урока</p>
+                          </td>
+                        </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1TwCX0VqZ-BDxu0Durqrdt4UUlQiGSrgX/view?usp=sharing">Урок 1</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Применение свойств арифметических действий для рациональных вычислений  с натуральными и дробными числам</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1c94g9G25wZnvvwew9hPToH_vVjC5gGQk/view?usp=sharing">Урок 2</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Применение свойств арифметических действий для рациональных вычислений  с натуральными и дробными числам</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1i0Kjr_PqXCuSjTMdwPBWk1yp-El7W00s/view?usp=sharing">Урок 3</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Применение свойств арифметических действий для рациональных вычислений  с натуральными и дробными числам</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1z2kl4J-AeeE4gbjp2Hqgl4AyvvH9nyF1/view?usp=sharing">Урок 4</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Десятичная запись дробей. Разряды десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1im_iLiXM_hpd5szv8JzBzS4mCZRtx6Uv/view?usp=sharing">Урок 5</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Десятичная запись дробей. Разряды десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/12b7FwkwB2XS4B80SsC0IsXKg8GCtIIeB/view?usp=sharing">Урок 6</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сравнение десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1txd8T6WTXydiUqRYAtotUXM4FpAVsecO/view?usp=sharing">Урок 7</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сравнение десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1cyAIsGLemyJXTh2y7L8GpuDM2xRrVNVl/view?usp=sharing">Урок 8</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Округление десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1F413PAlQGmHtYr-WaET6hGdDdrvQJFof/view?usp=sharing">Урок 9</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Изображение десятичных дробей на координатном луче</a></p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ulvBaycoRmXVr0m0PNlxGNTt2CbUSBPr/view?usp=sharing">Урок 10</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1nFpPnS-TXBgHQN3vdWPnwREFItnjGUKC/view?usp=sharing">Урок 11</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание десятичных дробей</a></p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1KsAZiEwOPlbs2-1Kiy_oiyukrdSYi_0r/view?usp=sharing">Урок 12</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1YUxCS5rhKJZk94uhAJ2fCkKtrzCYXpGU/view?usp=sharing">Урок 13</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1RzcjkK-DUvXcibSG77Ax0CvOST__nIDj/view?usp=sharing">Урок 14</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1P1rfVSYG7dm5jvNqDup8sXlPVQooDrLb/view?usp=sharing">Урок 15</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1LHjnBHhqbPnRls-aEYLIlXxGwwqrUBxn/view?usp=sharing">Урок 16</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1v7ZIAYUICuIsUuqFeY4VNHwxnLilAH4M/view?usp=sharing">Урок 17</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение и деление десятичной дроби на разрядную единицу</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1M3gGJdAh2pa9KZYvBU0CCD99zw04igJ2/view?usp=sharing">Урок 18</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение и деление десятичной дроби на разрядную единицу</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/10slpJRK9HjdknHh5rFxP9rvdaqOwaACW/view?usp=sharing">Урок 19</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение и деление десятичной дроби на разрядную единицу</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Sk__PNNrcZ8LFyRZkzojnXP_Uy8udSKc/view?usp=sharing">Урок 20</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение и деление десятичной дроби на разрядную единицу</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1D1m6I8PBHcKLPP22j8TKVDiMfTB4IUyg/view?usp=sharing">Урок 21</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1cb_IGql_3tvGcXm4UZqWnMc-9qmdafQ5/view?usp=sharing">Урок 22</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение десятичных дробей</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/15CWE3HHvJMTIlaLuvBaPSRqgIY9ZI007/view?usp=sharing">Урок 23</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Деление десятичной дроби на натуральное число</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1bZ09MhociCa_aiHpi3FGAKCuMvDgd1Yn/view?usp=sharing">Урок 24</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Деление десятичной дроби на натуральное число</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1OfW__5RsXXq-3cLwEtP54tDWh5exhwTD/view?usp=sharing">Урок 25</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Деление десятичной дроби на натуральное число</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/15sOD8005O_ObXFn9muMUhBBN9ZPDzT1V/view?usp=sharing">Урок 26</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Деление на десятичную дробь</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1oHMt7uXQSY-5SldOzTfcRssfgjgLF-8L/view?usp=sharing">Урок 27</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Деление на десятичную дробь</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1J89M2IJOdBBESwznPGbZP3aAm5H5peh5/view?usp=sharing">Урок 28</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Деление на десятичную дробь</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/11GuQN-coG9h6XbC4VeddjE5X8uY5AUYn/view?usp=sharing">Урок 29</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Конечные и бесконечные десятичные дроби</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1E6pP1wriqwP0qbA5-2mjuWo8b3X9vgNW/view?usp=sharing">Урок 30</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Конечные и бесконечные десятичные дроби</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1jb9XCfB-h1OrvbHSBUnrXN1S5F4FHYhv/view?usp=sharing">Урок 31</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Конечные и бесконечные десятичные дроби</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/14Ro_EDTeh_V0DJTnqz-p1RzMLxSmVqzp/view?usp=sharing">Урок 32</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Преобразование числовых выражений с обыкновенными и десятичными дробями</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1JhIdqvL7TPOTTx3ffrbraNcLmYqNjF_B/view?usp=sharing">Урок 33</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Преобразование числовых выражений с обыкновенными и десятичными дробями</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1VzEx5v04XiVYgX1RlfO4ty8UUGLdA1pY/view?usp=sharing">Урок 34</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Преобразование числовых выражений с обыкновенными и десятичными дробями</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1LY1ZCaHdT5cOUAeMeQJ3wvdMWMhm9TBN/view?usp=sharing">Урок 35</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Obk54MxZKjK5ltEpQFCuvz0sluz-NZyU/view?usp=sharing">Урок 36</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1dCjaDK_RWQb8vA2T-bQAwbCFPtGVhXRs/view?usp=sharing">Урок 37</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/156lQezi0yF6bysTvHflpSKAZy_NxZf-o/view?usp=sharing">Урок 38</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация изученного материала по теме «Десятичные дроби»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1e50SXXDhDH4ARPqyG8cA2Yg4W7CHwjuH/view?usp=sharing">Урок 39</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация изученного материала по теме «Десятичные дроби»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1zzxYP3ps-Px5KoDx5mmNo6F5ACk0y_ZB/view?usp=sharing">Урок 40</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Контрольная работа № 1 «Десятичные дроби»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/17oV62SZo7rridJBr5MNTs4gEZadFNCj1/view?usp=sharing">Урок 41</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач (резерв)</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1J2K9IS3i0eJSKnGk2k5EW3GS1L1ZBDC5/view?usp=sharing">Урок 42</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач (резерв)</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1HNryywtbfmJv7H_Q_zZGwwb3_4THjlRK/view?usp=sharing">Урок 43</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Проценты. Основные задачи на проценты</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1kpLPMD0IbTSZtmraXpArD2vtSIyW21sC/view?usp=sharing">Урок 44</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Проценты. Основные задачи на проценты</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/14zavhHXaA-UNGb880xB0gLsGoUSe8Jfr/view?usp=sharing">Урок 45</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Проценты. Основные задачи на проценты</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1RFX6SMPjcFf5mNqfvKl1SZeF-MgbhujT/view?usp=sharing">Урок 46</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Проценты. Основные задачи на проценты</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1lxt1gO_j5c4AQ4pGtOW8mlATrWcqqFp8/view?usp=sharing">Урок 47</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Проценты. Основные задачи на проценты</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/18plS8vdYQ8K1A4aEuXs6en1rWKNdYeLb/view?usp=sharing">Урок 48</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Проценты. Основные задачи на проценты</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1wtA-0TQy4amGIvgMjpLNlN7mZYXS6G3t/view?usp=sharing">Урок 49</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/113_qzf_G6faJqaRIrjH0Jr0YJN8qnSye/view?usp=sharing">Урок 50</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1PmmeXkya7mLZUcsrMCSVA1c7Lw6VDPii/view?usp=sharing">Урок 51</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация изученного материала по теме «Проценты»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1hPwP6wtiaX2J2OSQZ2EGyqaCB8mov8-B/view?usp=sharing">Урок 52</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация изученного материала по теме «Проценты»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1JxjIKe46ANAMnmTWR4UdHHik9zFO858Y/view?usp=sharing">Урок 53</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Контрольная работа № 2 «Проценты»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1SdbU1GuOwIrx8195ovHFsbZuy88mXyeP/view?usp=sharing">Урок 54</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Решение задач (резерв)</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1VvRtbBekmzxKLG_KGT3AVogfKNUOCuyD/view?usp=sharing">Урок 55</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Решение задач (резерв)</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Z-RrqRz8YBDYjYr5lwmetujA2lmTSImN/view?usp=sharing">Урок 56</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Пропорция и ее свойства</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1bgWyvb671k6w8AZfK2oDLimeR_vZkv1H/view?usp=sharing">Урок 57</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Пропорция и ее свойства</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1wqcQHeZ3nfY-C_I8e46MTFOczK-ZXJt9/view?usp=sharing">Урок 58</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Пропорция и ее свойства</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1f049wHG5dXF4man8KrhVLHdk-U6DlIAY/view?usp=sharing">Урок 59</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Прямая и обратная пропорциональные зависимости</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1f049wHG5dXF4man8KrhVLHdk-U6DlIAY/view?usp=sharing">Урок 60</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Прямая и обратная пропорциональные зависимости</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/18pSiwsSnhDYOG-J4k8-Xg7HM6re-OOCo/view?usp=sharing">Урок 61</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач с помощью пропорций</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/18ARYG1cff1XsOIxYvJ6b55An6A3u_eyg/view?usp=sharing">Урок 62</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач с помощью пропорций</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1bSyFicGDaoxy7cXVHn3DeFvCsh--deID/view?usp=sharing">Урок 63</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач с помощью пропорций</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1eF5ajcxtoKBHgztwEK8A-hI2TjRLs9r2/view?usp=sharing">Урок 64</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Масштаб</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Dx5R7oxWMDJubW_RHqqwsXCAXMUQe4Co/view?usp=sharing">Урок 65</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Масштаб</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1neXEUgRxR90p-4A_-APwW4Z1aFmK9FSM/view?usp=sharing">Урок 66</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Круговые диаграммы</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1uay3JN9LtIS2bATyR_ya_Oj58lWUkefg/view?usp=sharing">Урок 67</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Круговые диаграммы</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1BPwD90b8jDJJCuavVxbNnvxYn1WskDrr/view?usp=sharing">Урок 68</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1p4RfMecOZEmFHkcroNWekH-WorZzwhRH/view?usp=sharing">Урок 69</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация изученного материала по теме «Пропорция. Пропорциональные зависимости. Масштаб. Круговые диаграммы»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/13tf3naoGPADk-jUH_u3PQ1okPRItXwy1/view?usp=sharing">Урок 70</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Контрольная работа № 3 «Пропорция. Пропорциональные зависимости. Масштаб. Круговые диаграммы»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1CXVVeZkezDTNRe-2hoiZmxt4jYbcK5_-/view?usp=sharing">Урок 71</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач с помощью пропорций</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/15fqEdpEfeM3-J6JePDV_lQL3T8NsfKe0/view?usp=sharing">Урок 72</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач с помощью пропорций</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1CNviW5JU2PQU1742TLqsVt7HhERlI1YL/view?usp=sharing">Урок 73</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Множество. Элементы множества. Способы задания множеств. Пустое множество</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/14UVn1vFDj4MbiqE-1-t43PhK4u_S6c3t/view?usp=sharing">Урок 74</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Множество. Элементы множества. Способы задания множеств. Пустое множество</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1X0DIEQLwUTbLTPf8hMUVsd4qAASJOQlI/view?usp=sharing">Урок 75</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Множество. Элементы множества. Способы задания множеств. Пустое множество</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1MDGUtkr5cqb2gno9XaxBQrrHX3pfQPgH/view?usp=sharing">Урок 76</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Множество. Элементы множества. Способы задания множеств. Пустое множество</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/175hw4Wxy8dB22DsP8kLOrVUNZGCRiXaX/view?usp=sharing">Урок 77</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Операции над множествами</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Rm4wTrt_hkt9aHwWJ-JcmQU9zLGQv95_/view?usp=sharing">Урок 78</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Операции над множествами</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1m6fde6me6LXP98wfJAOj7Rci6vo0XVK9/view?usp=sharing">Урок 79</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Операции над множествами</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1I_yhkKkDjGd_EpMKvK87oA1z2z8PLzK0/view?usp=sharing">Урок 80</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1kbxFEVXf1BeAMMZ2_FE2fj9YjcG-8G_3/view?usp=sharing">Урок 81</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация изученного материала по теме «Множество»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ElHwGU0_5niEkXNmxmk_aPSNNmsOurNJ/view?usp=sharing">Урок 82</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Операции над множествами. (резерв)</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1i25dl8zuLeNrulh7uZeAjz5Ve22tBCfD/view?usp=sharing">Урок 83</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Положительные и отрицательные числа. Координатная прямая</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i><a href="https://drive.google.com/file/d/1VCYrU4vlRsSMkayDSS25KbBpmLUfsEH_/view?usp=sharing"> Урок 84</p>
+                  </td>
+                  <td id="topic"><p id="topic">Положительные и отрицательные числа. Координатная прямая</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1j_4us9sUU9AN18LVru9o7k0hK881bLo0/view?usp=sharing">Урок 85</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Модуль числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Rtm3m1mTSUapM4PJhRpZ9bo5-ljJ3mIp/view?usp=sharing">Урок 86</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Модуль числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/15FUDDB5F41Lii2ErHDNA__TZ4nr3pYp5/view?usp=sharing">Урок 87</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Противоположные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/173ZwtFnHqtTMPCZQmdoBkCxNLWV9-2GV/view?usp=sharing">Урок 88</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Положительные и отрицательные числа. Координатная прямая. Модуль числа. Противоположные числа. Множество целых чисел. Множество рациональных чисел. Сравнение рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1uT7YEi_dUHyPxs09pw8bW5NEx6yhGH9e/view?usp=sharing">Урок 89</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Положительные и отрицательные числа. Координатная прямая. Модуль числа. Противоположные числа. Множество целых чисел. Множество рациональных чисел. Сравнение рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1rJTd9ZTuelMFOjlGF3BmFQ1RzBRwvM8f/view?usp=sharing">Урок 90</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Положительные и отрицательные числа. Координатная прямая. Модуль числа. Противоположные числа. Множество целых чисел. Множество рациональных чисел. Сравнение рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/13jLujy6LMSpoxZLqtMPn9pvC60O0MHq-/view?usp=sharing">Урок 91</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание рациональных чисел. Законы сложения рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1FPeK7KTtZbty2gECUHOB7iIHUnnkKJWL/view?usp=sharing">Урок 92</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание рациональных чисел. Законы сложения рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1rda-7AvEHE-D47S4TIfASStBj44_QbDf/view?usp=sharing">Урок 93</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание рациональных чисел. Законы сложения рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1v2zSof2gwYWG1f92bAI1-GrWojwEaNsG/view?usp=sharing">Урок 94</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание рациональных чисел. Законы сложения рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1fHjVpgzbiFdTH3lsPY8qoBbTxXnVQN5P/view?usp=sharing">Урок 95</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание рациональных чисел. Законы сложения рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Q4CoFG8Klbm2qUgKjMsOLSGmmR-SyQ4N/view?usp=sharing">Урок 96</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание рациональных чисел. Законы сложения рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1yTprnJBG4YCMdTvHu8h90Y0H5Bo5BoZp/view?usp=sharing">Урок 97</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание рациональных чисел. Законы сложения рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1F5_8WF0jBu4P_AUNaOWwXvgG_-yLXXZH/view?usp=sharing">Урок 98</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Сложение и вычитание рациональных чисел. Законы сложения рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ouJrFhWPvXLwSRzA_OjXfOeLiqfRUFVo/view?usp=sharing">Урок 99</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение рациональных чисел. Деление рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1wVp5ybeqjDgPXzUt1HWEkHpQj9P0bQU3/view?usp=sharing">Урок 100</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение рациональных чисел. Деление рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1-0s7mVHSrIWRTiJH197m-Zahm5vFnfOJ/view?usp=sharing">Урок 101</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение рациональных чисел. Деление рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1tXjW_IaarHzneGD9ugsq-RfyF53kySaR/view?usp=sharing">Урок 102</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение рациональных чисел. Деление рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1NwlK_yh6c4g2rtl3IvrGdxD-xAkqc2E9/view?usp=sharing">Урок 103</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение рациональных чисел. Деление рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1JuewT1dwAazt_n6eeqy0JboqmmdeQRUy/view?usp=sharing">Урок 104</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Умножение рациональных чисел. Деление рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1U9FHvWqh4ylLDc-wPSsqnO7viTXKoc32/view?usp=sharing">Урок 105</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Умножение рациональных чисел. Деление рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1bf2LWoS_GnCRa9p7EXj8I9bgp5e4-KkB/view?usp=sharing">Урок 106</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Умножение рациональных чисел. Деление рациональных чисел</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1vAlJ_tOlDF3thTeq0Pjt00xs0QSisDGk/view?usp=sharing">Урок 107</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Задачи на все действия с рациональными числами</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1bJ7yv-nczL_5dOvROg0Z8bsVlANtxMj9/view?usp=sharing">Урок 108</a></p>
+                  </td>
+                  <td id="topic"><p id="topic"> Задачи на все действия с рациональными числами</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1kIHHlnoiOrwv5mXlGovHK8PKk02m8L52/view?usp=sharing">Урок 109</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Задачи на все действия с рациональными числами</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1u0UKmFyjBZloUw6eZpIBslaN6gxiFB7e/view?usp=sharing">Урок 110</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Задачи на все действия с рациональными числами</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1AyqAU9_1QotLQXuw1VJZUIGZtLmuldau/view?usp=sharing">Урок 111</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ecaLrVyVolgVxg0eN3R9Invi2ZtCQVJy/view?usp=sharing">Урок 112</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/15w5K99VXrQCYwt7VJG5pI5a1n3qNTfQo/view?usp=sharing">Урок 113</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1LioPAO6iyhR2C2f8rkBo7MMpJETiGukI/view?usp=sharing">Урок 114</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Решение задач</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1NSD9-9LMQ-qUXcWkvUcVgWfNdJcYiszV/view?usp=sharing">Урок 115</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация изученного материала по теме «Рациональные числа»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/10wz1-l7iS1g3ulBzor1rf0vA5Yqc6u6u/view?usp=sharing">Урок 116</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация изученного материала по теме «Рациональные числа»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Qh8cugAFz7MQaEcKuuSXBMuJErD9KN-9/view?usp=sharing">Урок 117</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Контрольная работа №4 «Рациональные числа»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ZrCD4WvgohB7QkRunbug2gVAABAFGQha/view?usp=sharing">Урок 118</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1iFLm04zdeMsPUD9ufHhSBr5vyqubjyJJ/view?usp=sharing">Урок 119</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1H6VS0x1gL2JwoxnDvMpNrpa0v-ujA5bK/view?usp=sharing">Урок 120</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ofPHVeL32EaSFOCSGp5HPsincUZf7Q-N/view?usp=sharing">Урок 121</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Прямоугольная (декартова) система координат на плоскости. График. Графики реальных процессов</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1YE3OkCbzQQNXm0EF281cQFM5NU043TA4/view?usp=sharing">Урок 122</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Прямоугольная (декартова) система координат на плоскости. График. Графики реальных процессов</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1hAFVvF0FQKWDtt9BzigT5DliJ0mqzv3D/view?usp=sharing">Урок 123</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Прямоугольная (декартова) система координат на плоскости. График. Графики реальных процессов</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/14U4Vh8fUzESiJOYZc0y6aE7dOq8-QEvl/view?usp=sharing">Урок 124</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Прямоугольная (декартова) система координат на плоскости. График. Графики реальных процессов</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1lEovCoV3OGZiyrYKiE43z8M2zOPgAMn7/view?usp=sharing">Урок 125</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Прямоугольная (декартова) система координат на плоскости. График. Графики реальных процессов</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/19pS72mvxwdYokqJWxewAg7Vtg1Cg9bP3/view?usp=sharing">Урок 126</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Прямоугольная (декартова) система координат на плоскости. График. Графики реальных процессов</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1NwokRq-4bwsgJH3zm9w1v7bXH1mpfzTn/view?usp=sharing">Урок 127</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Прямоугольная (декартова) система координат на плоскости. График. Графики реальных процессов</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1XNN1pTrYbGAHNXXUyU4cuGu-49zFWVU0/view?usp=sharing">Урок 128</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">График прямой пропорциональной зависимости. График обратной пропорциональной зависимости</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/111mEPFRxyvwOFiN__N8g-Uoqvq7hw6kt/view?usp=sharing">Урок 129</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">График прямой пропорциональной зависимости. График обратной пропорциональной зависимости</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1gM5DUuya-GLy0HmIbVNNZAvPT8cNovYS/view?usp=sharing">Урок 130</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">График прямой пропорциональной зависимости. График обратной пропорциональной зависимости</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1gaBtN7bS9X1eqfDbDuqh2fPEZyigsHOm/view?usp=sharing">Урок 131</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">График прямой пропорциональной зависимости. График обратной пропорциональной зависимости</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/19ncW5DbKX2-5Uh-RbN-Lf00oqd6Pf8EP/view?usp=sharing">Урок 132</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">График прямой пропорциональной зависимости. График обратной пропорциональной зависимости</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1pgXCrqR4K1oUH7zXMgPbYjZ6mJbBpkK-/view?usp=sharing">Урок 133</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Обобщение и систематизация изученного материала по теме «Координатная плоскость»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1BFFicynMm46aGWSALcrzBvQoMoso-pPD/view?usp=sharing">Урок 134</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Контрольная работа №5 «Координатная плоскость»</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1orb1DYywvRX5cEqwPNUR4Z9G5oi7RbCU/view?usp=sharing">Урок 135</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1EsbOpx3FMFz7jSGAl6UlOjJDS8B2Na-N/view?usp=sharing">Урок 136</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Наглядные представления тел в пространстве, примеры разверток</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1lEVublbEN9NgqI97EAlu1nEViFZCxLXL/view?usp=sharing">Урок 137</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Наглядные представления тел в пространстве, примеры разверток</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1f7qjbUeJlp79UbYWtaSE3iOhiTeAtGam/view?usp=sharing">Урок 138</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Наглядные представления тел в пространстве, примеры разверток</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1XJuPFKZMd46RwPg5NCgdGb5ju_X5J8fA/view?usp=sharing">Урок 139</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Наглядные представления тел в пространстве, примеры разверток</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Mwxr6LxvG6-spwtp8WM8hiRls6hlNitK/view?usp=sharing">Урок 140</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Окружность. Круг. Формулы длины окружности и площади круга. Виды треугольников</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1J11jGRONwBaI_EPR4sMKYm2Z_2GMocqM/view?usp=sharing">Урок 141</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Окружность. Круг. Формулы длины окружности и площади круга. Виды треугольников</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1gfFCy1OMmtJCA3RhYjpX_5EklPrzDvf4/view?usp=sharing">Урок 142</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Окружность. Круг. Формулы длины окружности и площади круга. Виды треугольников</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1yeg0ruKD2KwRjN63KcHluCTaEtBYUtGB/view?usp=sharing">Урок 143</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Окружность. Круг. Формулы длины окружности и площади круга. Виды треугольников</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1bLfY-eySMgMIR5N8Zh3XIEhtO4c3YUrw/view?usp=sharing">Урок 144</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Окружность. Круг. Формулы длины окружности и площади круга. Виды треугольников</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1JB-iNU8UYIpncWWTaEbEuOog8UKLG7u-/view?usp=sharing">Урок 145</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Симметрия относительно точки</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1pLPvAsNLEdeVUGKpZrGqf-YoKB_R4eVI/view?usp=sharing">Урок 146</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Симметрия относительно точки</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1-qJxo-7cmcbCxjDJ3VtRsjnX1Kqbbayl/view?usp=sharing">Урок 147</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Симметрия относительно точки</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Dke3Fhtd5HhsZ66sdPmxmdN5DH9XUrtz/view?usp=sharing">Урок 148</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Фигуры, симметричные относительно прямой</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Ixf_nIrEfIZ3SUfcZybxZAmM5jDf9paH/view?usp=sharing">Урок 149</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Фигуры, симметричные относительно прямой</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/16wOJ2k2QWrRKQVlKJVWMsTrM3UN51Vud/view?usp=sharing">Урок 150</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Фигуры, симметричные относительно прямой</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1t1YK2KjjohkuxD9-lIP5B9c8HKabhS3b/view?usp=sharing">Урок 151</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Десятичные дроби</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/15YgOBsSUvqC1svO8IY13uKIoS_4CByTM/view?usp=sharing">Урок 152</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Десятичные дроби</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1sgfy5ig_X_hsQ9EA7H4kUZ3qq1sPHxqp/view?usp=sharing">Урок 153</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Десятичные дроби</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1y_a3IW2nMI7i2wzLsCIlvEUvRGIvCIDp/view?usp=sharing">Урок 154</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Проценты и пропорции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1DYGjGb_H8brHbvZhetE67LoGHXe5X2VQ/view?usp=sharing">Урок 155</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Проценты и пропорции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1B63F-JVzAE5G_VZHofmegQHJ-HvdkQsj/view?usp=sharing">Урок 156</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Проценты и пропорции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1NBFokfnmuKz9hOKaQOxTm1RRumwadEka/view?usp=sharing">Урок 157</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Проценты и пропорции</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ljHEyqwhImUPznVSymneWQxfIVnQGDaw/view?usp=sharing">Урок 158</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Множества</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/13ervtzz2XeI6AYQLhuAMgUdk04zvYmwD/view?usp=sharing">Урок 159</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1lGa8zMiCQECEhB7oWKEisjpvIrRgLZId/view?usp=sharing">Урок 160</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1c1Gi8TOgdcoOBZhAyKI1K8aPhF-TWd2W/view?usp=sharing">Урок 161</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ExOPSzn_gN8Yej95HKg6B7LZnHKco8Bw/view?usp=sharing">Урок 162</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1G7i8EjShO5kBleKI1-CzY31B-vNCnpV7/view?usp=sharing">Урок 163</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1q0t6GiEO7OdNd9hSjZiqYfqn-Isx8UI6/view?usp=sharing">Урок 164</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1IO3NhBYoc7ZTZGc6Sye68JGpHM6idJJI/view?usp=sharing">Урок 165</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1iyPRv8AmRoUTtRoE69FPkGObulnQoBN0/view?usp=sharing">Урок 166</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1R0wy1r7nSNId1XvIYIKtorHRUSbzXRLb/view?usp=sharing">Урок 167</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1Ww2BBj63EdPT_at3I1rM3yHn10odesWh/view?usp=sharing">Урок 168</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Рациональные числа</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1oPQcnsSlXFvb9Q2dhfOW6UmR22SbQEaj/view?usp=sharing">Урок 169</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Координатная плоскость</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ORE0NsETPESDAxQvipPbY2j0VT7wfobE/view?usp=sharing">Урок 170</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Координатная плоскость</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1hpZCyiGirU8M87KhbyCmNHStGE30BeJN/view?usp=sharing">Урок 171</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Повторение. Координатная плоскость</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1alCKs0EsfdTIC0EW7bjvdtbuJvNXkw8x/view?usp=sharing">Урок 172</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Контрольная работа № 6</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1ckNfEagIjrw04UpNgW97jsIucq0vkJcm/view?usp=sharing">Урок 173</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/18NaU8YLnpnmMuwTpVSjhyv72E80Y2rxn/view?usp=sharing">Урок 174</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  <tr><td><p id="numless"><i class="bi bi-book"></i>
+					<a href="https://drive.google.com/file/d/1DrWJkpUe7Fr4Z6GmqhlZx4dJ6-rCoUP5/view?usp=sharing">Урок 175</a></p>
+                  </td>
+                  <td id="topic"><p id="topic">Резерв</p>
+                  </td>
+                  </tr>
+                  </table>
+
+                    </div>
+                  </div>
+        </span>
+        <span class="border border-4 bg-light" style="width: 230px; height: 500px;">
             <div class="col-10 mx-auto">
               <div class="calendar-wrapper">
                 <button id="btnPrev" type="button"></button>
@@ -277,7 +1360,7 @@
         </section>
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
           © 2022 Copyright:
-          <a class="text-reset fw-bold" href="#">school45.github.io/mathcab/</a>
+          <a class="text-reset fw-bold" href="#"> school45.github.io/mathcab/</a>
         </div>
       </footer>
     <!-- End your project here-->

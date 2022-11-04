@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,18 +32,21 @@
 
   <header>
     <div class="row">
-      <div class="container">
-        <div class="col-md-8 offset-md-2 bg-light mt-4 mb-2">
-          <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+        <div class="container">
+          <div class="col-md-8 offset-md-2 mt-4">
+            <nav class="container bg-light">
+              <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+            </nav>
+          </div>
+          </div>
         </div>
-      </div>
-    </div>
   <!-- Navbar -->
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-4 mb-4" style="height: 250px;">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
+    <div class="container">
+    <div class="col-md-8 offset-md-2 mb-4" style="height: 250px;">
+      <nav class="navbar navbar-expand-lg mb-4 container shadow-none">
   <!-- Container wrapper -->
-        <div class="container-fluid" style="background-image: url('img/header.jpg'); background-size: 430px;">
+        <div class="container" style="background-image: url('img/header.jpg'); background-size: 430px;">
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -59,15 +62,17 @@
 
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
-            <!-- Navbar brand -->
+            <!-- <marquee>фыв</marquee> -->
             <a class="navbar-brand col-3 mt-2 mt-lg-0" href="#">
               <img
                 src="img/logo_cat.png?123"
                 height="300"
                 alt="MDB Logo"
                 loading="lazy"
+                id="cat"
               />
             </a>
+            <div class="justify-content-center">
               <div class="col-4 col-md-auto offset-md-auto mt-2">
                 <div class="d-flex">
                     <a href="" class="nav-item">
@@ -76,16 +81,22 @@
                     </a>
                 </div>
               </div>
+            </div> 
           </div>
         </div>
       </nav>
     </div>
   </div>
+</div>
+<br/>
+  <!-- Background image -->
+  
   <div class="row">
-      <div class="col-md-8 offset-md-2 mt-3">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="col-md-8 offset-md-2 mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light container shadow-none">
     <!-- Container wrapper -->
-          <div class="container-fluid">
+          
             <!-- Toggle button -->
             <button
               class="navbar-toggler"
@@ -99,8 +110,9 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar bg-light container">
               <!-- Left links -->
-                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0 container">
                         <li class="nav-item p-1">
                           <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="index.html">Главная</a></button>
                         </li>
@@ -131,6 +143,7 @@
           </div>
         </nav>
       </div>
+    </div>
   </div>
   <br/>
   <div class="row">
@@ -228,7 +241,6 @@
                           </ul>
                       </li>
                       <li><a class="dropdown-item" href="presentations.html">Визуализация на уроках</a></li>
-                      <li><a class="dropdown-item" href="fakultativ.html">Факультативные занятия</a></li>
                   </ul>
                 </div>  
               </div>
@@ -250,12 +262,14 @@
                       </button>
                     </p>
                     <div class="collapse" id="collapseExample5">
-                      <p class="h5 mt-2 mb-2" style="text-align: center;">Учебные программы:</p>
+                      <p class="h5 mt-2 mb-2" style="text-align: center;">Содержание:</p>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математические заморочки</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математический турнир</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Мы пока не Архимеды</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Ох,уж эта математика</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1coe2A0vdf8aFtoNINitKCH41ZMU_SmGD/view?usp=sharing"><i class="bi bi-book"></i> Игра  «Брей - ринг»</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/12T3QQAYGBMtOjc15VX1xK8vTluaGWh7x/view?usp=sharing"><i class="bi bi-book"></i> Математический парк</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1fMNFiqYdE7X7UJG9a7jtUL6kzxOzJNFl/view?usp=sharing"><i class="bi bi-book"></i> Закрепление навыков вычислительных действий с натуральными числами</a></li>
                       </ul>
                     </div>
                     <hr/>
@@ -270,12 +284,22 @@
                       </button>
                     </p>
                     <div class="collapse" id="collapseExample6">
-                      <p class="h5 mt-2 mb-2" style="text-align: center;">Учебные программы:</p>
+                      <p class="h5 mt-2 mb-2" style="text-align: center;">Содержание:</p>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математические заморочки</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математический турнир</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Мы пока не Архимеды</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Ох,уж эта математика</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1pMyO0JEy53A9jl3EyRP4Lr9PuQwsD0mt/view?usp=sharing"><i class="bi bi-book"></i> Викторина для 6-х классов "Великолепня семерка"</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/102C3kSVUWnKqa9_EhVKjjwOVEC-cVaQq/view?usp=sharing"><i class="bi bi-book"></i> "Эколого-математический брейн-ринг"</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1Qz7iLhNBr4CCrXx4bUURxlhqnpMziWpK/view?usp=sharing"><i class="bi bi-book"></i> КВМ. Математика. 6-й класс</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1whXDvl25rKOuCdHlcRRvvLcgsX5SwtZL/view?usp=sharing"><i class="bi bi-book"></i> "В мире математики"</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1dtgx2zury4Fu2WtevCzIJj0b6gNSpcur/view?usp=sharing"><i class="bi bi-book"></i> "Своя игра"</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1edgW-zfZ5Fs5FNwxW4vy4xhyf1PAo2MU/view?usp=sharing"><i class="bi bi-book"></i> Игра "Счастливый случай"</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/drive/folders/13JJD69YmOd1qhM_Ynn-T7K_Dgwthy5bn?usp=sharing"><i class="bi bi-book"></i> Внекласное мероприятие "Своя игра"</a></li>
                       </ul>
                     </div>
                     <hr/>
@@ -290,12 +314,14 @@
                       </button>
                     </p>
                     <div class="collapse" id="collapseExample7">
-                      <p class="h5 mt-2 mb-2" style="text-align: center;">Учебные программы:</p>
+                      <p class="h5 mt-2 mb-2" style="text-align: center;">Содержание:</p>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математические заморочки</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математический турнир</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Мы пока не Архимеды</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Ох,уж эта математика</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1a214BnrfS9fFWzoOlC6Q9fozNwh5Nbtt/view?usp=sharing"><i class="bi bi-book"></i> Калейдоскоп наук</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/15nx4FjM-0bS7mn6CDG_WO-rh0oywaGf0/view?usp=sharing"><i class="bi bi-book"></i> Кто хочет стать суперматематиком</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1iJ8OPY1t5pz8GUMgGBEYbM2E2ek3cWR_/view?usp=sharing"><i class="bi bi-book"></i> Слабое звено</a></li>
                       </ul>
                     </div>
                     <hr/>
@@ -310,72 +336,16 @@
                       </button>
                     </p>
                     <div class="collapse" id="collapseExample8">
-                      <p class="h5 mt-2 mb-2" style="text-align: center;">Учебные программы:</p>
+                      <p class="h5 mt-2 mb-2" style="text-align: center;">Содержание:</p>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математические заморочки</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математический турнир</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Мы пока не Архимеды</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Ох,уж эта математика</a></li>
-                      </ul>
-                    </div>
-                    <hr/>
-                    <p class="h4" style="text-align: center;">
-                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
-                      type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseExample9" aria-expanded="false"
-                      aria-controls="collapseExample"
-                      style="background-color: #09FF00; width: 300px;
-                      color: black;">
-                        9 класс
-                      </button>
-                    </p>
-                    <div class="collapse" id="collapseExample9">
-                      <p class="h5 mt-2 mb-2" style="text-align: center;">Учебные программы:</p>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математические заморочки</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математический турнир</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Мы пока не Архимеды</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Ох,уж эта математика</a></li>
-                      </ul>
-                    </div>
-                    <hr/>
-                    <p class="h4" style="text-align: center;">
-                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
-                      type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseExample10" aria-expanded="false"
-                      aria-controls="collapseExample"
-                      style="background-color: #09FF00; width: 300px;
-                      color: black;">
-                        10 класс
-                      </button>
-                    </p>
-                    <div class="collapse" id="collapseExample10">
-                      <p class="h5 mt-2 mb-2" style="text-align: center;">Учебные программы:</p>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математические заморочки</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математический турнир</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Мы пока не Архимеды</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Ох,уж эта математика</a></li>
-                      </ul>
-                    </div>
-                    <hr/>
-                    <p class="h4" style="text-align: center;">
-                      <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
-                      type="button" data-bs-toggle="collapse"
-                      data-bs-target="#collapseExample11" aria-expanded="false"
-                      aria-controls="collapseExample"
-                      style="background-color: #09FF00; width: 300px;
-                      color: black;">
-                        11 класс
-                      </button>
-                    </p>
-                    <div class="collapse" id="collapseExample11">
-                      <p class="h5 mt-2 mb-2" style="text-align: center;">Учебные программы:</p>
-                      <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математические заморочки</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Математический турнир</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Мы пока не Архимеды</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Ох,уж эта математика</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1xu3hH189uh7-8SkM7kXjHpFtLQX7jvDh/view?usp=sharing"><i class="bi bi-book"></i> Математические заморочки</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/14DU8AfDbkJxpoj5G_1QIUbMEEyNYo_C8/view?usp=sharing"><i class="bi bi-book"></i> Математический турнир</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1WKdIgO4UhaFOAOrd_bGqIucjGHnF4nGh/view?usp=sharing"><i class="bi bi-book"></i> Мы пока не Архимеды</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1zSM0ILJ-Kw_KTndENx7vp1KyKQukB3Uv/view?usp=sharing"><i class="bi bi-book"></i> Ох уж, эта математика</a></li>
                       </ul>
                     </div>
                     <hr/>
@@ -383,7 +353,7 @@
               </div>
             </div>
           </span>
-        <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
+        <span class="border border-4 bg-light" style="width: 230px; height: 500px;">
             <div class="col-10 mx-auto">
               <div class="calendar-wrapper">
                 <button id="btnPrev" type="button"></button>
@@ -422,7 +392,7 @@
                 <p>
                   <i class="fas fa-envelope me-3"> sosh45mogilev@yandex.by</i>
                 </p>
-                <!-- <p><i class="fas fa-phone me-3"> +375336276506</i></p> -->
+<!--                 <p><i class="fas fa-phone me-3"> +375336276506</i></p> -->
               </div>
             </div>
           </div>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,6 +13,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" type="text/css" href="css/lessons.css">
     <link rel="stylesheet" type="text/css" href="css/calendar.css">
@@ -30,18 +32,21 @@
 
   <header>
   <div class="row">
-    <div class="container">
-      <div class="col-md-8 offset-md-2 bg-light mt-4 pb-0">
-        <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
-      </div>
-    </div>
-  </div>
+        <div class="container">
+          <div class="col-md-8 offset-md-2 mt-4">
+            <nav class="container bg-light">
+              <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+            </nav>
+          </div>
+          </div>
+        </div>
   <!-- Navbar -->
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-2" style="height: 250px;">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
+    <div class="container">
+    <div class="col-md-8 offset-md-2 mb-4" style="height: 250px;">
+      <nav class="navbar navbar-expand-lg mb-4 container shadow-none">
   <!-- Container wrapper -->
-        <div class="container-fluid" style="background-image: url('img/header.jpg'); background-size: 430px;">
+        <div class="container" style="background-image: url('img/header.jpg'); background-size: 430px;">
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -57,15 +62,17 @@
 
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
-            <!-- Navbar brand -->
+            <!-- <marquee>фыв</marquee> -->
             <a class="navbar-brand col-3 mt-2 mt-lg-0" href="#">
               <img
                 src="img/logo_cat.png?123"
                 height="300"
                 alt="MDB Logo"
                 loading="lazy"
+                id="cat"
               />
             </a>
+            <div class="justify-content-center">
               <div class="col-4 col-md-auto offset-md-auto mt-2">
                 <div class="d-flex">
                     <a href="" class="nav-item">
@@ -74,16 +81,20 @@
                     </a>
                 </div>
               </div>
+            </div> 
           </div>
         </div>
       </nav>
     </div>
   </div>
+</div>
+<br/>
   <div class="row">
+    <div class="container">
       <div class="col-md-8 offset-md-2 mt-2">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light container shadow-none">
     <!-- Container wrapper -->
-          <div class="container-fluid">
+          
             <!-- Toggle button -->
             <button
               class="navbar-toggler"
@@ -97,8 +108,9 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar bg-light container">
               <!-- Left links -->
-                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0 container">
                         <li class="nav-item p-1">
                           <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="index.html">Главная</a></button>
                         </li>
@@ -129,6 +141,7 @@
           </div>
         </nav>
       </div>
+    </div>
   </div>
   <br/>
   <div class="row">
@@ -225,582 +238,128 @@
                             <li><a class="dropdown-item" href="11pr_class_kontrol.html">11 класс(профиль)</a></li>
                           </ul>
                       </li>
-                      <li><a class="dropdown-item" href="presentations.html">Визуализация на уроках</a></li>
-                      <li><a class="dropdown-item" href="fakultativ.html">Факультативные занятия</a></li>
+                      <li><a class="dropdown-item" href="presentations.html">Презентации</a></li>
                   </ul>
                 </div>  
               </div>
           </div>
         </span>
-        <style type="text/css">
-    .dropdown-menu li {
-      position: relative;
-    }
-    
-    .dropdown-menu .dropdown-submenu {
-      display: none;
-      position: absolute;
-      left: 100%;
-      top: 0px;
-    }
-    
-    .dropdown-menu .dropdown-submenu-left {
-      right: 100%;
-      left: auto;
-    }
-    
-    .dropdown-menu>li:hover>.dropdown-submenu {
-      display: block;
-    }
-  </style>
         <span class="border border-4 bg-light m-2" style="width: 650px;">
           <div class="row justify-content-center">
             <div class="container-fluid">
               <div class="col-md-8 offset-md-2 mt-2">
-                <p class="h4" style="text-align: center;">План конспектов 8 класс</p> 
+                <p class="h4" style="text-align: center;">Контрольные и самостоятельные работы 
+				8 класса</p> 
+                <p class="h4" style="text-align: center;">
+                  <button class="btn btn-primary btn-lg dropdown-toggle"
+                  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample1" aria-expanded="false"
+                  aria-controls="collapseExample"
+                  style="background-color: #09FF00; width: 300px;
+                  color: black;">
+                    Алгебра
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample1">
+                      <p class="h5 mt-2 mb-2 mt-2" style="text-align: center;">Контрольные и самостоятельные работы по алгебре:</p>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1HJjyGbqrDEZ4pZ6fIRWbCPrru0mJV_6z/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1GC3POcpLf-MeRrlgf9oYCpsJs6q1PFDA/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1znWH69j4Wa5EMdXJ1rYe8VHB4fAcukcc/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1dz9QgtJb9M7vd-ZD8mShdEgwHidgviE0/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 4</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1lNLUNh1qGRGy6rMeF7DM3VjCnamYpgGj/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1nAbMBFGW3JdHlxsUFK7INy5pgvlZnIXx/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.2</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/17bPhO_QN8w4IwKeEpd_xplDj0YUR17oQ/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.3</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1jntC_P1dly8VeYyodkvheCThfbtpTUZ3/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.4</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1PAryEVUIJTwkZbKQXwUiGRX7fPGfH98Q/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1-tAluvGN-hZYKurFTlJpUsoRq0WYWqCY/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/10rVAdz8Tca9T_yGhqEY7JMYXK4yQUwbk/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1Cpr3A20QYCb_cb7Y4uKOGJtmseRLrtlR/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.4</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1ISziXPdkUWy0svKJ2tvYitIuTJIW9ihW/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.5</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1NE-B3Uzh0G8P4XInhYfMySDtZytD9Akv/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/16yM6WoniqLQIfqM74AprONUzm1B4EYnG/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1CDnkox4nSEkshOVfb1gZcGLDFdR1i6aK/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1mzIe5W1ueeqwwcAmbYhSa-rfUBNLu0rO/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.4</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1NT8wvNw0MTIRGvslZdFa_d28K4TiloMD/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 4.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1Zk7eGo3adE17dKxqlza5-tT38HSuidRY/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 4.2</a></li>                        
+                      </ul>
+                    </div>
               </div>
             </div>
           </div>
-          <div class="col-xl">
-            <table class="table">
-              <tr>
-                <td class="num">
-                  <p>№ урока</p>
-                </td>
-                <td class="headless">
-                  <p>Тема урока</p>
-                </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 1 </p>
-                </td>
-                <td id="topic"><p id="topic">Повторение приемов вычисления значений выражений, содержащих арифметические операции, и вычисления значений степени</p>
-                </td>
-              </tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 2</p>
-</td>
-<td id="topic"><p id="topic">Повторение тождественных преобразований многочленов</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 3</p>
-</td>
-<td id="topic"><p id="topic">Повторение формул сокращенного умножения. Повторение способов разложения многочленов на множители</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 4</p>
-</td>
-<td id="topic"><p id="topic">Квадратный корень из числа. Арифметический квадратный корень</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 5</p>
-</td>
-<td id="topic"><p id="topic">Извлечение квадратного корня из числа</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 6</p>
-</td>
-<td id="topic"><p id="topic">Извлечение квадратного корня из числа</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 7</p>
-</td>
-<td id="topic"><p id="topic">Множество иррациональных чисел. Множество действительных чисел</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 8</p>
-</td>
-<td id="topic"><p id="topic">Множество действительных чисел</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 9</p>
-</td>
-<td id="topic"><p id="topic">Свойства квадратных корней</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 10</p>
-</td>
-<td id="topic"><p id="topic">Свойства квадратных корней</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 11</p>
-</td>
-<td id="topic"><p id="topic">Свойства квадратных корней</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 12</p>
-</td>
-<td id="topic"><p id="topic">Свойства квадратных корней</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 13</p>
-</td>
-<td id="topic"><p id="topic">Свойства квадратных корней</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 14</p>
-</td>
-<td id="topic"><p id="topic">Вынесение множителя за знак корня. Внесение множителя под знак корня</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 15</p>
-</td>
-<td id="topic"><p id="topic">Преобразование выражений, содержащих корни</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 16</p>
-</td>
-<td id="topic"><p id="topic">Преобразование иррациональных выражений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 17</p>
-</td>
-<td id="topic"><p id="topic">Преобразование иррациональных выражений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 18</p>
-</td>
-<td id="topic"><p id="topic">Преобразование иррациональных выражений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 19</p>
-</td>
-<td id="topic"><p id="topic">Преобразование иррациональных выражений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 20</p>
-</td>
-<td id="topic"><p id="topic">Числовые промежутки. Объединение и пересечение числовых промежутков</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 21</p>
-</td>
-<td id="topic"><p id="topic">Числовые промежутки. Объединение и пересечение числовых промежутков</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 22</p>
-</td>
-<td id="topic"><p id="topic">Системы линейных неравенств с одной переменной</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 23</p>
-</td>
-<td id="topic"><p id="topic">Системы линейных неравенств с одной переменной</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 24</p>
-</td>
-<td id="topic"><p id="topic">Системы линейных неравенств с одной переменной</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 25</p>
-</td>
-<td id="topic"><p id="topic">Совокупность линейных неравенств с одной переменной</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 26</p>
-</td>
-<td id="topic"><p id="topic">Решение двойных неравенств</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 27</p>
-</td>
-<td id="topic"><p id="topic">Решение систем и совокупностей линейных неравенств с одной переменной</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 28</p>
-</td>
-<td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Квадратные корни и их свойства. Действительные числа. Системы и совокупности линейных неравенств»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 29</p>
-</td>
-<td id="topic"><p id="topic">Контрольная работа № 1 «Квадратные корни и их свойства. Действительные числа. Системы и совокупности линейных неравенств»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 30</p>
-</td>
-<td id="topic"><p id="topic">Квадратные уравнения. Решение неполных квадратных уравнений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 31</p>
-</td>
-<td id="topic"><p id="topic">Решение неполных квадратных уравнений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 32</p>
-</td>
-<td id="topic"><p id="topic">Решение неполных квадратных уравнений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 33</p>
-</td>
-<td id="topic"><p id="topic">Формулы корней квадратного уравнения</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 34</p>
-</td>
-<td id="topic"><p id="topic">Формулы корней квадратного уравнения</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 35</p>
-</td>
-<td id="topic"><p id="topic">Формулы корней квадратного уравнения</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 36</p>
-</td>
-<td id="topic"><p id="topic">Формулы корней квадратного уравнения</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 37</p>
-</td>
-<td id="topic"><p id="topic">Формулы корней квадратного уравнения</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 38</p>
-</td>
-<td id="topic"><p id="topic">Теорема Виета</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 39</p>
-</td>
-<td id="topic"><p id="topic">Теорема, обратная теореме Виета</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 40</p>
-</td>
-<td id="topic"><p id="topic">Теорема Виета и обратная теореме Виета</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 41</p>
-</td>
-<td id="topic"><p id="topic">Применение Теоремы Виета (прямой и обратной)</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 42</p>
-</td>
-<td id="topic"><p id="topic">Квадратный трехчлен. Разложение квадратного трехчлена на множители</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 43</p>
-</td>
-<td id="topic"><p id="topic">Разложение квадратного трехчлена на множители</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 44</p>
-</td>
-<td id="topic"><p id="topic">Разложение квадратного трехчлена на множители</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 45</p>
-</td>
-<td id="topic"><p id="topic">Решение текстовых задач с помощью квадратных уравнений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 46</p>
-</td>
-<td id="topic"><p id="topic">Решение текстовых задач с помощью квадратных уравнений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 47</p>
-</td>
-<td id="topic"><p id="topic">Решение текстовых задач с помощью квадратных уравнений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 48</p>
-</td>
-<td id="topic"><p id="topic">Решение текстовых задач с помощью квадратных уравнений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 49</p>
-</td>
-<td id="topic"><p id="topic">Решение текстовых задач с помощью квадратных уравнений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 50</p>
-</td>
-<td id="topic"><p id="topic">Решение текстовых задач с помощью квадратных уравнений</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 51</p>
-</td>
-<td id="topic"><p id="topic">Биквадратные уравнения</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 52</p>
-</td>
-<td id="topic"><p id="topic">Решение уравнений методом замены переменных</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 53</p>
-</td>
-<td id="topic"><p id="topic">Решение уравнений методом замены переменных</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 54</p>
-</td>
-<td id="topic"><p id="topic">Решение уравнений методом замены переменных</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 55</p>
-</td>
-<td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Квадратные уравнения»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 56</p>
-</td>
-<td id="topic"><p id="topic">Контрольная работа № 2 «Квадратные уравнения»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 57</p>
-</td>
-<td id="topic"><p id="topic">Квадратичная функция</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 58</p>
-</td>
-<td id="topic"><p id="topic">Квадратичная функция</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 59</p>
-</td>
-<td id="topic"><p id="topic">Свойства квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 60</p>
-</td>
-<td id="topic"><p id="topic">Свойства квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 61</p>
-</td>
-<td id="topic"><p id="topic">Построение графика квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 62</p>
-</td>
-<td id="topic"><p id="topic">Построение графика квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 63</p>
-</td>
-<td id="topic"><p id="topic">Построение графика квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 64</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 65</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 66</p>
-</td>
-<td id="topic"><p id="topic">Применение свойств квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 67</p>
-</td>
-<td id="topic"><p id="topic">Монотонность квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 68</p>
-</td>
-<td id="topic"><p id="topic">Монотонность квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 69</p>
-</td>
-<td id="topic"><p id="topic">Промежутки знакопостоянства квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 70</p>
-</td>
-<td id="topic"><p id="topic">Промежутки знакопостоянства квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 71</p>
-</td>
-<td id="topic"><p id="topic">Промежутки монотонности и знакопостоянства квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 72</p>
-</td>
-<td id="topic"><p id="topic">Промежутки монотонности и знакопостоянства квадратичной функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 73</p>
-</td>
-<td id="topic"><p id="topic">Квадратные неравенства</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 74</p>
-</td>
-<td id="topic"><p id="topic">Квадратные неравенства</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 75</p>
-</td>
-<td id="topic"><p id="topic">Квадратные неравенства</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 76</p>
-</td>
-<td id="topic"><p id="topic">Квадратные неравенства</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 77</p>
-</td>
-<td id="topic"><p id="topic">Применение алгоритма решения квадратных неравенств для решения практических задач</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 78</p>
-</td>
-<td id="topic"><p id="topic">Применение алгоритма решения квадратных неравенств для исследования свойств функций</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 79</p>
-</td>
-<td id="topic"><p id="topic">Решение интегрированных заданий на применение свойств функции</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 80</p>
-</td>
-<td id="topic"><p id="topic">Решение квадратных неравенств</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 81</p>
-</td>
-<td id="topic"><p id="topic">Системы квадратных неравенств</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 82</p>
-</td>
-<td id="topic"><p id="topic">Системы квадратных неравенств</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 83</p>
-</td>
-<td id="topic"><p id="topic">Решение систем квадратных неравенств</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 84</p>
-</td>
-<td id="topic"><p id="topic">Решение систем квадратных неравенств</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 85</p>
-</td>
-<td id="topic"><p id="topic">Совокупности квадратных неравенств</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 86</p>
-</td>
-<td id="topic"><p id="topic">Решение систем и совокупностей квадратных неравенств</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 87</p>
-</td>
-<td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Квадратичная функция»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 88</p>
-</td>
-<td id="topic"><p id="topic">Контрольная работа № 3 «Квадратичная функция»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 89</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="35px" src="img/f1.png">, где k ≠ 0</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 90</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="35px" src="img/f1.png">, где k ≠ 0</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 91</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="35px" src="img/f1.png">, где k ≠ 0</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 92</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="25px" src="img/f2.png"></p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 93</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="25px" src="img/f2.png"></p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 94</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="25px" src="img/f3.png"></p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 95</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="25px" src="img/f3.png"></p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 96</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="25px" src="img/f4.png"></p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 97</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="25px" src="img/f4.png"></p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 98</p>
-</td>
-<td id="topic"><p id="topic">Свойства и график функции <img height="35px" src="img/f1.png">, где k ≠ 0, <img height="25px" src="img/f2.png">, <img height="25px" src="img/f3.png">, <img height="25px" src="img/f4.png"></p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 99</p>
-</td>
-<td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Свойства и графики функций <img height="35px" src="img/f1.png">, где k ≠ 0, <img height="25px" src="img/f2.png">, <img height="25px" src="img/f3.png">, <img height="25px" src="img/f4.png"></p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 100</p>
-</td>
-<td id="topic"><p id="topic">Контрольная работа № 4 по теме «Свойства и график функции <img height="35px" src="img/f1.png">, где k ≠ 0, <img height="25px" src="img/f2.png">, <img height="25px" src="img/f3.png">, <img height="25px" src="img/f4.png"></p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 101</p>
-</td>
-<td id="topic"><p id="topic">Повторение материала по теме «Квадратные корни и их свойства. Действительные числа»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 102</p>
-</td>
-<td id="topic"><p id="topic">Повторение материала по теме «Квадратные уравнения»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 103</p>
-</td>
-<td id="topic"><p id="topic">Повторение материала по теме «Квадратные уравнения»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 104</p>
-</td>
-<td id="topic"><p id="topic">Повторение материала по теме «Квадратные уравнения»</p>
-</td>
-</tr>
-<tr><td><p id="numless"><i class="bi bi-book" style="width: 10px; height: 10px;"></i> Урок 105</p>
-</td>
-<td id="topic"><p id="topic">Повторение материала по теме «Квадратные уравнения»</p>
-</td>
-</tr>
-</table>
-
+          
+          <div class="row justify-content-center">
+            <div class="container">
+              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">
+                  <button class="btn btn-primary btn-lg dropdown-toggle"
+                  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample2"
+                  aria-expanded="false" aria-controls="collapseExample"
+                  style="background-color: #09FF00; width: 300px; color: black;">
+                    Геометрия
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample2">
+                      <p class="h5 mt-2 mb-2 mt-2" style="text-align: center;">Контрольные и самостоятельные работы по геометрии:</p>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1l2Ui_7-hrpZhxY4OaVnW-xbIgQJWuQOl/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1hznw30pgXw1-lrv7HF7L2OpVwVeOlLDq/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1JfWxt1EAlAP3bWVV2uIEnCHotzxUtAr7/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1oXOEeqCTs9XVKSNUwXNDihuen4YJjYMW/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 4</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1gVX-uKSrpOjKjxogVIsO64gGTtuBTlRZ/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1LO4MgwGWVJ6IGrjPosaOUcd-lOpM1jF4/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1WF0u8vNh_iKgTMKn9d9e_dMI3lTMWsDI/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1Rtn7fKxBATZpK_NNf2PXqy5iMhVF3h4_/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 4</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1ViLF0f5mwR4ZPP3CTVAsACGTs52I47oK/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 5</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1WkUS_BD2Rtl9IQdMcAk7uLZfSWpoCOE3/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 6</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1VD2mSnMN-4csK3byeQA5NSYcER9dLDmW/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 7</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/19WaHnBWY-4Hog0kzb5rDrtSlq6KU3zHK/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 8</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1vwcFVxMgDRxvDs3DKBDF3NJe_XGOOj0-/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 9</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1eEVN1UK6aqtseX96JScuX-7PFwWu-CnY/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 10</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1G1NV7FxD4o5vZ8qo8IFUav9nQb0l8wXx/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 11</a></li>
+                      </ul>
+                    </div>
+              </div>
+            </div>
           </div>
         </span>
-        <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
+
+        <span class="border border-4 bg-light" style="width: 230px; height: 500px;">
             <div class="col-10 mx-auto">
               <div class="calendar-wrapper">
                 <button id="btnPrev" type="button"></button>
@@ -828,7 +387,7 @@
             <div class="row mt-3">
               <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4 mt-4">
-                  Государственное учреждение образования "Средняя школа №45" г.Могилева
+                  Государственное учреждение образования "Средняя школа №45 г.Могилева"
                 </h6>
               </div>
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -839,14 +398,14 @@
                 <p>
                   <i class="fas fa-envelope me-3"> sosh45mogilev@yandex.by</i>
                 </p>
-                <!-- <p><i class="fas fa-phone me-3"> +375336276506</i></p> -->
+<!--                 <p><i class="fas fa-phone me-3"> +375336276506</i></p> -->
               </div>
             </div>
           </div>
         </section>
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
           © 2022 Copyright:
-          <a class="text-reset fw-bold" href="#">school45.github.io/mathcab/</a>
+          <a class="text-reset fw-bold" href="#"> school45.github.io/mathcab/</a>
         </div>
       </footer>
     <!-- End your project here-->

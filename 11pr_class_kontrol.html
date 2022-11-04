@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Контрольно-измерительные материалы 11 класса(профиль)</title>
+    <title>Контрольно-измерительные материалы 11(профиль) класса</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/logo_sch.png" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -13,6 +13,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" type="text/css" href="css/lessons.css">
     <link rel="stylesheet" type="text/css" href="css/calendar.css">
@@ -29,19 +31,22 @@
     <!-- Start your project here-->
 
   <header>
-    <div class="row">
-    <div class="container pb-0">
-      <div class="col-md-8 offset-md-2 bg-light mt-4 p-0">
-        <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
-      </div>
-    </div>
-  </div
+  <div class="row">
+        <div class="container">
+          <div class="col-md-8 offset-md-2 mt-4">
+            <nav class="container bg-light">
+              <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+            </nav>
+          </div>
+          </div>
+        </div>
   <!-- Navbar -->
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-2" style="height: 250px;">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
+    <div class="container">
+    <div class="col-md-8 offset-md-2 mb-4" style="height: 250px;">
+      <nav class="navbar navbar-expand-lg mb-4 container shadow-none">
   <!-- Container wrapper -->
-        <div class="container-fluid">
+        <div class="container" style="background-image: url('img/header.jpg'); background-size: 430px;">
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -57,34 +62,39 @@
 
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
-            <!-- Navbar brand -->
+            <!-- <marquee>фыв</marquee> -->
             <a class="navbar-brand col-3 mt-2 mt-lg-0" href="#">
               <img
                 src="img/logo_cat.png?123"
                 height="300"
                 alt="MDB Logo"
                 loading="lazy"
+                id="cat"
               />
             </a>
+            <div class="justify-content-center">
               <div class="col-4 col-md-auto offset-md-auto mt-2">
                 <div class="d-flex">
                     <a href="" class="nav-item">
-                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">
-                      Виртуальный кабинет математики</p>
-                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">"<img src="logo_pi.png" height="55" loading="lazy">-422"</p>
+                      <p class="fs-1" style="text-align: center; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">Виртуальный кабинет математики</p>
+                      <p style="text-align: center; font-size: 45px; color: #09FF00; font-style: inherit; -webkit-text-stroke-width: 1.3px; -webkit-text-stroke-color: black">"<img src="logo_pi.png" height="50" loading="lazy"><span style="font-size: 45px;">-422"</span></p>
                     </a>
                 </div>
               </div>
+            </div> 
           </div>
         </div>
       </nav>
     </div>
   </div>
+</div>
+<br/>
   <div class="row">
+    <div class="container">
       <div class="col-md-8 offset-md-2 mt-2">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light container shadow-none">
     <!-- Container wrapper -->
-          <div class="container-fluid">
+          
             <!-- Toggle button -->
             <button
               class="navbar-toggler"
@@ -98,8 +108,9 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar bg-light container">
               <!-- Left links -->
-                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0 container">
                         <li class="nav-item p-1">
                           <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="index.html">Главная</a></button>
                         </li>
@@ -130,6 +141,7 @@
           </div>
         </nav>
       </div>
+    </div>
   </div>
   <br/>
   <div class="row">
@@ -226,14 +238,130 @@
                             <li><a class="dropdown-item" href="11pr_class_kontrol.html">11 класс(профиль)</a></li>
                           </ul>
                       </li>
-                      <li><a class="dropdown-item" href="presentations.html">Визуализация на уроках</a></li>
-                      <li><a class="dropdown-item" href="fakultativ.html">Факультативные занятия</a></li>
+                      <li><a class="dropdown-item" href="presentations.html">Презентации</a></li>
                   </ul>
                 </div>  
               </div>
           </div>
         </span>
-        <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
+        <span class="border border-4 bg-light m-2" style="width: 650px;">
+          <div class="row justify-content-center">
+            <div class="container-fluid">
+              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">Контрольные и самостоятельные работы 
+				11 класса (профильный)</p> 
+                <p class="h4" style="text-align: center;">
+                  <button class="btn btn-primary btn-lg dropdown-toggle"
+                  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample1" aria-expanded="false"
+                  aria-controls="collapseExample"
+                  style="background-color: #09FF00; width: 300px;
+                  color: black;">
+                    Алгебра
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample1">
+                      <p class="h5 mt-2 mb-2 mt-2" style="text-align: center;">Контрольные и самостоятельные работы по алгебре:</p>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1QFwxOojlf9Xv-gLqfZjzTPL8M8SJBY9G/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1cljq4nimyP32Y4jDUoKdVLUK-SQslqNO/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1kosEpvJ9XmiJ8PhFWKY36Us40zKxuFtD/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 3</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1NK-nu8ZGVdDWWgjELNYlfJxmjn0yBdrH/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 4</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1zPB2N8piptMGMso1d5AeUdkDTogSIxYl/view?usp=sharing"><i class="bi bi-book"></i> Итоговая контрольная работа</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1mnGmgO2iEtSIbODT-ASkCIUtFGxk7-dB/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1lb1WZ4j1TUc3RytdGrWBlxEQJa4flN-J/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.2</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/11gzPrzDxXVxdqA3yf-V4M2tEzGwNHfBv/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.1</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1iBMjm1AbkxoooSbOhjgfTNpLo9iMdX4w/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.2</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1PagKKgXrBrT12ck1j0PNEmH70iyp1Swr/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.3</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1dCkZ42cOjwZ-fG7n5-Q-sHeWTaARILvD/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.1</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1LN0QjDnB3ZJW3ZAEkZBdBrd17BEtqyqS/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.2</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1Z7saQ28geRoc4N1zsm3qM3hL_3_qHqDi/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.3</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1H0b3kqYU8SZjpAbRaJahZ8h7PPzKCYRU/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.4</a></li>						
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1vf3QSnWJQbMum-RIkDqyT-B3oy0WkIn3/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 4.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1Yc5lsYRrpaKB1i2VS-V7mY-xPBNGUFua/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 4.2</a></li>                        
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1Ut0_I5K3YVP3vPo5j0D_i-kox231Ou3f/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 5.1</a></li>						                                                
+                      </ul>
+                    </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row justify-content-center">
+            <div class="container">
+              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">
+                  <button class="btn btn-primary btn-lg dropdown-toggle"
+                  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample2"
+                  aria-expanded="false" aria-controls="collapseExample"
+                  style="background-color: #09FF00; width: 300px; color: black;">
+                    Геометрия
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample2">
+                      <p class="h5 mt-2 mb-2 mt-2" style="text-align: center;">Контрольные и самостоятельные работы по геометрии:</p>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1JUAPEmjlDPeFvcxdXzUcim9BG3nsJZGf/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1jDZ97vXD70sUqsjna6eUn5HsQ7G1KN-Q/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1IpvxmAMQoU1LqiVYf8tnFERLzWV5Hqd1/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 3</a></li>						 
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1rLMNqy3fUYXUmIePvghblhHNleKLbVjf/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1wY7xnYmGQJbvxHyETJopDaagbWY7-aYY/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1QTfyHyhRwiIDKxjwUWj-DYgd42YeEiqG/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1TJ4yIeBvsFlESfPl68CGAWCdr4BT5FNn/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.4</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1Io-BwhwwZGP5PpmOqY_LU44SSH6JNdRv/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.5</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/10qbxqtKw20uSZxdetOeN9BWYrBfl90v1/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.6</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1gQo52dbIjshlkRxbhVjaRk_W-jlr09F_/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1OBlVFR4min-KgtFPTXfmCm2sUpMGVlEF/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/15JFiiz-HcVuUJTCwGfARdqVnaffxaPZr/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/17-ML5ldi7h8_ARN6ObEMW9NjDvFYc06w/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.4</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1gt33k-4poIMgpD7L4NvKKwORm6HCLVJw/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.5</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1iVDSFex3czLw5KTlvAd_sr_cvMifFB1F/view?usp=sharinghttps://drive.google.com/file/d/1qcoNDUm5GhZzXl1uDGaYJvXJDnuVnOAq/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.6</a></li>												
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1V1b2k90qVenavP-MAPbxAs5VFbNDxhoz/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.1</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1kjSLxEmeOlDSUzfWoNgUvAksgde9zTr9/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.2</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/18bCfEYf2i5aaeyQ3VzaPXGWoYF8eyXBR/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.3</a></li>
+						</ul>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </span>
+
+        <span class="border border-4 bg-light" style="width: 230px; height: 500px;">
             <div class="col-10 mx-auto">
               <div class="calendar-wrapper">
                 <button id="btnPrev" type="button"></button>
@@ -259,8 +387,8 @@
         <section class="">
           <div class="container text-center text-md-start mt-5">
             <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">
+              <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold mb-4 mt-4">
                   Государственное учреждение образования "Средняя школа №45 г.Могилева"
                 </h6>
               </div>

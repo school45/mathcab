@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -32,18 +32,21 @@
 
   <header>
     <div class="row">
-    <div class="container">
-      <div class="col-md-8 offset-md-2 bg-light mt-4 mb-2">
-        <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
-      </div>
-    </div>
-  </div>
+        <div class="container">
+          <div class="col-md-8 offset-md-2 mt-4">
+            <nav class="container bg-light">
+              <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+            </nav>
+          </div>
+          </div>
+        </div>
   <!-- Navbar -->
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-4 mb-4" style="height: 250px;">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
+    <div class="container">
+    <div class="col-md-8 offset-md-2 mb-4" style="height: 250px;">
+      <nav class="navbar navbar-expand-lg mb-4 container shadow-none">
   <!-- Container wrapper -->
-        <div class="container-fluid" style="background-image: url('img/header.jpg'); background-size: 430px;">
+        <div class="container" style="background-image: url('img/header.jpg'); background-size: 430px;">
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -59,15 +62,17 @@
 
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
-            <!-- Navbar brand -->
+            <!-- <marquee>фыв</marquee> -->
             <a class="navbar-brand col-3 mt-2 mt-lg-0" href="#">
               <img
                 src="img/logo_cat.png?123"
                 height="300"
                 alt="MDB Logo"
                 loading="lazy"
+                id="cat"
               />
             </a>
+            <div class="justify-content-center">
               <div class="col-4 col-md-auto offset-md-auto mt-2">
                 <div class="d-flex">
                     <a href="" class="nav-item">
@@ -76,16 +81,22 @@
                     </a>
                 </div>
               </div>
+            </div> 
           </div>
         </div>
       </nav>
     </div>
   </div>
+</div>
+<br/>
+  <!-- Background image -->
+  
   <div class="row">
-      <div class="col-md-8 offset-md-2 mt-3">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <div class="col-md-8 offset-md-2 mt-2">
+        <nav class="navbar navbar-expand-lg navbar-light container shadow-none">
     <!-- Container wrapper -->
-          <div class="container-fluid">
+          
             <!-- Toggle button -->
             <button
               class="navbar-toggler"
@@ -99,8 +110,9 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar bg-light container">
               <!-- Left links -->
-                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0 container">
                         <li class="nav-item p-1">
                           <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="index.html">Главная</a></button>
                         </li>
@@ -131,6 +143,7 @@
           </div>
         </nav>
       </div>
+    </div>
   </div>
   <br/>
   <div class="row">
@@ -227,8 +240,8 @@
                             <li><a class="dropdown-item" href="11pr_class_kontrol.html">11 класс(профиль)</a></li>
                           </ul>
                       </li>
-                      <li><a class="dropdown-item" href="presentations.html">Визуализация на уроках</a></li>
-                      <li><a class="dropdown-item" href="fakultativ.html">Факультативные занятия</a></li>
+                      <li><a class="dropdown-item" href="#">Презентации</a></li>
+                      <li><a class="dropdown-item" href="#">Факультативные занятия</a></li>
                   </ul>
                 </div>  
               </div>
@@ -295,10 +308,20 @@
                     <div class="collapse" id="collapseExample6">
                       <p class="h5 mt-2 mb-2" style="text-align: center;">Содержание:</p>
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 1</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 2</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 3</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 4</a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Действия с обыкновенными дробями</a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Сложение и вычитание десятичных дробей</a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Выполните умножение на разрядную единицу</a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Умножение десятичных дробей</a></li>
+                      	<li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Деление десятичной дроби на натуральное число и разрядную единицу</a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Сложение, вычитание, умножение, деление десятичных дробей</a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Преобразование выражений с десятичными дробями </a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Уравнения с десятичными дробями </a></li>
+                      	<li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Сложение и вычитание рациональных чисел</a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Умножение и деление рациональных чисел</a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Преобразование выражений с рациональными числами</a></li>
+                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Уравнения с рациональными числами</a></li>
+                     	<li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Единицы измерения</a></li>
+
                       </ul>
                     </div>
                     <hr/>
@@ -371,7 +394,7 @@
                             <li class="list-group-item"><a href="https://adu.by/images/2021/08/up-matematika-11kl-baz-rus.pdf" target="_blank"><i class="bi bi-book"></i> Треугольники. Первый и второй признаки равенства треугольников</a></li>
                           </ul>
                         </div>
-                    </div>
+                      </div>
                     <hr/>
                     <p class="h4" style="text-align: center;">
                       <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
@@ -397,7 +420,36 @@
                         </p>
                         <div class="collapse" id="collapseAlgebra8">
                           <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Тренажеры</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1FETjDRrAoYj4iRTKdaTBEjNJWS4JG5ZD/view?usp=sharing">Квадратный корень из числа. Арифметический квадратный корень</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1JczcHWFwBUyDeNVTb7DM4V_g-XUevjml/view?usp=sharing">Свойства квадратных корней</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1efTysKKM9GvuG36vdLszNCO7lsRIxLXq/view?usp=sharing">Применение свойств квадратных корней</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1v1ESiN2Wycd-BdxamtXeytnuKuMod_wB/view?usp=sharing">Числовые промежутки. Пересечение и объединение числовых промежутков</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1RLQquCUrc0KBzbUL5I9nlTeloeapLgMM/view?usp=sharing">Системы и совокупности линейных неравенств с одной переменной. Решение двойных неравенств</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1Qg1mo6I0UqHo6Fnu1f3G9MIOCHM4x6BW/view?usp=sharing">Квадратные уравнения. Решение неполных квадратных уравнений</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1wr7BPFa2bIysTZX2-S42Tt1q_HH8WHAf/view?usp=sharing">Формулы корней квадратного уравнения</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1lO5vma7fYXxqJw_TRkND4c3fRpgdofdQ/view?usp=sharing">Теорема Виета</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1NpZ4uyrk4QaKfEO3mU-vw4cMFr4GnJw5/view?usp=sharing">Квадратный трехчлен. Разложение квадратного трехчлена на множители</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1UooiTGXa68wcGWhOrzcVkD5iRQiS2DKb/view?usp=sharing">Решение текстовых задач с помощью квадратных уравнений</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1qEeGTZMQak-dQy02H_MpysmfKinFdMrn/view?usp=sharing">Решение целых рациональных уравнение, сводящихся к квадратным</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1k9q47Fg6QB1GXoebwxjwaqjJf_j7aO6P/view?usp=sharing">Квадратичная функция и ее свойства</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1JJo-hK7GzZMB42NM9Y4kOAqKGYd7Bsev/view?usp=sharing">Квадратные неравенства</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1AqrLTYpQRHmeXOSI1KeosDLMhAVmoVB9/view?usp=sharing">Системы и совокупности квадратных неравенств</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1jPlHf1yCkqvCEGtxEC8yBKB2VGysEaDz/view?usp=sharing">Свойства и графики функций</a></li>
                           </ul>
                         </div>
                         <p class="h4" style="text-align: center;">
@@ -412,11 +464,43 @@
                         </p>
                         <div class="collapse" id="collapseGeometry8">
                           <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> Задачи на готов чертежах</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1faQcOkv2TQwdiNgOPwrEZ0VnZhAMIQJY/view?usp=sharing">Многоугольники</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1UtUsAhdr5an_jIdDqXVJJCsKJfdargwo/view?usp=sharing">Параллелограмм</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1SZNoyzJ-A-xFq_wFS6sx9JlZIFZyyqA2/view?usp=sharing">Прямоугольник. Ромб. Квадрат</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1MdFst6DFovLyAvbVTl-AB5_OFo4fEsyx/view?usp=sharing">Свойства медиан треугольника</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1sl9tb8UEDfXXhMnHaCOZJWOc8ENkHFXM/view?usp=sharing">Трапеция</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1YVvtldLg33PYWl_X4v6Q5AuA8YOEjXfu/view?usp=sharing">Средние линии треугольника и трапеции</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1kiINxMNPLtnBfv7zjUXDkS4HCowKYmRy/view?usp=sharing">Площадь прямоугольника и квадрата</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1nPFj3FS5_SdkTd2zvD76gAJuDZEjzMqe/view?usp=sharing">Площадь параллелограмма и ромба</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1gcUdqEHS3Qk511UQS8u9qaPnz9xxlLMa/view?usp=sharing">Площадь треугольника</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1UVkQp-dgzy1B_qc_l-VS09wPwAAQtH3a/view?usp=sharing">Теорема Пифагора</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1CdIm9ITA7uUoZEul5v9CW1wp83eiszba/view?usp=sharing">Площадь трапеции</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1YPYFWlC6ohtCRy0kFxvLUmNtGx_aBgO1/view?usp=sharing">Подобие треугольников</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1JdTBOnF9XRIockfCCxyYwMNYNdUxL2lp/view?usp=sharing">Свойство биссектрисы треугольника</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1vvU2DXWQV-UpjhP1SeKKrV3mdODsD8EB/view?usp=sharing">Касательная к окружности. Взаимное расположение окружностей</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/13qG3eEiw1WfhN0ZvNYLYmO4z8MnV1IZq/view?usp=sharing">Углы в окружности</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1bxz-4zO-xuenOo2idWu0OteevhXo0Ndy/view?usp=sharing">Пропорциональные отрезки в окружности</a></li>
                           </ul>
                         </div>
+                       </div>
                     <hr/>
-                    </div>
+                    
                     <p class="h4" style="text-align: center;">
                       <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
                       type="button" data-bs-toggle="collapse"
@@ -427,16 +511,103 @@
                         9 класс
                       </button>
                     </p>
-                    <div class="collapse" id="collapseExample9">
+                     <div class="collapse" id="collapseExample9">
                       <p class="h5 mt-2 mb-2" style="text-align: center;">Содержание:</p>
+                        <p class="h4" style="text-align: center;">
+                          <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                          type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseAlgebra9" aria-expanded="false"
+                          aria-controls="collapseExample"
+                          style="background-color: #09FF00; width: 200px;
+                          color: black;">
+                            Алгебра
+                          </button>
+                        </p>
+                        <div class="collapse" id="collapseAlgebra9">
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 1</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 2</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 3</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 4</a></li>
-                      </ul>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1Iuz-vzxML4U6brxIgO-3_zgiZB8Vh7xZ/view?usp=sharing">Повторение курса алгебры 7-8 классов</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/10SQN463PteOMS2pLTvCpctufDH62xKMA/view?usp=sharing">Рациональная дробь</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/19DuXW4q8ioNqlPTHU9_U5wqXzpzuNL06/view?usp=sharing">Основное свойство рациональной дроби. Сокращение рациональных дробей</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1Hc_T3NOwPNJFWEoP4QcivgFFAqqN8gKP/view?usp=sharing">Сложение и вычитание рациональных дробей</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1mPShyh5LMpDgBQYWKR5BQngGvWvikjZo/view?usp=sharing">Преобразование рациональных выражений</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1rFVeHqJJNV9ohxATj3V5XR0ZBcNtXR6L/view?usp=sharing">Функция числового аргумента. Область определения, множество значений. Способы задания функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1dIqnwDWUv1xiHItTlNh4_KDuRBKMdg03/view?usp=sharing">Свойства функции</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1NzQ6WvHBqTbnzIRg7wIrLQGDUXAxzB2g/view?usp=sharing">Четные и нечетные функции</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1Hy9U_2RWfSXkqTAQHLwkEoxmgkYbtf_N/view?usp=sharing">Построение графиков функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1KI6mPm3OKuqzEVQhHqATu_4XaxF3Bb4k/view?usp=sharing">Дробно-рациональные уравнения и неравенства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1DCTG7pWg2agKZicn_P9N2zcIR7Xy2Pan/view?usp=sharing">Системы нелинейных уравнений</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1F9oQHyqxPRCmYLcdgEsya-m1lUCVOXUv/view?usp=sharing">Формула длины отрезка с заданными координатами его концов. Уравнение окружности</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1PtTLDbeX8wnQlABqs6jjiO8PXa0d7jzL/view?usp=sharing">Дробно-рациональные неравенства. Метод интервалов для решения рациональных 
+						неравенств</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1Xl4B1z3_9OSMtZOfjWs725cyRXJ0Hf4C/view?usp=sharing">Числовая последовательность</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1XkOlaJ_H6zf8ZM6mhtWJQo4q3Yx30W7X/view?usp=sharing">Арифметическая прогрессия</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1pxI4PkewbL0LLQXmdvclV5x6nZQlhS4t/view?usp=sharing">Геометрическая прогрессия. Формула суммы n первых членов геометрической прогрессии</a></li>
+                        </ul>
                     </div>
-                    <hr/>
+                    <p class="h4" style="text-align: center;">
+                          <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                          type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseGeometry9" aria-expanded="false"
+                          aria-controls="collapseExample"
+                          style="background-color: #09FF00; width: 200px;
+                          color: black;">
+                            Геометрия
+                          </button>
+                        </p>
+                        <div class="collapse" id="collapseGeometry9">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/16QM7I2zp-c8s8yHJ-cJkyZmeu5F3c-ms/view?usp=sharing">Соотношения в прямоугольном треугольнике. Синус, косинус, тангенс и котангенс острого угла</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1r0dUCNuHKaWaUq0L0RhCRT5YFoLicHRG/view?usp=sharing">Решение прямоугольно треугольника</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1L-OxvRlEurjS8RntOD3ddr8CNUyOTrWC/view?usp=sharing">Тригонометрические формулы</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1eRdhhvgzIYJ1QdZhG7XO0fbfa8Sp5_lE/view?usp=sharing">Синус, косинус, тангенс и котангенс тупого угла</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1Mgc7i4CogGRGL-75w2nVG8XqxRWMs7co/view?usp=sharing">Формулы площади треугольника и площади параллелограмма</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1oZ5kYaYEyKlm0Mty2ZE8pPx1YQJgWhRi/view?usp=sharing">Среднее пропорциональное (среднее геометрическое) в прямоугольном треугольнике</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1TETx2_xYe_f4meqHortqG0k-a5Z9KMxO/view?usp=sharing">Описанная и вписанная окружности треугольника</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1VZJ6gpikskU21_qu9pvaEsxPDwjBDiHQ/view?usp=sharing">Прямоугольный треугольник и его описанная, и вписанная окружности</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1EsD0X9qMvqau19jxzfRU1uj4mgsCx7Fv/view?usp=sharing">Вписанные и описанные четырехугольники</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1M42bHRXbk3D70IFxWBVOD427mEvyI5kb/view?usp=sharing">Теорема синусов</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1SDhyI9yDHxhgonQLrMTu0-ARio6Cgjc-/view?usp=sharing">Теорема косинусов</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1Q9w_yzbRATphYyx6DqNPjltgx21Fm9s2/view?usp=sharing">Формула Герона. Решение треугольников</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1acPywpc21zmN43mxDIInIQU2aRSta3jd/view?usp=sharing">Правильные многоугольники</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1H5tox5IxmJRDG5WiRopLkq6pMYAeokfd/view?usp=sharing">Формулы радиусов описанной и вписанной окружностей правильного многоугольника</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/18cQhW-R_aYDsJSFbo0_zR5QmO-W854mX/view?usp=sharing">Правильный треугольник, четырехугольник, шестиугольник</a></li>
+	                        <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1k8sGPEMNy8Ohc3A_ScgMH5x6aqK3te7X/view?usp=sharing">Нахождение длины окружности и площади круга</a></li>
+                      	  </ul>
+                        </div>
+                       </div>
+                    <hr/>                    
                     <p class="h4" style="text-align: center;">
                       <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
                       type="button" data-bs-toggle="collapse"
@@ -449,14 +620,102 @@
                     </p>
                     <div class="collapse" id="collapseExample10">
                       <p class="h5 mt-2 mb-2" style="text-align: center;">Содержание:</p>
+                        <p class="h4" style="text-align: center;">
+                          <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                          type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseAlgebra10" aria-expanded="false"
+                          aria-controls="collapseExample"
+                          style="background-color: #09FF00; width: 200px;
+                          color: black;">
+                            Алгебра
+                          </button>
+                        </p>
+                        <div class="collapse" id="collapseAlgebra10">
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 1</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 2</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 3</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 4</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1JqriH599M2jNel2dsHPOWd076QsVr35A/view?usp=sharing">Вычисления и преобразования со степенями и корнями</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1Eg54vGnl9OpHiZ3eUt9Ohb3uJWRnP-aE/view?usp=sharing">Преобразование уравнений</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1ydcekcWISBspqwxH832Z75_Bq5Fh4RH-/view?usp=sharing">Измерение углов</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/19UMIV0D5GDFAnQodA0oFyZLBCmdIk4tQ/view?usp=sharing">Знаки тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/10e1QyamGF1SR2blzZEdzme3eiUIkkH1r/view?usp=sharing">Значение тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1dGs8-Co_I_ByOvOlVhhrJGX7zmxN25XN/view?usp=sharing">Формулы приведения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1uSJqsWbYfQ87tSMKXcBJGqvvLPDzn3Dm/view?usp=sharing">Основные формулы тригонометрии</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1CCDuZdfayo4bpZs2RNo2mRq4cYlbSDRw/view?usp=sharing">Простейшие тригонометрические уравнения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1IAJuZS8BKqR263WF1yMzBR-kH7kqY9zB/view?usp=sharing">Тригонометрические уравнения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1SLTGS1HSzwl-W8NCKgN2O0tc4wRelwTy/view?usp=sharing">Простейшие тригонометрические неравенства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1xcNfwbST1TPbYUiYTrDaTGdaR_RpPRjd/view?usp=sharing">Область определения тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1N1rE_h5DJQSMxTD3YSafCnxJeuMdaFQb/view?usp=sharing">Периодичность тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/15gDfxuLNPefk8744FqTWRK2PjFiyPG6B/view?usp=sharing">Четность тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1wu6jEo9B87Tl5TmUdlv4LAis-86ihFt8/view?usp=sharing">Монотонность тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/18hXYWNm2wcdoQqTDIkcv7H2IucXLkPzU/view?usp=sharing">График тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1gN8wZxKH6KYPtdeFbmMuKpPcMoI5UOmA/view?usp=sharing">Свойства и графики тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1wIrGWMPsa0VOWWW0MCjDmNXHN8hWNwWX/view?usp=sharing">Тригонометрические функции</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1tbbo4xwDwp1UUcqhgvLfDx9sJX_6dSlm/view?usp=sharing">Производная</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1Wbc0hvYVFUlVx6owSwf4XAJaHnRWV7rp/view?usp=sharing">Уравнение касательной и метод интервалов</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/17S1AwAD9jm8cNi3iEDcwYnykWobR6Q9i/view?usp=sharing">Экстремумы функции</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1EHfud33obCwL1CpuNO5EDP1DQf7E4S3J/view?usp=sharing">Промежутки возрастания и убывания функции</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/15wN57PQzwxN5ehQYlmXxSonSTjUWlZfG/view?usp=sharing">Исследование функции на наибольшее и наименьшее значение</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1tXJBp5OrYS5ESIr1QXyTEVAyFvKJ0ncu/view?usp=sharing">Задачи на максимум и минимум</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1JygVWlxdHMXSPjNeUgD4hHKfPuJ4Oem0/view?usp=sharing">Построение графиков с помощью производной</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/12BYTHItvMfjDxJ05hpeb0TYXF0EV2nqE/view?usp=sharing">Физический смысл производной</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/13VDw2S3q9zEi4YckyhhgMHPfm-JxShgf/view?usp=sharing">Корень n-ой степени и его свойства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1g7T0hCN9IqEx7T7Wy2dudGUepZBtrAMB/view?usp=sharing">Функция y=<sup>n</sup>√x  (n>1,nϵN)и ее свойства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1JOFVs_qMc2BRBh_1YBd01qdH-05hUNzv/view?usp=sharing">Иррациональные уравнения</a></li>
                       </ul>
                     </div>
-                    <hr/>
+                    <p class="h4" style="text-align: center;">
+                          <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                          type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseGeometry10" aria-expanded="false"
+                          aria-controls="collapseExample"
+                          style="background-color: #09FF00; width: 200px;
+                          color: black;">
+                            Геометрия
+                          </button>
+                        </p>
+                        <div class="collapse" id="collapseGeometry10">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1pFkC9NcZbN7xgQ_3EMJn5ZktdgQSU2z0/view?usp=sharing">Построение сечений</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1ZMdm3fIJQ5Pqdm6z01F3-duXwd6B0Zm8/view?usp=sharing">Угол между прямыми</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1iUNpwMzcdmxhu92ACc7zQtjd1BZ7FXXJ/view?usp=sharing">Перпендикуляр и наклонные к плоскости</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1VDVbYCdtVQFA64w-rSC97QPJTsMcm8po/view?usp=sharing">Терема о трех перпендикулярах</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1TyU5jxLcqzxcmh0lnY9rGOsG9p7ckjGd/view?usp=sharing">Двугранный угол</a></li>
+	                      </ul>
+                        </div>
+                       </div>
+                     <hr/>
                     <p class="h4" style="text-align: center;">
                       <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
                       type="button" data-bs-toggle="collapse"
@@ -469,19 +728,122 @@
                     </p>
                     <div class="collapse" id="collapseExample11">
                       <p class="h5 mt-2 mb-2" style="text-align: center;">Содержание:</p>
+                        <p class="h4" style="text-align: center;">
+                          <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                          type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseAlgebra11" aria-expanded="false"
+                          aria-controls="collapseExample"
+                          style="background-color: #09FF00; width: 200px;
+                          color: black;">
+                            Алгебра
+                          </button>
+                        </p>
+                        <div class="collapse" id="collapseAlgebra11">
                       <ul class="list-group list-group-flush">
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_V_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 1</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VI_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 2</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 3</a></li>
-                        <li class="list-group-item"><a href="https://adu.by/images/2020/07/up_Matem_VIII_kl_rus.docx" target="_blank"><i class="bi bi-book"></i> 4</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1sdI4IxS-z1waJB-oos2fxkCpTWL-uYK7/view?usp=sharing">Тренажер для устного счета.  Арифметический корень натуральной степени</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1GIwj6wUKLmTpvIDxNr9VlwnmM439FhxB/view?usp=sharing">Тренажер для устного счета.  Степень с рациональным и действительным показателем</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1I1mwuXNq2HAyicLuXRhh-x3MsVS4tQRF/view?usp=sharing">Тренажер для устного счета. Логарифмы. Свойства логарифмов</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1kzFcqZWz8n6K3VEVgDn0WUwbQ9xZNwp0/view?usp=sharing">Тренажер для устного счета.  Показательные и логарифмические уравнения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/13ATPxjFOsQROMULbZY4gEL-21uIRCiTr/view?usp=sharing">Тренажер для устного счета.  Показательные и логарифмические неравенства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1Gd2h4nuOO_yuiSRnxRh5fdWQrz1pliat/view?usp=sharing">Тренажер для устного счета. Значения тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1AIeYPzZMGnw9PxRxOwQjB94d-UfbGwXy/view?usp=sharing">Тренажер для устного счета. Значения обратных тригонометрических функций</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1kmvdkhF5pjBpFPJFhXj_0EHQIkolWSKA/view?usp=sharing">Тренажер для устного счета. Производные</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/195gNLtsoSFWxIE07UEn7IcwRcwrdm7Uc/view?usp=sharing">Тренажер. Тригонометрические уравнения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1-h8ofTh3yzfKh81ja2MZaI0JfgRPpYRJ/view?usp=sharing">Тренажер. Неравенства. Метод интервалов</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1Z_NK6fxl92K4mu7r53hyhRRLGvRDP33T/view?usp=sharing">Тренажер. Вычисления и преобразования со степенями и корнями</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1FVyow0r7n4tBdIHEI86gsXIWBtCrlLxR/view?usp=sharing">Тренажер. Показательные уравнения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1ctuV-U_ji5g0mkgeOQMUO5SAncEeN6Y7/view?usp=sharing">Тренажер. Показательные неравенства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1UtGaQ9HJygClqd9x7_3OkUccAb-ssv55/view?usp=sharing">
+						Тренажер. Логарифм и его свойства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1iCHnCVne-2H1bC4WsYbkzVmTTUCuhTO_/view?usp=sharing">Тренажер. Вычисление логарифмов</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1BRxtCuMmDT8so6gO2DPgVi3IxTGXc-yH/view?usp=sharing">Тренажер. Простейшие логарифмические уравнения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1zUxIU5x4xzpu6twLGFBIUnsLJK61Z-OT/view?usp=sharing">Тренажер. Логарифмические уравнения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/18kNLiVx1Oqbe1bUipwSDsIBAdDylxlMi/view?usp=sharing">Тренажер. Логарифмические неравенства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1YxGHz4IE7rSlRuiEzrDZTOoUhQGsOn4V/view?usp=sharing">Тренажер. Двугранный угол</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1kGFV8Dgkw25nh5ERfGtOSGePj4eJpMyr/view?usp=sharing">Памятка. Показательная и логарифмическая функция</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1G_F8GxSKTVP-MCNwqdkR_3sJZtY037RX/view?usp=sharing">Памятка. Степени</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1L6Le__P-xi7mgLON2yPV3k_2iCCEWGt8/view?usp=sharing">Памятка. Тригонометрические формулы</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1TuuZTo66M5TyIABf49zkAui29IXrgEWL/view?usp=sharing">Преобразования логарифмических выражений</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1ezUF4YWadrNJ3ueEEHTgTXask4UT_p3o/view?usp=sharing">Простейшие логарифмические уравнения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1CH7vu7QGE9JcguIPOvOmAAf4Yz1ay_gn/view?usp=sharing">Логарифмические уравнения</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1UDGJ0TFnBeXl2WThPxCjbjMSvs3Uxu0z/view?usp=sharing">Логарифмические уравнения и неравенства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1tar1Rj08YyGxc8FvEBXmzbfBRHixyo1J/view?usp=sharing">Показательные уравнения и неравенства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/14TwVEn8TbnHSr1pn4gjajIOJ-DHGG5Nl/view?usp=sharing">Рациональные неравенства и системы неравенств</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1RD2Hlmc0KVgJMFqHOEW5vkAHqAUf3ruN/view?usp=sharing">Тест. Логарифмические уравнения и неравенства</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1joFZoRnPM9ahpgUcWiKV0zWAJb9mwzgf/view?usp=sharing">Тест. Логарифмические уравнения, неравенства, системы неравенств</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1MLpw7-639b08SAIYSTo11bKWIVLpRWo9/view?usp=sharing">Тренировочные задания. Корни n-ой степени</a></li>
+                        <li class="list-group-item"><i class="bi bi-book"></i> 
+						<a href="https://drive.google.com/file/d/1k9GG9q-8Aw2UPVTO__JUuoewsigCJFnq/view?usp=sharing">Тренировочные задания. Степень с рациональным показателем</a></li>
                       </ul>
                     </div>
+                    <p class="h4" style="text-align: center;">
+                          <button class="btn btn-primary btn-lg dropdown-toggle mt-4 mb-4"
+                          type="button" data-bs-toggle="collapse"
+                          data-bs-target="#collapseGeometry11" aria-expanded="false"
+                          aria-controls="collapseExample"
+                          style="background-color: #09FF00; width: 200px;
+                          color: black;">
+                            Геометрия
+                          </button>
+                        </p>
+                        <div class="collapse" id="collapseGeometry11">
+                          <ul class="list-group list-group-flush">
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/19CPlg34HyOW9-NAqZyjzcFTmw3bT6c8R/view?usp=sharing">Планиметрия</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1tMTKFl0VdyhKdiTy0WLq849vlFcSIvZT/view?usp=sharing">Прямоугольный параллелепипед</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1z_Ujoeg-MwK33SviA6KdHN8dbt-xSB51/view?usp=sharing">Тетраэдр и параллелепипед</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1z2q6Aq_QhHYTGD_lyjC72qe4rTIHk1yE/view?usp=sharing">Призма</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1zGYZl7QED4JPLGJgMfJ3XRoUqZ9Wi_v9/view?usp=sharing">Пирамида</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1dfvLGMNwITfVwurnCzIxCUX7BcIxLduK/view?usp=sharing">Цилиндр</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1yBXvELwUNenlXusnBUb1Tc6V-D1MtDqw/view?usp=sharing">Конус</a></li>
+                            <li class="list-group-item"><i class="bi bi-book"></i> 
+							<a href="https://drive.google.com/file/d/1jdR5YIJHe8zG-CoQzTjB5ACghPwr_E1O/view?usp=sharing">Стереометрия</a></li>
+	                      </ul>
+                        </div>
+                       </div>
                     <hr/>
                   </div>
                 </div>
               </div>
           </span>
-        <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
+        <span class="border border-4 bg-light" style="width: 230px; height: 500px;">
             <div class="col-10 mx-auto">
               <div class="calendar-wrapper">
                 <button id="btnPrev" type="button"></button>

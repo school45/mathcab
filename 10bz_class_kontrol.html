@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=1920, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Контрольно-измерительные материалы 10 класса(база)</title>
+    <title>Контрольно-измерительные материалы 10(база) класса</title>
     <!-- MDB icon -->
     <link rel="icon" href="img/logo_sch.png" type="image/x-icon" />
     <!-- Font Awesome -->
@@ -13,6 +13,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
     />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- Google Fonts Roboto -->
     <link rel="stylesheet" type="text/css" href="css/lessons.css">
     <link rel="stylesheet" type="text/css" href="css/calendar.css">
@@ -20,8 +22,6 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <!-- MDB -->
     <link rel="stylesheet" type="text/css" href="css/submenu.css">
     <link rel="stylesheet" href="css/mdb.min.css" />
@@ -31,19 +31,22 @@
     <!-- Start your project here-->
 
   <header>
-    <div class="row">
-    <div class="container pb-0">
-      <div class="col-md-8 offset-md-2 bg-light mt-4 p-0">
-        <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
-      </div>
-    </div>
-  </div>
+ <div class="row">
+        <div class="container">
+          <div class="col-md-8 offset-md-2 mt-4">
+            <nav class="container bg-light">
+              <marquee>Государственное учреждение образования "Средняя школа №45 г.Могилева"</marquee>
+            </nav>
+          </div>
+          </div>
+        </div>
   <!-- Navbar -->
   <div class="row">
-    <div class="col-md-8 offset-md-2 mt-2" style="height: 250px;">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" style="height: 250px;">
+    <div class="container">
+    <div class="col-md-8 offset-md-2 mb-4" style="height: 250px;">
+      <nav class="navbar navbar-expand-lg mb-4 container shadow-none">
   <!-- Container wrapper -->
-        <div class="container-fluid" style="background-image: url('img/header.jpg'); background-size: 430px;">
+        <div class="container" style="background-image: url('img/header.jpg'); background-size: 430px;">
           <!-- Toggle button -->
           <button
             class="navbar-toggler"
@@ -59,15 +62,17 @@
 
           <!-- Collapsible wrapper -->
           <div class="collapse navbar-collapse col-md-auto" id="navbarSupportedContent">
-            <!-- Navbar brand -->
+            <!-- <marquee>фыв</marquee> -->
             <a class="navbar-brand col-3 mt-2 mt-lg-0" href="#">
               <img
                 src="img/logo_cat.png?123"
                 height="300"
                 alt="MDB Logo"
                 loading="lazy"
+                id="cat"
               />
             </a>
+            <div class="justify-content-center">
               <div class="col-4 col-md-auto offset-md-auto mt-2">
                 <div class="d-flex">
                     <a href="" class="nav-item">
@@ -76,16 +81,20 @@
                     </a>
                 </div>
               </div>
+            </div> 
           </div>
         </div>
       </nav>
     </div>
   </div>
+</div>
+<br/>
   <div class="row">
+    <div class="container">
       <div class="col-md-8 offset-md-2 mt-2">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-light container shadow-none">
     <!-- Container wrapper -->
-          <div class="container-fluid">
+          
             <!-- Toggle button -->
             <button
               class="navbar-toggler"
@@ -99,8 +108,9 @@
               <i class="fas fa-bars"></i>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <div class="navbar bg-light container">
               <!-- Left links -->
-                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0">
+                      <ul class="navbar-nav w-100 justify-content-center me-auto mb-2 mb-lg-0 container">
                         <li class="nav-item p-1">
                           <button class="btn" style="background-color: #09FF00; border-color: white;"><a class="nav-link" href="index.html">Главная</a></button>
                         </li>
@@ -131,6 +141,7 @@
           </div>
         </nav>
       </div>
+    </div>
   </div>
   <br/>
   <div class="row">
@@ -216,19 +227,18 @@
                       </li> 
                       <li><a class="dropdown-item dropdown-toggle" data-mdb-toggle="dropdown" aria-expanded="false">Контрольно-измерительные материалы</a>
                           <ul class="dropdown-menu dropdown-submenu">
-                            <li><a class="dropdown-item">5 класс</a></li>
-                            <li><a class="dropdown-item">6 класс</a></li>
-                            <li><a class="dropdown-item">7 класс</a></li>
-                            <li><a class="dropdown-item">8 класс</a></li>
-                            <li><a class="dropdown-item">9 класс</a></li>
-                            <li><a class="dropdown-item">10 класс(база)</a></li>
-                            <li><a class="dropdown-item">10 класс(профиль)</a></li>
-                            <li><a class="dropdown-item">11 класс(база)</a></li>
-                            <li><a class="dropdown-item">11 класс(профиль)</a></li>
+                            <li><a class="dropdown-item" href="5_class_kontrol.html">5 класс</a></li>
+                            <li><a class="dropdown-item" href="6_class_kontrol.html">6 класс</a></li>
+                            <li><a class="dropdown-item" href="7_class_kontrol.html">7 класс</a></li>
+                            <li><a class="dropdown-item" href="8_class_kontrol.html">8 класс</a></li>
+                            <li><a class="dropdown-item" href="9_class_kontrol.html">9 класс</a></li>
+                            <li><a class="dropdown-item" href="10bz_class_kontrol.html">10 класс(база)</a></li>
+                            <li><a class="dropdown-item" href="10pr_class_kontrol.html">10 класс(профиль)</a></li>
+                            <li><a class="dropdown-item" href="11bz_class_kontrol.html">11 класс(база)</a></li>
+                            <li><a class="dropdown-item" href="11pr_class_kontrol.html">11 класс(профиль)</a></li>
                           </ul>
                       </li>
                       <li><a class="dropdown-item" href="presentations.html">Презентации</a></li>
-                      <li><a class="dropdown-item" href="fakultativ.html">Факультативные занятия</a></li>
                   </ul>
                 </div>  
               </div>
@@ -238,470 +248,8 @@
           <div class="row justify-content-center">
             <div class="container-fluid">
               <div class="col-md-8 offset-md-2 mt-2">
-                <p class="h4" style="text-align: center;">Планы конспектов 10 класса(база)</p> 
-                <p class="h4" style="text-align: center;">
-                <button class="btn btn-primary btn-lg dropdown-toggle"
-                  type="button" data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample" aria-expanded="false"
-                  aria-controls="collapseExample"
-                  style="background-color: #09FF00; width: 300px;
-                  color: black;">
-                    Алгебра
-                  </button>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="collapse" id="collapseExample">
-            <div class="card card-body">
-              <div class="col-xl">
-                <table class="table">
-                  <tr>
-                    <td class="num">
-                      <p>№ урока</p>
-                    </td>
-                    <td class="headless">
-                      <p>Тема урока</p>
-                    </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 1</p>
-                  </td>
-                  <td id="topic"><p id="topic">Повторение материалов курса алгебры за 7—9 классы</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 2</p>
-                  </td>
-                  <td id="topic"><p id="topic">Повторение материалов курса алгебры за 7—9 классы</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 3</p>
-                  </td>
-                  <td id="topic"><p id="topic">Единичная окружность. Градусная и радианная мера произвольного угла</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 4</p>
-                  </td>
-                  <td id="topic"><p id="topic">Единичная окружность. Градусная и радианная мера произвольного угла</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 5</p>
-                  </td>
-                  <td id="topic"><p id="topic">Единичная окружность. Градусная и радианная мера произвольного угла</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 6</p>
-                  </td>
-                  <td id="topic"><p id="topic">Определение синуса и косинуса произвольного угла</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 7</p>
-                  </td>
-                  <td id="topic"><p id="topic">Определение синуса и косинуса произвольного угла</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 8</p>
-                  </td>
-                  <td id="topic"><p id="topic">Определение тангенса и котангенса произвольного угла</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 9</p>
-                  </td>
-                  <td id="topic"><p id="topic">Определение тангенса и котангенса произвольного угла</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 10</p>
-                  </td>
-                  <td id="topic"><p id="topic">Соотношения между синусом, косинусом, тангенсом и котангенсом одного и того же угла (тригонометрические тождества)</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 11</p>
-                  </td>
-                  <td id="topic"><p id="topic">Соотношения между синусом, косинусом, тангенсом и котангенсом одного и того же угла (тригонометрические тождества)</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 12</p>
-                  </td>
-                  <td id="topic"><p id="topic">Соотношения между синусом, косинусом, тангенсом и котангенсом одного и того же угла (тригонометрические тождества)</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 13</p>
-                  </td>
-                  <td id="topic"><p id="topic">Функции <img width="188" height="24" src="img/clip_image002.png">. Их свойства и графики</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 14</p>
-                  </td>
-                  <td id="topic"><p id="topic">Функции <img width="188" height="24" src="img/clip_image002.png">. Их свойства и графики</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 15</p>
-                  </td>
-                  <td id="topic"><p id="topic">Функции <img width="188" height="24" src="img/clip_image002.png">. Их свойства и графики</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 16</p>
-                  </td>
-                  <td id="topic"><p id="topic">Функции <img width="181" height="24" src="img/clip_image004.png">. Их свойства и графики</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 17</p>
-                  </td>
-                  <td id="topic"><p id="topic">Функции <img width="181" height="24" src="img/clip_image004.png">. Их свойства и графики</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 18</p>
-                  </td>
-                  <td id="topic"><p id="topic">Функции <img width="181" height="24" src="img/clip_image004.png">. Их свойства и графики</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 19</p>
-                  </td>
-                  <td id="topic"><p id="topic">Арксинус, арккосинус, арктангенс и арккотангенс числа</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 20</p>
-                  </td>
-                  <td id="topic"><p id="topic">Арксинус, арккосинус, арктангенс и арккотангенс числа</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 21</p>
-                  </td>
-                  <td id="topic"><p id="topic">Арксинус, арккосинус, арктангенс и арккотангенс числа</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 22</p>
-                  </td>
-                  <td id="topic"><p id="topic">Тригонометрические уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 23</p>
-                  </td>
-                  <td id="topic"><p id="topic">Тригонометрические уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 24</p>
-                  </td>
-                  <td id="topic"><p id="topic">Тригонометрические уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 25</p>
-                  </td>
-                  <td id="topic"><p id="topic">Тригонометрические уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 26</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы приведения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 27</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы приведения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 28</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы приведения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 29</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы приведения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 30</p>
-                  </td>
-                  <td id="topic"><p id="topic">Синус, косинус, тангенс суммы и разности</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 31</p>
-                  </td>
-                  <td id="topic"><p id="topic">Синус, косинус, тангенс суммы и разности</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 32</p>
-                  </td>
-                  <td id="topic"><p id="topic">Синус, косинус, тангенс суммы и разности</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 33</p>
-                  </td>
-                  <td id="topic"><p id="topic">Синус, косинус, тангенс суммы и разности</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 34</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы двойного аргумента</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 35</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы двойного аргумента</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 36</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы двойного аргумента</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 37</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы преобразования суммы и разности синусов (косинусов) в произведение</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 38</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы преобразования суммы и разности синусов (косинусов) в произведение</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 39</p>
-                  </td>
-                  <td id="topic"><p id="topic">Формулы преобразования суммы и разности синусов (косинусов) в произведение</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 40</p>
-                  </td>
-                  <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Тригонометрия»</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 41</p>
-                  </td>
-                  <td id="topic"><p id="topic">Контрольная работа № 1 по теме «Тригонометрия»</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 42</p>
-                  </td>
-                  <td id="topic"><p id="topic">Резервное время</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 43</p>
-                  </td>
-                  <td id="topic"><p id="topic">Корень n-й степени из числа <img width="137" height="24" src="img/clip_image006.png"></p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 44</p>
-                  </td>
-                  <td id="topic"><p id="topic">Корень n-й степени из числа <img width="137" height="24" src="img/clip_image006.png"></p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 45</p>
-                  </td>
-                  <td id="topic"><p id="topic">Корень n-й степени из числа <img width="137" height="24" src="img/clip_image006.png"></p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 46</p>
-                  </td>
-                  <td id="topic"><p id="topic">Свойства корней n-й степени <img width="124" height="24" src="img/clip_image008.png"></p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 47</p>
-                  </td>
-                  <td id="topic"><p id="topic">Свойства корней n-й степени <img width="124" height="24" src="img/clip_image008.png"></p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 48</p>
-                  </td>
-                  <td id="topic"><p id="topic">Свойства корней n-й степени <img width="124" height="24" src="img/clip_image008.png"></p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 49</p>
-                  </td>
-                  <td id="topic"><p id="topic">Свойства корней n-й степени <img width="124" height="24" src="img/clip_image008.png"></p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 50</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение свойств корней n-й степени для преобразования выражений</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 51</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение свойств корней n-й степени для преобразования выражений</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 52</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение свойств корней n-й степени для преобразования выражений</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 53</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение свойств корней n-й степени для преобразования выражений</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 54</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение свойств корней n-й степени для преобразования выражений</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 55</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение свойств корней n-й степени для преобразования выражений</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 56</p>
-                  </td>
-                  <td id="topic"><p id="topic">Функция </i> <img width="180" height="26" src="img/clip_image010.png"> и ее свойства</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 57</p>
-                  </td>
-                  <td id="topic"><p id="topic">Функция <img width="180" height="26" src="img/clip_image010.png"> и ее свойства</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 58</p>
-                  </td>
-                  <td id="topic"><p id="topic">Иррациональные уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 59</p>
-                  </td>
-                  <td id="topic"><p id="topic">Иррациональные уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 60</p>
-                  </td>
-                  <td id="topic"><p id="topic">Иррациональные уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 61</p>
-                  </td>
-                  <td id="topic"><p id="topic">Иррациональные уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 62</p>
-                  </td>
-                  <td id="topic"><p id="topic">Иррациональные уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 63</p>
-                  </td>
-                  <td id="topic"><p id="topic">Иррациональные уравнения</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 64</p>
-                  </td>
-                  <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Корень n-й степени</p>
-                  <p>из числа»</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 65</p>
-                  </td>
-                  <td id="topic"><p id="topic">Контрольная работа № 2 по теме «Корень n-й степени из числа»</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 66</p>
-                  </td>
-                  <td id="topic"><p id="topic">Резервное время</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 67</p>
-                  </td>
-                  <td id="topic"><p id="topic">Резервное время</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 68</p>
-                  </td>
-                  <td id="topic"><p id="topic">Определение производной функции</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 69</p>
-                  </td>
-                  <td id="topic"><p id="topic">Определение производной функции</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 70</p>
-                  </td>
-                  <td id="topic"><p id="topic">Правила вычисления производных</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 71</p>
-                  </td>
-                  <td id="topic"><p id="topic">Правила вычисления производных</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 72</p>
-                  </td>
-                  <td id="topic"><p id="topic">Правила вычисления производных</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 73</p>
-                  </td>
-                  <td id="topic"><p id="topic">Геометрический смысл производной. Связь между знаком производной функции и ее возрастанием или убыванием</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 74</p>
-                  </td>
-                  <td id="topic"><p id="topic">Геометрический смысл производной. Связь между знаком производной функции и ее возрастанием или убыванием</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 75</p>
-                  </td>
-                  <td id="topic"><p id="topic">Геометрический смысл производной. Связь между знаком производной функции и ее возрастанием или убыванием</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 76</p>
-                  </td>
-                  <td id="topic"><p id="topic">Геометрический смысл производной. Связь между знаком производной функции и ее возрастанием или убыванием</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 77</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение производной к исследованию функций</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 78</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение производной к исследованию функций</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 79</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение производной к исследованию функций</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 80</p>
-                  </td>
-                  <td id="topic"><p id="topic">Применение производной к исследованию функций</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 81</p>
-                  </td>
-                  <td id="topic"><p id="topic">Наибольшее и наименьшее значения функции</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 82</p>
-                  </td>
-                  <td id="topic"><p id="topic">Наибольшее и наименьшее значения функции</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 83</p>
-                  </td>
-                  <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Производная»</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 84</p>
-                  </td>
-                  <td id="topic"><p id="topic">Контрольная работа № 3 по теме «Производная»</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 85</p>
-                  </td>
-                  <td id="topic"><p id="topic">Резервное время</p>
-                  </td>
-                  </tr>
-                  <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 86</p>
-                  </td>
-                  <td id="topic"><p id="topic">Резервное время</p>
-                  </td>
-                  </tr>
-                  </table>
-                </div>  
-              </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="container-fluid">
-              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">Контрольные и самостоятельные работы 
+				10 класса (базовый)</p> 
                 <p class="h4" style="text-align: center;">
                   <button class="btn btn-primary btn-lg dropdown-toggle"
                   type="button" data-bs-toggle="collapse"
@@ -709,300 +257,105 @@
                   aria-controls="collapseExample"
                   style="background-color: #09FF00; width: 300px;
                   color: black;">
-                    Геометрия
+                    Алгебра
                   </button>
                 </p>
+                <div class="collapse" id="collapseExample1">
+                      <p class="h5 mt-2 mb-2 mt-2" style="text-align: center;">Контрольные и самостоятельные работы по алгебре:</p>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1q1Yy93GmfOGBG5DGcoCZtwkyeEFGzjK5/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1-uC4Pf_ocgDDtUKO9CA5H0pEqa43oxip/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1S4xlHJ0IrcscU8JmUTTnSZnyli-dVl9T/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1XVIwUZiI9_JzYeYu_i_C5rjL1-AXuPnY/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1Wn-mk80zq7KDmuxrQTbJc6y8DHXgDFjY/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.2</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1r_CwqALFDgp6nlnwr2b0paVaobd0FD7m/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.3</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/101Rx95i1lzn0k1m58ce_eY14wURNaVWl/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.4</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1U_uF7tv94_Rl7q0mdReCMASYxni_GEr3/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.5</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1CkmWaTTedLwrN2lP9SIe6_K_81iwlea8/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.6</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1OeMIpgSuzib8zDlYjfMPDEm_RyyP47AR/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.7</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1cBFH2kQaTgKqWO4dXosLVp2C_6zDVfal/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.8</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1voWSC18Sf66-IO36Zbga6XaxPBuqYezF/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.9</a></li>
+						<li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1ENN7LUUsRwbyYnmJT4GJAw9NsGjUK7Fr/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1.10</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1D77lK-Fpzn0Kq2im77yhc7HFWpGxWPZw/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/12KOJIboBCTaQK60cx8JwQ10686g0rcDS/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1pIG02cILhlkOKdeNqV03YOEXaNnihY01/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2.3</a></li>                        
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1GM9keazXItoY3t0MqNNMqEKRULFmAmof/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1ga1iGwXzPpaBtEy8jCDo76gx6wydkQg6/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1K3eWTkluLieTiWIVmrvLHezhWC06dZ0C/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3.3</a></li>                                                
+                      </ul>
+                    </div>
               </div>
             </div>
           </div>
-          <div class="collapse" id="collapseExample1">
-            <div class="card card-body">
-              <div class="col-xl">
-                <table class="table">
-                  <tr>
-                    <td class="num">
-                      <p>№ урока</p>
-                    </td>
-                    <td class="headless">
-                      <p>Тема урока</p>
-                    </td>
-                  </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 1</p>
-              </td>
-              <td id="topic"><p id="topic">Многоугольники</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 2</p>
-              </td>
-              <td id="topic"><p id="topic">Многоугольники</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 3</p>
-              </td>
-              <td id="topic"><p id="topic">Пространственные тела. Многогранники. Призма, куб, параллелепипед, пирамида, правильная пирамида</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 4</p>
-              </td>
-              <td id="topic"><p id="topic">Пространственные тела. Многогранники. Призма, куб, параллелепипед, пирамида, правильная пирамида</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 5</p>
-              </td>
-              <td id="topic"><p id="topic">Основные понятия стереометрии. Аксиомы стереометрии. Следствия из аксиом</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 6</p>
-              </td>
-              <td id="topic"><p id="topic">Основные понятия стереометрии. Аксиомы стереометрии. Следствия из аксиом</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 7</p>
-              </td>
-              <td id="topic"><p id="topic">Основные понятия стереометрии. Аксиомы стереометрии. Следствия из аксиом</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 8</p>
-              </td>
-              <td id="topic"><p id="topic">Построение сечения многогранников плоскостью</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 9</p>
-              </td>
-              <td id="topic"><p id="topic">Построение сечения многогранников плоскостью</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 10</p>
-              </td>
-              <td id="topic"><p id="topic">Построение сечения многогранников плоскостью</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 11</p>
-              </td>
-              <td id="topic"><p id="topic">Построение сечения многогранников плоскостью</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 12</p>
-              </td>
-              <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Введение в стереометрию»</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 13</p>
-              </td>
-              <td id="topic"><p id="topic">Контрольная работа № 1 по теме «Введение в стереометрию»</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 14</p>
-              </td>
-              <td id="topic"><p id="topic">Коррекция знаний по теме «Введение в стереометрию»</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 15</p>
-              </td>
-              <td id="topic"><p id="topic">Параллельные прямые в пространстве. Признак параллельности прямых. Свойства параллельных прямых в пространстве</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 16</p>
-              </td>
-              <td id="topic"><p id="topic">Параллельные прямые в пространстве. Признак параллельности прямых. Свойства параллельных прямых в пространстве</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 17</p>
-              </td>
-              <td id="topic"><p id="topic">Параллельные прямые в пространстве. Признак параллельности прямых. Свойства параллельных прямых в пространстве</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 18</p>
-              </td>
-              <td id="topic"><p id="topic">Скрещивающиеся прямые</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 19</p>
-              </td>
-              <td id="topic"><p id="topic">Скрещивающиеся прямые</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 20</p>
-              </td>
-              <td id="topic"><p id="topic">Угол между прямыми</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 21</p>
-              </td>
-              <td id="topic"><p id="topic">Угол между прямыми</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 22</p>
-              </td>
-              <td id="topic"><p id="topic">Прямая, параллельная плоскости. Признак параллельности прямой и плоскости</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 23</p>
-              </td>
-              <td id="topic"><p id="topic">Прямая, параллельная плоскости. Признак параллельности прямой и плоскости</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 24</p>
-              </td>
-              <td id="topic"><p id="topic">Прямая, параллельная плоскости. Признак параллельности прямой и плоскости</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 25</p>
-              </td>
-              <td id="topic"><p id="topic">Прямая, параллельная плоскости. Признак параллельности прямой и плоскости</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 26</p>
-              </td>
-              <td id="topic"><p id="topic">Параллельные плоскости. Признак параллельности плоскостей. Свойства параллельных прямых и плоскостей в пространстве</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 27</p>
-              </td>
-              <td id="topic"><p id="topic">Параллельные плоскости. Признак параллельности плоскостей. Свойства параллельных прямых и плоскостей в пространстве</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 28</p>
-              </td>
-              <td id="topic"><p id="topic">Параллельные плоскости. Признак параллельности плоскостей. Свойства параллельных прямых и плоскостей в пространстве</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 29</p>
-              </td>
-              <td id="topic"><p id="topic">Параллельные плоскости. Признак параллельности плоскостей. Свойства параллельных прямых и плоскостей в пространстве</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 30</p>
-              </td>
-              <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Параллельность прямых и плоскостей»</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 31</p>
-              </td>
-              <td id="topic"><p id="topic">Контрольная работа № 2 по теме «Параллельность прямых и плоскостей»</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 32</p>
-              </td>
-              <td id="topic"><p id="topic">Коррекция знаний по теме «Параллельность прямых и плоскостей»</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 33</p>
-              </td>
-              <td id="topic"><p id="topic">Прямая, перпендикулярная плоскости. Признак перпендикулярности прямой и плоскости</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 34</p>
-              </td>
-              <td id="topic"><p id="topic">Прямая, перпендикулярная плоскости. Признак перпендикулярности прямой и плоскости</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 35</p>
-              </td>
-              <td id="topic"><p id="topic">Прямая, перпендикулярная плоскости. Признак перпендикулярности прямой и плоскости</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 36</p>
-              </td>
-              <td id="topic"><p id="topic">Прямая, перпендикулярная плоскости. Признак перпендикулярности прямой и плоскости</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 37</p>
-              </td>
-              <td id="topic"><p id="topic">Перпендикуляр и наклонная</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 38</p>
-              </td>
-              <td id="topic"><p id="topic">Перпендикуляр и наклонная</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 39</p>
-              </td>
-              <td id="topic"><p id="topic">Расстояние от точки до плоскости. Расстояние между параллельными плоскостями. Расстояние между параллельными прямой и плоскостью</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 40</p>
-              </td>
-              <td id="topic"><p id="topic">Расстояние от точки до плоскости. Расстояние между параллельными плоскостями. Расстояние между параллельными прямой и плоскостью</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 41</p>
-              </td>
-              <td id="topic"><p id="topic">Расстояние от точки до плоскости. Расстояние между параллельными плоскостями. Расстояние между параллельными прямой и плоскостью</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 42</p>
-              </td>
-              <td id="topic"><p id="topic">Теорема о трех перпендикулярах</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 43</p>
-              </td>
-              <td id="topic"><p id="topic">Теорема о трех перпендикулярах</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 44</p>
-              </td>
-              <td id="topic"><p id="topic">Угол между прямой и плоскостью</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 45</p>
-              </td>
-              <td id="topic"><p id="topic">Угол между прямой и плоскостью</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 46</p>
-              </td>
-              <td id="topic"><p id="topic">Двугранный угол. Линейный угол двугранного угла</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 47</p>
-              </td>
-              <td id="topic"><p id="topic">Двугранный угол. Линейный угол двугранного угла</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 48</p>
-              </td>
-              <td id="topic"><p id="topic">Перпендикулярность плоскостей. Признак перпендикулярности плоскостей. Свойства перпендикулярных прямых и плоскостей</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 49</p>
-              </td>
-              <td id="topic"><p id="topic">Перпендикулярность плоскостей. Признак перпендикулярности плоскостей. Свойства перпендикулярных прямых и плоскостей</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 50</p>
-              </td>
-              <td id="topic"><p id="topic">Обобщение и систематизация знаний по теме «Перпендикулярность прямых и плоскостей»</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 51</p>
-              </td>
-              <td id="topic"><p id="topic">Контрольная работа № 3 по теме «Перпендикулярность прямых и плоскостей»</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 52</p>
-              </td>
-              <td id="topic"><p id="topic">Коррекция знаний по теме «Перпендикулярность прямых и плоскостей»</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 53</p>
-              </td>
-              <td id="topic"><p id="topic">Параллельность прямых и плоскостей</p>
-              </td>
-              </tr>
-              <tr><td><p id="numless"><i class="bi bi-book"></i> Урок 54</p>
-              </td>
-              <td id="topic"><p id="topic">Перпендикулярность прямых и плоскостей</p>
-              </td>
-              </tr>
-              </table>
+          
+          <div class="row justify-content-center">
+            <div class="container">
+              <div class="col-md-8 offset-md-2 mt-2">
+                <p class="h4" style="text-align: center;">
+                  <button class="btn btn-primary btn-lg dropdown-toggle"
+                  type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample2"
+                  aria-expanded="false" aria-controls="collapseExample"
+                  style="background-color: #09FF00; width: 300px; color: black;">
+                    Геометрия
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample2">
+                      <p class="h5 mt-2 mb-2 mt-2" style="text-align: center;">Контрольные и самостоятельные работы по геометрии:</p>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1H8MCnyT_RruYnbQqYwr8f1VqMStVpdR4/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1ng0LA0KQFu2Mtb3uJJg03t-bhQpUIroF/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1wSGAyOzUnRWq1HB2-vnpVqtXy4C_raXn/view?usp=sharing"><i class="bi bi-book"></i> Контрольная работа 3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1hSQXot6f26ifCMNR36RgOWltj0hPV6eP/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 1</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/15v-PjJxBW9YLTZVcTSkQ8aOtFhfw0Gxi/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 2</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1bFw0vtgutMlovlRZq5HwFEp18Eo5Ebk-/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 3</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1KlavfdbP2KaJp1RnQv0qtYK6UWLJpKfi/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 4</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1gM6gkvS7cR_Y3r6REZ4Vl9USdwSSdcJK/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 5</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1CHTxu0VUaH5pJIoaEQ8tc_a2-I1phMv7/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 6</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1j9sin-uv3suRgyIO4PAI-GB7M0IwyRca/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 7</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1ZsfoT8AXgJXEmffpLb4bZ7anoPvELbRw/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 8</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/1jEv9dCgaPMRDFkgVwWjG_WJ-GjsftSwn/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 9</a></li>
+                        <li class="list-group-item">
+						<a target="_blank" href="https://drive.google.com/file/d/15KRUbD_xaUrduN3WYaAH3VQm-QhgX4_-/view?usp=sharing"><i class="bi bi-book"></i> Самостоятельная работа 10</a></li>
+						</ul>
+                    </div>
+              </div>
             </div>
           </div>
-          </div>
         </span>
-        <span class="border border-4 bg-light" style="width: 230px; height: 700px;">
+
+        <span class="border border-4 bg-light" style="width: 230px; height: 500px;">
             <div class="col-10 mx-auto">
               <div class="calendar-wrapper">
                 <button id="btnPrev" type="button"></button>
@@ -1030,7 +383,7 @@
             <div class="row mt-3">
               <div class="col-md-2 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4 mt-4">
-                  Государственное учреждение образования "Средняя школа №45" г.Могилева
+                  Государственное учреждение образования "Средняя школа №45 г.Могилева"
                 </h6>
               </div>
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
@@ -1041,7 +394,7 @@
                 <p>
                   <i class="fas fa-envelope me-3"> sosh45mogilev@yandex.by</i>
                 </p>
-                <!-- <p><i class="fas fa-phone me-3"> +375336276506</i></p> -->
+<!--                 <p><i class="fas fa-phone me-3"> +375336276506</i></p> -->
               </div>
             </div>
           </div>
